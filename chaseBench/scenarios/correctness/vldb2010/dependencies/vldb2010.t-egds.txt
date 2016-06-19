@@ -1,2 +1,0 @@
-R(?one,?two1), R(?one,?two2) ->
-    ?two1 = ?two2 .

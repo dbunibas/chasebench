@@ -1,4 +1,0 @@
-R {
-    c : STRING,
-    d : STRING
-}

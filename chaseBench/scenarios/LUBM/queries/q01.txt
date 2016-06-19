@@ -1,3 +1,0 @@
-q01(?X) <-
-    GraduateStudent(?X),
-    takesCourse(?X,Department0-University0-GraduateCourse0) .

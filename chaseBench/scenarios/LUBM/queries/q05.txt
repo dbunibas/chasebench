@@ -1,3 +1,0 @@
-q05(?X) <-
-    Person(?X),
-    memberOf(?X,Department0-University0) .

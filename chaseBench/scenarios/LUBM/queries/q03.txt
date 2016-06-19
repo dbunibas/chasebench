@@ -1,3 +1,0 @@
-q03(?X) <-
-    Publication(?X), 
-    publicationAuthor(?X,Department0-University0-AssistantProfessor0) .

@@ -1,3 +1,0 @@
-q11(?X) <-
-    ResearchGroup(?X),
-    subOrganizationOf(?X,University0) .

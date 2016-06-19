@@ -1,7 +1,0 @@
-q02(?X,?Y,?Z) <-
-    GraduateStudent(?X),
-    University(?Y),
-    Department(?Z),
-    memberOf(?X,?Z),
-    subOrganizationOf(?Z,?Y),
-    undergraduateDegreeFrom(?X,?Y) .

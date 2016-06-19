@@ -1,5 +1,0 @@
-q12(?X,?Y) <-
-    Chair(?X),
-    Department(?Y),
-    worksFor(?X,?Y),
-    subOrganizationOf(?Y,University0) .

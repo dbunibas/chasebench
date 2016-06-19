@@ -1,6 +1,0 @@
-q08(?X,?Y,?Z) <-
-    Student(?X),
-    Department(?Y),
-    memberOf(?X,?Y),
-    subOrganizationOf(?Y,University0),
-    emailAddress(?X,?Z) .
