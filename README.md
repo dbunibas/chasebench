@@ -1,5 +1,5 @@
 ## Test Scenarios
-Our benchmark consists of a total of 23 scenarios, each scenario consisting of source and target schemas, constraints, queries, and source data. The scenarios belong to 5 different families, detailed in Table 2. The first one includes 6 small scenarios used as correctness tests for data exchange. The others were used for performance testing, both in data ex- change and query evaluation, and for correctness tests based on query results. Two of these, IBENCH and LUBM, are based on known standards, either from the database or the Semantic Web community. The other two, MANUALLY CURATED and DEEP, we developed ourselves in order to test specific aspects of the chase.
+Our benchmark consists of a total of 23 scenarios, each scenario consisting of source and target schemas, constraints, queries, and source data. The scenarios belong to 5 different families, detailed in Table 2. The first one includes 6 small scenarios used as correctness tests for data exchange. The others were used for performance testing, both in data exchange and query evaluation, and for correctness tests based on query results. Two of these, IBENCH and LUBM, are based on known standards, either from the database or the Semantic Web community. The other two, MANUALLY CURATED and DEEP, we developed ourselves in order to test specific aspects of the chase.
 
 <img width=650 src="https://raw.githubusercontent.com/dbunibas/chasebench/gh-pages/images/test-scenarios.png"/>
 
@@ -38,7 +38,7 @@ VLDB, 2015_ http://www.cs.ox.ac.uk/projects/pdq/home.html
 
 #### Chase-related tools
 - **DLV** - _N. Leone, G. Pfeifer, W. Faber, T. Eiter, G. Gottlob, S. Perri, and F. Scarcello. The DLV system for knowledge representation and reasoning. TOCL, 7(3):499–562, 2006_
-- **E** - _The E theorem prover. http://wwwlehre.dhbw-stuttgart.de/ sschulz/E/E.html_
+- **E** - _The E theorem prover. http://wwwlehre.dhbw-stuttgart.de/sschulz/E/E.html_
 - **RDFOX** - _B. Motik, Y. Nenov, R. Piro, I. Horrocks, and D. Olteanu. Parallel Materialisation of Datalog Programs in Centralised, Main-Memory RDF Systems. In AAAI, 2014_
 
 
