@@ -1,7 +1,7 @@
 ## Test Scenarios
 Our benchmark consists of a total of 23 scenarios, each scenario consisting of source and target schemas, constraints, queries, and source data. The scenarios belong to 5 different families, detailed in Table 2. The first one includes 6 small scenarios used as correctness tests for data exchange. The others were used for performance testing, both in data ex- change and query evaluation, and for correctness tests based on query results. Two of these, IBENCH and LUBM, are based on known standards, either from the database or the Semantic Web community. The other two, MANUALLY CURATED and DEEP, we developed ourselves in order to test specific aspects of the chase.
 
-<img width=650 src="https://www.dropbox.com/s/lweb4v3wrk9o02d/test-scenarios.png?dl=1"/>
+<img width=650 src="https://raw.githubusercontent.com/dbunibas/chasebench/gh-pages/images/test-scenarios.png"/>
 
 ## Test Infrastructure
 
@@ -42,7 +42,7 @@ VLDB, 2015_ http://www.cs.ox.ac.uk/projects/pdq/home.html
 - **RDFOX** - _B. Motik, Y. Nenov, R. Piro, I. Horrocks, and D. Olteanu. Parallel Materialisation of Datalog Programs in Centralised, Main-Memory RDF Systems. In AAAI, 2014_
 
 
-<img width=550 src="https://www.dropbox.com/s/ydvq5ngdm6d8wob/test-tools.png?dl=1"/>
+<img width=550 src="https://raw.githubusercontent.com/dbunibas/chasebench/gh-pages/images/test-tools.png"/>
 
 
 ## People
