@@ -38,7 +38,7 @@ VLDB, 2015_ http://www.cs.ox.ac.uk/projects/pdq/home.html
 
 #### Chase-related tools
 - **DLV** - _N. Leone, G. Pfeifer, W. Faber, T. Eiter, G. Gottlob, S. Perri, and F. Scarcello. The DLV system for knowledge representation and reasoning. TOCL, 7(3):499–562, 2006_
-- **E** - _The E theorem prover. http://wwwlehre.dhbw-stuttgart.de/sschulz/E/E.html_
+- **E** - _The E theorem prover_ http://wwwlehre.dhbw-stuttgart.de/sschulz/E/E.html
 - **RDFOX** - _B. Motik, Y. Nenov, R. Piro, I. Horrocks, and D. Olteanu. Parallel Materialisation of Datalog Programs in Centralised, Main-Memory RDF Systems. In AAAI, 2014_
 
 
