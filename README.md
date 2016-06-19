@@ -20,7 +20,10 @@ It was important to test not only the performance of the tools but also their co
 
 
 ## Systems Under Evaluation
-Our main goals are to determine whether available chase implementations can support data exchange and query answering in absolute terms, and to investigate the implementation decisions that are most relevant to performance. To answer these questions, we identified nine publicly available chase implementations.
+Our main goals are to determine whether available chase implementations can support data exchange and query answering in absolute terms, and to investigate the implementation decisions that are most relevant to performance. 
+To answer these questions, we identified nine publicly available chase-related systems.
+The table at the bottom shows the main aspects of each system. Moreover, we group all systems based on their motivation.
+
 
 #### Chase for data exchange
 - **CHASEFUN** - _A. Bonifati, I. Ileana, and M. Linardi. Functional Dependencies Unleashed for Scalable Data Exchange. In SSDBM, 2016_
