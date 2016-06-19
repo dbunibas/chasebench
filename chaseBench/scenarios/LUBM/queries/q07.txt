@@ -1,0 +1,5 @@
+q07(?X,?Y) <-
+    Student(?X),
+    Course(?Y),
+    takesCourse(?X,?Y),
+    teacherOf(Department0-University0-AssociateProfessor0,?Y) .

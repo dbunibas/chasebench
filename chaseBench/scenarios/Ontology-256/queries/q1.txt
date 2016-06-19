@@ -1,0 +1,4 @@
+q1(?language_vnm_3_nl0_ce2_crush_vnm_3_nl0_ae00Ref) <- 
+language_vnm_3_nl0_ce2(?language_vnm_3_nl0_ce2_crush_vnm_3_nl0_ae00Ref,?language_vnm_3_nl0_ce2_treat_vnm_3_nl1_ae01Ref),
+examine_vnm_20_nl0_ce2(?language_vnm_3_nl0_ce2_crush_vnm_3_nl0_ae00Ref,?examine_vnm_20_nl0_ce2_earth_vnm_20_nl1_ae01Ref),
+office_vnm_46_nl0_ce2(?language_vnm_3_nl0_ce2_crush_vnm_3_nl0_ae00Ref,?office_vnm_46_nl0_ce2_group_vnm_46_nl1_ae01Ref) .

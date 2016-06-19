@@ -1,0 +1,5 @@
+q7(?train_cp_8_nl0_ce0copy8_7_dependent_cp_8_nl0_ae1) <- 
+give_vp_8_nl0_ce0(?give_vp_8_nl0_ce0_match_vp_8_nl0_ae0ke0,?give_vp_8_nl0_ce0_oven_vp_8_nl0_ae0JoinAttr),
+bell_vp_17_nl0_ce0(?bell_vp_17_nl0_ce0_see_vp_17_nl0_ae0ke0,?give_vp_8_nl0_ce0_match_vp_8_nl0_ae0ke0),
+beat_vp_13_nl0_ce1(?give_vp_8_nl0_ce0_match_vp_8_nl0_ae0ke0,?beat_vp_13_nl0_ce1_regret_vp_13_nl0_ae0JoinAttrRef),
+train_cp_8_nl0_ce0copy8_7(?give_vp_8_nl0_ce0_match_vp_8_nl0_ae0ke0,?train_cp_8_nl0_ce0copy8_7_dependent_cp_8_nl0_ae1) .

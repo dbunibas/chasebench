@@ -1,0 +1,10 @@
+dept {
+    d : STRING,
+    m : STRING,
+    n : STRING
+}
+
+emp {
+    e : STRING,
+    d : STRING
+}

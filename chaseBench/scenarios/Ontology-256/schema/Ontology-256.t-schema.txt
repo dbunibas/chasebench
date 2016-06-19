@@ -1,0 +1,2839 @@
+accept_vnm_4_nl0_ce2 {
+    leather_vnm_4_nl0_ae00Ref : STRING,
+    distribution_vnm_4_nl1_ae01Ref : STRING
+}
+
+account_vh_9_nl0_ce0 {
+    weight_vh_9_nl0_ae0 : STRING,
+    event_vh_9_nl0_ae1 : STRING,
+    paste_vh_9_nl0_ae0JoinAttr : STRING
+}
+
+achieve_vh_48_nl0_ce1 {
+    current_vh_48_nl0_ae2 : STRING,
+    political_vh_48_nl0_ae3 : STRING,
+    agencies_vh_48_nl0_ae4 : STRING,
+    affect_vh_48_nl0_ae0JoinAttr : STRING,
+    affect_vh_48_nl0_ae0JoinAttrRef : STRING
+}
+
+act_vh_17_nl0_ce1 {
+    plane_vh_17_nl0_ae2 : STRING,
+    bitter_vh_17_nl0_ae3 : STRING,
+    minute_vh_17_nl0_ae0JoinAttr : STRING,
+    minute_vh_17_nl0_ae0JoinAttrRef : STRING
+}
+
+adjustment_vnm_14_nl0_ce2 {
+    taste_vnm_14_nl0_ae00Ref : STRING,
+    steel_vnm_14_nl1_ae01Ref : STRING
+}
+
+advertisement_vi_14_nl0_ce0 {
+    eye_vi_14_nl0_ae0ke0JoinAttr : STRING,
+    lead_vi_14_nl0_ae1 : STRING,
+    wound_vi_14_nl0_ae2 : STRING
+}
+
+afford_vh_16_nl0_ce0 {
+    sneeze_vh_16_nl0_ae0 : STRING,
+    avoid_vh_16_nl0_ae1 : STRING,
+    clean_vh_16_nl0_ae2 : STRING,
+    laugh_vh_16_nl0_ae0JoinAttr : STRING
+}
+
+agencies_vh_20_nl0_ce0 {
+    hide_vh_20_nl0_ae0 : STRING,
+    floor_vh_20_nl0_ae1 : STRING,
+    change_vh_20_nl0_ae0JoinAttr : STRING
+}
+
+agreement_vh_35_nl0_ce1 {
+    simple_vh_35_nl0_ae1 : STRING,
+    jump_vh_35_nl0_ae0JoinAttr : STRING,
+    jump_vh_35_nl0_ae0JoinAttrRef : STRING
+}
+
+amount_vnm_18_nl0_ce1 {
+    grey_vnm_18_nl0_ae1 : STRING,
+    trouble_vnm_18_nl0_ae2 : STRING,
+    lie_vnm_18_nl1_ae01 : STRING
+}
+
+angry_vnm_39_nl0_ce2 {
+    store_vnm_39_nl0_ae00Ref : STRING,
+    flame_vnm_39_nl1_ae01Ref : STRING
+}
+
+animal_vh_6_nl0_ce0 {
+    window_vh_6_nl0_ae0 : STRING,
+    female_vh_6_nl0_ae0JoinAttr : STRING
+}
+
+answer_vh_59_nl0_ce0 {
+    cry_vi_17_nl0_ae0ke0 : STRING,
+    stand_vi_17_nl0_ae1 : STRING,
+    spade_vh_59_nl0_ae0JoinAttr : STRING
+}
+
+approval_vi_2_nl0_ce0 {
+    small_vi_2_nl0_ae0ke0JoinAttr : STRING,
+    brain_vi_2_nl0_ae1 : STRING,
+    branch_vi_2_nl0_ae2 : STRING
+}
+
+approval_vi_37_nl0_ce1 {
+    arch_vi_37_nl0_ae0ke0Ref : STRING,
+    fear_vi_37_nl0_ae3 : STRING,
+    earth_vi_37_nl0_ae4 : STRING,
+    remove_vi_37_nl0_ae5 : STRING
+}
+
+arch_vi_46_nl0_ce0 {
+    cross_vi_46_nl0_ae0ke0JoinAttr : STRING,
+    comfort_vi_46_nl0_ae1 : STRING,
+    turn_vi_46_nl0_ae2 : STRING
+}
+
+argue_vnm_6_nl0_ce0 {
+    round_vnm_6_nl0_ae0ke0 : STRING,
+    chin_vnm_6_nl0_ae00 : STRING
+}
+
+arm_vnm_49_nl0_ce1 {
+    remain_vnm_49_nl0_ae1 : STRING,
+    plough_vnm_49_nl0_ae2 : STRING,
+    grain_vnm_49_nl1_ae01 : STRING
+}
+
+arrange_vh_19_nl0_ce0 {
+    acid_vh_19_nl0_ae0 : STRING,
+    sort_vh_19_nl0_ae1 : STRING,
+    sweet_vh_19_nl0_ae0JoinAttr : STRING
+}
+
+attack_vnm_19_nl0_ce0 {
+    orange_vnm_19_nl0_ae0ke0 : STRING,
+    seat_vnm_19_nl0_ae1 : STRING,
+    sharp_vnm_19_nl0_ae00 : STRING
+}
+
+attorney_vh_34_nl0_ce1 {
+    box_vh_34_nl0_ae2 : STRING,
+    miss_vh_34_nl0_ae3 : STRING,
+    ticket_vh_34_nl0_ae4 : STRING,
+    authority_vh_34_nl0_ae0JoinAttr : STRING,
+    authority_vh_34_nl0_ae0JoinAttrRef : STRING
+}
+
+authority_vnm_24_nl0_ce2 {
+    regard_vnm_24_nl0_ae00Ref : STRING,
+    breath_vnm_24_nl1_ae01Ref : STRING
+}
+
+authority_vnm_26_nl0_ce1 {
+    stone_vnm_26_nl0_ae2 : STRING,
+    call_vnm_26_nl0_ae3 : STRING,
+    win_vnm_26_nl0_ae4 : STRING,
+    pot_vnm_26_nl1_ae01 : STRING
+}
+
+avoid_ad_31_nl0_ce0 {
+    theory_ad_31_nl0_ae0ke0 : STRING,
+    dry_ad_31_nl0_ae1 : STRING,
+    adjustment_ad_31_nl0_ae2 : STRING,
+    event_ad_31_nl0_ae3 : STRING,
+    settle_ad_31_nl0_ae4 : STRING,
+    table_ad_31_nl0_ae5 : STRING
+}
+
+avoid_vi_61_nl0_ce0 {
+    winter_vi_61_nl0_ae0ke0JoinAttr : STRING,
+    bright_vi_61_nl0_ae1 : STRING,
+    wire_vi_61_nl0_ae2 : STRING
+}
+
+avoid_vnm_18_nl0_ce2 {
+    muscle_vnm_18_nl0_ae00Ref : STRING,
+    lie_vnm_18_nl1_ae01Ref : STRING
+}
+
+awake_vnm_7_nl0_ce0 {
+    interest_vnm_7_nl0_ae0ke0 : STRING,
+    connection_vnm_7_nl0_ae1 : STRING,
+    disappear_vnm_7_nl0_ae00 : STRING
+}
+
+baby_vnm_17_nl0_ce2 {
+    drain_vnm_17_nl0_ae00Ref : STRING,
+    cough_vnm_17_nl1_ae01Ref : STRING
+}
+
+back_vh_13_nl0_ce1 {
+    male_vh_13_nl0_ae2 : STRING,
+    general_vh_13_nl0_ae3 : STRING,
+    death_vh_13_nl0_ae0JoinAttr : STRING,
+    death_vh_13_nl0_ae0JoinAttrRef : STRING
+}
+
+band_vi_18_nl0_ce1 {
+    public_vi_18_nl0_ae0ke0Ref : STRING,
+    oven_vi_18_nl0_ae2 : STRING,
+    sky_vi_18_nl0_ae3 : STRING
+}
+
+band_vi_36_nl0_ce1 {
+    camera_vnm_35_nl0_ae0ke0Ref : STRING,
+    sleep_vnm_35_nl0_ae2 : STRING,
+    attorney_vnm_35_nl0_ae3 : STRING
+}
+
+base_vh_62_nl0_ce1 {
+    false_vh_62_nl0_ae2 : STRING,
+    rule_vh_62_nl0_ae3 : STRING,
+    check_vh_62_nl0_ae4 : STRING,
+    door_vh_62_nl0_ae0JoinAttr : STRING,
+    door_vh_62_nl0_ae0JoinAttrRef : STRING
+}
+
+beautiful_vh_11_nl0_ce0 {
+    receipt_vh_11_nl0_ae0 : STRING,
+    fish_vh_11_nl0_ae1 : STRING,
+    go_vh_11_nl0_ae0JoinAttr : STRING
+}
+
+bed_vi_22_nl0_ce0 {
+    change_vi_22_nl0_ae0ke0JoinAttr : STRING,
+    flight_vi_22_nl0_ae1 : STRING,
+    suppose_vi_22_nl0_ae2 : STRING
+}
+
+bee_vi_16_nl0_ce1 {
+    sun_vi_16_nl0_ae0ke0Ref : STRING,
+    clean_vi_16_nl0_ae3 : STRING,
+    smell_vi_16_nl0_ae4 : STRING
+}
+
+believe_vnm_14_nl0_ce1 {
+    receive_vnm_14_nl0_ae2 : STRING,
+    hide_vnm_14_nl0_ae3 : STRING,
+    open_vnm_14_nl0_ae4 : STRING,
+    steel_vnm_14_nl1_ae01 : STRING
+}
+
+bell_vnm_62_nl0_ce1 {
+    gold_vnm_62_nl0_ae1 : STRING,
+    result_vnm_62_nl1_ae01 : STRING
+}
+
+blood_vnm_54_nl0_ce1 {
+    round_vh_16_nl0_ae3 : STRING,
+    begin_vh_16_nl0_ae4 : STRING,
+    create_vh_16_nl0_ae5 : STRING,
+    copy_vh_16_nl0_ae6 : STRING,
+    poor_vnm_54_nl1_ae01 : STRING
+}
+
+blow_vi_2_nl0_ce1 {
+    small_vi_2_nl0_ae0ke0Ref : STRING,
+    swim_vi_2_nl0_ae3 : STRING,
+    place_vi_2_nl0_ae4 : STRING
+}
+
+blue_vh_1_nl0_ce0 {
+    tail_vh_1_nl0_ae0 : STRING,
+    red_vh_1_nl0_ae1 : STRING,
+    wrong_vh_1_nl0_ae2 : STRING,
+    letter_vh_1_nl0_ae0JoinAttr : STRING
+}
+
+blue_vh_61_nl0_ce0 {
+    slow_ad_36_nl0_ae0ke0 : STRING,
+    band_ad_36_nl0_ae1 : STRING,
+    quality_vh_61_nl0_ae0JoinAttr : STRING
+}
+
+blue_vnm_22_nl0_ce2 {
+    reading_vnm_22_nl0_ae00Ref : STRING,
+    basin_vnm_22_nl1_ae01Ref : STRING
+}
+
+body_vh_43_nl0_ce0 {
+    sudden_vh_14_nl0_ae0 : STRING,
+    obtain_vh_14_nl0_ae1 : STRING,
+    fixed_vh_43_nl0_ae0JoinAttr : STRING
+}
+
+boot_vnm_5_nl0_ce0 {
+    goat_vnm_5_nl0_ae0ke0 : STRING,
+    head_vnm_5_nl0_ae1 : STRING,
+    judge_vnm_5_nl0_ae2 : STRING,
+    flat_vnm_5_nl0_ae00 : STRING
+}
+
+bottle_vnm_37_nl0_ce2 {
+    mass_vnm_37_nl0_ae00Ref : STRING,
+    limit_vnm_37_nl1_ae01Ref : STRING
+}
+
+branch_vnm_22_nl0_ce1 {
+    night_vnm_22_nl0_ae2 : STRING,
+    meet_vnm_22_nl0_ae3 : STRING,
+    basin_vnm_22_nl1_ae01 : STRING
+}
+
+breath_vnm_38_nl0_ce1 {
+    wall_vnm_38_nl0_ae3 : STRING,
+    tall_vnm_38_nl0_ae4 : STRING,
+    ill_vnm_38_nl0_ae5 : STRING,
+    can_vnm_38_nl1_ae01 : STRING
+}
+
+brick_vnm_50_nl0_ce0 {
+    shake_vnm_44_nl0_ae0ke0 : STRING,
+    drop_vnm_50_nl0_ae00 : STRING
+}
+
+brush_vh_19_nl0_ce1 {
+    hope_vh_19_nl0_ae2 : STRING,
+    advertisement_vh_19_nl0_ae3 : STRING,
+    sweet_vh_19_nl0_ae0JoinAttr : STRING,
+    sweet_vh_19_nl0_ae0JoinAttrRef : STRING
+}
+
+bucket_vh_49_nl0_ce1 {
+    normal_vh_49_nl0_ae2 : STRING,
+    loss_vh_49_nl0_ae3 : STRING,
+    flag_vh_49_nl0_ae4 : STRING,
+    will_vh_49_nl0_ae0JoinAttr : STRING,
+    will_vh_49_nl0_ae0JoinAttrRef : STRING
+}
+
+business_vi_11_nl0_ce0 {
+    safe_vi_11_nl0_ae0ke0JoinAttr : STRING,
+    talk_vi_11_nl0_ae1 : STRING
+}
+
+butter_vnm_15_nl0_ce2 {
+    feed_vnm_15_nl0_ae00Ref : STRING,
+    price_vnm_15_nl1_ae01Ref : STRING
+}
+
+canvas_vnm_31_nl0_ce0 {
+    allow_vnm_31_nl0_ae0ke0 : STRING,
+    smile_vnm_31_nl0_ae00 : STRING
+}
+
+card_vnm_52_nl0_ce2 {
+    share_vnm_52_nl0_ae00Ref : STRING,
+    handle_vnm_52_nl1_ae01Ref : STRING
+}
+
+carry_vnm_57_nl0_ce2 {
+    disgust_vnm_57_nl0_ae00Ref : STRING,
+    realize_vnm_57_nl1_ae01Ref : STRING
+}
+
+cart_vh_57_nl0_ce1 {
+    plane_vh_57_nl0_ae2 : STRING,
+    offer_vh_57_nl0_ae3 : STRING,
+    trouble_vh_57_nl0_ae4 : STRING,
+    set_vh_57_nl0_ae0JoinAttr : STRING,
+    set_vh_57_nl0_ae0JoinAttrRef : STRING
+}
+
+chalk_ad_50_nl0_ce0 {
+    force_ad_50_nl0_ae0ke0 : STRING,
+    love_ad_50_nl0_ae1 : STRING,
+    dress_ad_50_nl0_ae2 : STRING,
+    sister_ad_50_nl0_ae3 : STRING,
+    wash_ad_50_nl0_ae4 : STRING
+}
+
+chalk_vi_19_nl0_ce0 {
+    study_vi_19_nl0_ae0ke0JoinAttr : STRING,
+    married_vi_19_nl0_ae1 : STRING,
+    copy_vi_19_nl0_ae2 : STRING
+}
+
+change_vi_15_nl0_ce1 {
+    nerve_vi_15_nl0_ae0ke0Ref : STRING,
+    warn_vi_15_nl0_ae2 : STRING
+}
+
+charge_vh_3_nl0_ce1 {
+    chalk_vh_3_nl0_ae2 : STRING,
+    regular_vh_3_nl0_ae3 : STRING,
+    love_vh_3_nl0_ae4 : STRING,
+    mind_vh_3_nl0_ae0JoinAttr : STRING,
+    mind_vh_3_nl0_ae0JoinAttrRef : STRING
+}
+
+chemical_vh_38_nl0_ce1 {
+    telos_vh_38_nl0_ae2 : STRING,
+    part_vh_38_nl0_ae3 : STRING,
+    hold_vh_38_nl0_ae0JoinAttr : STRING,
+    hold_vh_38_nl0_ae0JoinAttrRef : STRING
+}
+
+church_vnm_10_nl0_ce0 {
+    family_vnm_10_nl0_ae0ke0 : STRING,
+    plane_vnm_10_nl0_ae1 : STRING,
+    parallel_vnm_10_nl0_ae2 : STRING,
+    blade_vnm_10_nl0_ae00 : STRING
+}
+
+church_vnm_7_nl0_ce1 {
+    heart_vnm_7_nl0_ae2 : STRING,
+    seem_vnm_7_nl0_ae3 : STRING,
+    indicate_vnm_7_nl1_ae01 : STRING
+}
+
+clear_vh_48_nl0_ce0 {
+    road_vh_48_nl0_ae0 : STRING,
+    raise_vh_48_nl0_ae1 : STRING,
+    affect_vh_48_nl0_ae0JoinAttr : STRING
+}
+
+climb_vi_32_nl0_ce0 {
+    shut_vi_32_nl0_ae0ke0JoinAttr : STRING,
+    paper_vi_32_nl0_ae1 : STRING
+}
+
+clock_ad_7_nl0_ce0 {
+    shut_ad_7_nl0_ae0ke0 : STRING,
+    chain_ad_7_nl0_ae1 : STRING,
+    appear_ad_7_nl0_ae2 : STRING,
+    idea_ad_7_nl0_ae3 : STRING,
+    tail_ad_7_nl0_ae4 : STRING,
+    express_ad_7_nl0_ae5 : STRING
+}
+
+cloth_vh_46_nl0_ce0 {
+    humor_vh_46_nl0_ae0 : STRING,
+    umbrella_vh_46_nl0_ae1 : STRING,
+    prepare_vh_46_nl0_ae2 : STRING,
+    act_vh_46_nl0_ae0JoinAttr : STRING
+}
+
+coat_vh_14_nl0_ce0 {
+    sudden_vh_14_nl0_ae0 : STRING,
+    obtain_vh_14_nl0_ae1 : STRING,
+    year_vh_14_nl0_ae0JoinAttr : STRING
+}
+
+collar_vi_33_nl0_ce1 {
+    wear_vi_33_nl0_ae0ke0Ref : STRING,
+    equal_vi_33_nl0_ae2 : STRING
+}
+
+collar_vnm_63_nl0_ce0 {
+    fasten_vnm_63_nl0_ae0ke0 : STRING,
+    prove_vnm_63_nl0_ae1 : STRING,
+    act_vnm_63_nl0_ae00 : STRING
+}
+
+collection_vnm_2_nl0_ce1 {
+    send_vnm_2_nl0_ae1 : STRING,
+    regular_vnm_2_nl0_ae2 : STRING,
+    leave_vnm_2_nl1_ae01 : STRING
+}
+
+color_vnm_30_nl0_ce1 {
+    view_vnm_30_nl0_ae1 : STRING,
+    prose_vnm_30_nl0_ae2 : STRING,
+    zoo_vnm_30_nl1_ae01 : STRING
+}
+
+come_vi_10_nl0_ce0 {
+    sail_vi_10_nl0_ae0ke0JoinAttr : STRING,
+    ink_vi_10_nl0_ae1 : STRING,
+    conscious_vi_10_nl0_ae2 : STRING
+}
+
+common_vnm_60_nl0_ce1 {
+    sea_vnm_60_nl0_ae2 : STRING,
+    material_vnm_60_nl0_ae3 : STRING,
+    kind_vnm_60_nl0_ae4 : STRING,
+    enjoy_vnm_60_nl1_ae01 : STRING
+}
+
+compare_vi_46_nl0_ce1 {
+    cross_vi_46_nl0_ae0ke0Ref : STRING,
+    high_vi_46_nl0_ae3 : STRING,
+    serious_vi_46_nl0_ae4 : STRING
+}
+
+compare_vnm_11_nl0_ce0 {
+    form_vnm_11_nl0_ae0ke0 : STRING,
+    stamp_vnm_11_nl0_ae1 : STRING,
+    side_vnm_11_nl0_ae00 : STRING
+}
+
+complain_vi_8_nl0_ce0 {
+    foot_vi_8_nl0_ae0ke0JoinAttr : STRING,
+    year_vi_8_nl0_ae1 : STRING,
+    poison_vi_8_nl0_ae2 : STRING
+}
+
+complete_vh_4_nl0_ce0 {
+    grip_vh_4_nl0_ae0 : STRING,
+    complex_vh_4_nl0_ae1 : STRING,
+    agency_vh_4_nl0_ae0JoinAttr : STRING
+}
+
+complex_vh_12_nl0_ce1 {
+    could_vh_12_nl0_ae3 : STRING,
+    error_vh_12_nl0_ae4 : STRING,
+    bell_vh_12_nl0_ae5 : STRING,
+    trousers_vh_12_nl0_ae0JoinAttr : STRING,
+    trousers_vh_12_nl0_ae0JoinAttrRef : STRING
+}
+
+concern_vh_23_nl0_ce0 {
+    understand_vh_23_nl0_ae0 : STRING,
+    pencil_vh_23_nl0_ae1 : STRING,
+    pen_vh_23_nl0_ae0JoinAttr : STRING
+}
+
+concern_vnm_63_nl0_ce1 {
+    attention_vnm_63_nl0_ae2 : STRING,
+    belong_vnm_63_nl0_ae3 : STRING,
+    week_vnm_63_nl0_ae4 : STRING,
+    rate_vnm_63_nl1_ae01 : STRING
+}
+
+confirm_vh_21_nl0_ce1 {
+    crime_vh_21_nl0_ae1 : STRING,
+    measure_vh_21_nl0_ae2 : STRING,
+    board_vh_21_nl0_ae0JoinAttr : STRING,
+    board_vh_21_nl0_ae0JoinAttrRef : STRING
+}
+
+connection_vh_42_nl0_ce1 {
+    find_vh_42_nl0_ae3 : STRING,
+    telos_vh_42_nl0_ae4 : STRING,
+    hour_vh_42_nl0_ae5 : STRING,
+    use_vh_42_nl0_ae0JoinAttr : STRING,
+    use_vh_42_nl0_ae0JoinAttrRef : STRING
+}
+
+conscious_vnm_13_nl0_ce0 {
+    hurt_vnm_13_nl0_ae0ke0 : STRING,
+    stop_vnm_13_nl0_ae1 : STRING,
+    pot_vnm_13_nl0_ae00 : STRING
+}
+
+contain_vh_15_nl0_ce0 {
+    card_vh_15_nl0_ae0 : STRING,
+    brick_vh_15_nl0_ae1 : STRING,
+    flat_vh_15_nl0_ae0JoinAttr : STRING
+}
+
+contain_vnm_38_nl0_ce0 {
+    unit_vnm_38_nl0_ae0ke0 : STRING,
+    conscious_vnm_38_nl0_ae1 : STRING,
+    shut_vnm_38_nl0_ae2 : STRING,
+    thread_vnm_38_nl0_ae00 : STRING
+}
+
+contribute_vnm_45_nl0_ce1 {
+    bath_ad_5_nl0_ae2 : STRING,
+    butter_ad_5_nl0_ae3 : STRING,
+    copy_ad_5_nl0_ae4 : STRING,
+    same_vnm_45_nl1_ae01 : STRING
+}
+
+cook_vi_21_nl0_ce1 {
+    nation_vi_21_nl0_ae0ke0Ref : STRING,
+    wet_vi_21_nl0_ae1 : STRING
+}
+
+copy_ad_36_nl0_ce0 {
+    slow_ad_36_nl0_ae0ke0 : STRING,
+    band_ad_36_nl0_ae1 : STRING,
+    light_ad_36_nl0_ae2 : STRING,
+    wet_ad_36_nl0_ae3 : STRING,
+    finish_ad_36_nl0_ae4 : STRING
+}
+
+could_vnm_62_nl0_ce2 {
+    hide_vnm_62_nl0_ae00Ref : STRING,
+    result_vnm_62_nl1_ae01Ref : STRING
+}
+
+count_vh_4_nl0_ce1 {
+    claim_vh_4_nl0_ae2 : STRING,
+    state_vh_4_nl0_ae3 : STRING,
+    egg_vh_4_nl0_ae4 : STRING,
+    agency_vh_4_nl0_ae0JoinAttr : STRING,
+    agency_vh_4_nl0_ae0JoinAttrRef : STRING
+}
+
+count_vnm_31_nl0_ce1 {
+    describe_vnm_31_nl0_ae1 : STRING,
+    female_vnm_31_nl0_ae2 : STRING,
+    meal_vnm_31_nl1_ae01 : STRING
+}
+
+cow_vh_31_nl0_ce1 {
+    collect_vh_31_nl0_ae3 : STRING,
+    agree_vh_31_nl0_ae4 : STRING,
+    effect_vh_31_nl0_ae5 : STRING,
+    reward_vh_31_nl0_ae0JoinAttr : STRING,
+    reward_vh_31_nl0_ae0JoinAttrRef : STRING
+}
+
+cross_vh_17_nl0_ce0 {
+    expert_vh_17_nl0_ae0 : STRING,
+    sudden_vh_17_nl0_ae1 : STRING,
+    minute_vh_17_nl0_ae0JoinAttr : STRING
+}
+
+curve_vi_58_nl0_ce0m {
+    use_vi_58_nl0_ae0ke0JoinAttr : STRING,
+    art_vi_58_nl0_ae1 : STRING
+}
+
+cushion_vnm_62_nl0_ce0 {
+    help_vnm_62_nl0_ae0ke0 : STRING,
+    hide_vnm_62_nl0_ae00 : STRING
+}
+
+cut_vh_39_nl0_ce1 {
+    wound_vh_39_nl0_ae2 : STRING,
+    false_vh_39_nl0_ae3 : STRING,
+    belong_vh_39_nl0_ae4 : STRING,
+    memory_vh_39_nl0_ae0JoinAttr : STRING,
+    memory_vh_39_nl0_ae0JoinAttrRef : STRING
+}
+
+damage_ad_33_nl0_ce0 {
+    influence_ad_33_nl0_ae0ke0 : STRING,
+    profit_ad_33_nl0_ae1 : STRING,
+    reward_ad_33_nl0_ae2 : STRING,
+    fail_ad_33_nl0_ae3 : STRING
+}
+
+dark_vnm_27_nl0_ce0 {
+    safe_vnm_27_nl0_ae0ke0 : STRING,
+    meat_vnm_27_nl0_ae1 : STRING,
+    chess_vnm_27_nl0_ae00 : STRING
+}
+
+day_vh_43_nl0_ce1 {
+    receive_vh_14_nl0_ae2 : STRING,
+    mark_vh_14_nl0_ae3 : STRING,
+    fixed_vh_43_nl0_ae0JoinAttr : STRING,
+    fixed_vh_43_nl0_ae0JoinAttrRef : STRING
+}
+
+decision_ad_3_nl0_ce0 {
+    die_ad_3_nl0_ae0ke0 : STRING,
+    brown_ad_3_nl0_ae1 : STRING,
+    hit_ad_3_nl0_ae2 : STRING,
+    paint_ad_3_nl0_ae3 : STRING,
+    mind_ad_3_nl0_ae4 : STRING
+}
+
+deep_ad_16_nl0_ce0 {
+    toe_ad_16_nl0_ae0ke0 : STRING,
+    handle_ad_16_nl0_ae1 : STRING,
+    glove_ad_16_nl0_ae2 : STRING,
+    dark_ad_16_nl0_ae3 : STRING,
+    picture_ad_16_nl0_ae4 : STRING
+}
+
+degree_vh_28_nl0_ce1 {
+    destruction_vh_28_nl0_ae2 : STRING,
+    brake_vh_28_nl0_ae3 : STRING,
+    thank_vh_28_nl0_ae4 : STRING,
+    part_vh_28_nl0_ae0JoinAttr : STRING,
+    part_vh_28_nl0_ae0JoinAttrRef : STRING
+}
+
+degree_vi_9_nl0_ce0 {
+    prove_vi_9_nl0_ae0ke0JoinAttr : STRING,
+    base_vi_9_nl0_ae1 : STRING,
+    speak_vi_9_nl0_ae2 : STRING
+}
+
+delicate_vi_26_nl0_ce1 {
+    snake_vi_26_nl0_ae0ke0Ref : STRING,
+    affect_vi_26_nl0_ae2 : STRING,
+    private_vi_26_nl0_ae3 : STRING
+}
+
+delicate_vi_38_nl0_ce1 {
+    angle_vh_8_nl0_ae0Ref : STRING,
+    lift_vh_8_nl0_ae2 : STRING,
+    exchange_vh_8_nl0_ae3 : STRING
+}
+
+deliver_vh_51_nl0_ce0 {
+    nation_vi_21_nl0_ae0ke0 : STRING,
+    disgust_vh_51_nl0_ae0JoinAttr : STRING
+}
+
+deliver_vi_28_nl0_ce1 {
+    share_vi_28_nl0_ae0ke0Ref : STRING,
+    canvas_vi_28_nl0_ae3 : STRING,
+    introduce_vi_28_nl0_ae4 : STRING
+}
+
+dependent_vnm_5_nl0_ce1 {
+    impulse_vnm_5_nl0_ae3 : STRING,
+    prose_vnm_5_nl0_ae4 : STRING,
+    agencies_vnm_5_nl0_ae5 : STRING,
+    train_vnm_5_nl1_ae01 : STRING
+}
+
+describe_vh_1_nl0_ce1 {
+    past_vh_1_nl0_ae3 : STRING,
+    wheel_vh_1_nl0_ae4 : STRING,
+    work_vh_1_nl0_ae5 : STRING,
+    letter_vh_1_nl0_ae0JoinAttr : STRING,
+    letter_vh_1_nl0_ae0JoinAttrRef : STRING
+}
+
+design_ad_20_nl0_ce0 {
+    star_ad_20_nl0_ae0ke0 : STRING,
+    scissors_ad_20_nl0_ae1 : STRING,
+    poison_ad_20_nl0_ae2 : STRING,
+    limit_ad_20_nl0_ae3 : STRING,
+    feeble_ad_20_nl0_ae4 : STRING,
+    fit_ad_20_nl0_ae5 : STRING
+}
+
+develop_vi_36_nl0_ce0 {
+    camera_vnm_35_nl0_ae0ke0JoinAttr : STRING,
+    prove_vnm_35_nl0_ae1 : STRING
+}
+
+die_vnm_37_nl0_ce1 {
+    follow_vnm_37_nl0_ae2 : STRING,
+    thick_vnm_37_nl0_ae3 : STRING,
+    bee_vnm_37_nl0_ae4 : STRING,
+    limit_vnm_37_nl1_ae01 : STRING
+}
+
+different_vi_1_nl0_ce0 {
+    compare_vi_1_nl0_ae0ke0JoinAttr : STRING,
+    demand_vi_1_nl0_ae1 : STRING,
+    great_vi_1_nl0_ae2 : STRING
+}
+
+digestion_vnm_10_nl0_ce2 {
+    blade_vnm_10_nl0_ae00Ref : STRING,
+    company_vnm_10_nl1_ae01Ref : STRING
+}
+
+discover_vi_29_nl0_ce0 {
+    rub_vi_29_nl0_ae0ke0JoinAttr : STRING,
+    rough_vi_29_nl0_ae1 : STRING,
+    potato_vi_29_nl0_ae2 : STRING
+}
+
+discuss_vnm_32_nl0_ce1 {
+    detail_vnm_32_nl0_ae2 : STRING,
+    notice_vnm_32_nl0_ae3 : STRING,
+    electric_vnm_32_nl0_ae4 : STRING,
+    contain_vnm_32_nl1_ae01 : STRING
+}
+
+disease_vi_45_nl0_ce1 {
+    sleep_ad_6_nl0_ae0ke0Ref : STRING,
+    road_ad_6_nl0_ae2 : STRING,
+    rhythm_ad_6_nl0_ae3 : STRING
+}
+
+door_vh_3_nl0_ce0 {
+    early_vh_3_nl0_ae0 : STRING,
+    violent_vh_3_nl0_ae1 : STRING,
+    mind_vh_3_nl0_ae0JoinAttr : STRING
+}
+
+drain_ad_40_nl0_ce0 {
+    camera_vnm_35_nl0_ae0ke0 : STRING,
+    prove_vnm_35_nl0_ae1 : STRING,
+    sleep_vnm_35_nl0_ae2 : STRING,
+    attorney_vnm_35_nl0_ae3 : STRING,
+    disease_ad_40_nl0_ae4 : STRING
+}
+
+dust_vi_25_nl0_ce1 {
+    owner_vi_25_nl0_ae0ke0Ref : STRING,
+    cook_vi_25_nl0_ae2 : STRING,
+    pocket_vi_25_nl0_ae3 : STRING
+}
+
+eat_ad_8_nl0_ce0 {
+    shut_ad_8_nl0_ae0ke0 : STRING,
+    exist_ad_8_nl0_ae1 : STRING,
+    cover_ad_8_nl0_ae2 : STRING,
+    allow_ad_8_nl0_ae3 : STRING,
+    prefer_ad_8_nl0_ae4 : STRING
+}
+
+edge_vi_29_nl0_ce1 {
+    rub_vi_29_nl0_ae0ke0Ref : STRING,
+    egg_vi_29_nl0_ae3 : STRING,
+    commit_vi_29_nl0_ae4 : STRING
+}
+
+effect_vi_47_nl0_ce0 {
+    ready_vh_2_nl0_ae0JoinAttr : STRING,
+    property_vh_2_nl0_ae1 : STRING,
+    gun_vh_2_nl0_ae2 : STRING
+}
+
+electric_vi_25_nl0_ce0 {
+    owner_vi_25_nl0_ae0ke0JoinAttr : STRING,
+    woman_vi_25_nl0_ae1 : STRING
+}
+
+encourage_vi_64_nl0_ce1 {
+    summer_vi_64_nl0_ae0ke0Ref : STRING,
+    condition_vi_64_nl0_ae2 : STRING,
+    manager_vi_64_nl0_ae3 : STRING
+}
+
+end_vnm_21_nl0_ce1 {
+    prose_vnm_21_nl0_ae2 : STRING,
+    rub_vnm_21_nl0_ae3 : STRING,
+    play_vnm_21_nl1_ae01 : STRING
+}
+
+engine_vnm_12_nl0_ce2 {
+    dependent_vnm_12_nl0_ae00Ref : STRING,
+    desire_vnm_12_nl1_ae01Ref : STRING
+}
+
+error_vi_56_nl0_ce0 {
+    observation_vi_56_nl0_ae0ke0JoinAttr : STRING,
+    stretch_vi_56_nl0_ae1 : STRING,
+    care_vi_56_nl0_ae2 : STRING
+}
+
+examine_vnm_20_nl0_ce2 {
+    represent_vnm_20_nl0_ae00Ref : STRING,
+    earth_vnm_20_nl1_ae01Ref : STRING
+}
+
+example_vh_23_nl0_ce1 {
+    liquid_vh_23_nl0_ae2 : STRING,
+    birth_vh_23_nl0_ae3 : STRING,
+    influence_vh_23_nl0_ae4 : STRING,
+    pen_vh_23_nl0_ae0JoinAttr : STRING,
+    pen_vh_23_nl0_ae0JoinAttrRef : STRING
+}
+
+exist_vnm_42_nl0_ce1 {
+    gun_vnm_42_nl0_ae3 : STRING,
+    property_vnm_42_nl0_ae4 : STRING,
+    punishment_vnm_42_nl0_ae5 : STRING,
+    price_vnm_42_nl1_ae01 : STRING
+}
+
+expansion_vnm_1_nl0_ce2 {
+    oven_vnm_1_nl0_ae00Ref : STRING,
+    narrow_vnm_1_nl1_ae01Ref : STRING
+}
+
+experience_vnm_40_nl0_ce1 {
+    comparison_vnm_40_nl0_ae1 : STRING,
+    climb_vnm_40_nl0_ae2 : STRING,
+    serious_vnm_40_nl1_ae01 : STRING
+}
+
+expert_vi_31_nl0_ce0 {
+    harmony_vi_31_nl0_ae0ke0JoinAttr : STRING,
+    competition_vi_31_nl0_ae1 : STRING,
+    act_vi_31_nl0_ae2 : STRING
+}
+
+express_vnm_26_nl0_ce2 {
+    deal_vnm_26_nl0_ae00Ref : STRING,
+    pot_vnm_26_nl1_ae01Ref : STRING
+}
+
+face_vh_25_nl0_ce0 {
+    mind_vh_25_nl0_ae0 : STRING,
+    run_vh_25_nl0_ae1 : STRING,
+    need_vh_25_nl0_ae0JoinAttr : STRING
+}
+
+face_vh_28_nl0_ce0 {
+    copy_vh_28_nl0_ae0 : STRING,
+    hat_vh_28_nl0_ae1 : STRING,
+    part_vh_28_nl0_ae0JoinAttr : STRING
+}
+
+fact_vi_48_nl0_ce0 {
+    sneeze_vh_16_nl0_ae0JoinAttr : STRING,
+    avoid_vh_16_nl0_ae1 : STRING,
+    clean_vh_16_nl0_ae2 : STRING,
+    round_vh_16_nl0_ae3 : STRING
+}
+
+fall_vh_29_nl0_ce1 {
+    cost_vh_29_nl0_ae3 : STRING,
+    coal_vh_29_nl0_ae4 : STRING,
+    apparatus_vh_29_nl0_ae5 : STRING,
+    box_vh_29_nl0_ae0JoinAttr : STRING,
+    box_vh_29_nl0_ae0JoinAttrRef : STRING
+}
+
+fall_vh_47_nl0_ce1 {
+    cheap_vh_47_nl0_ae1 : STRING,
+    machine_vh_47_nl0_ae2 : STRING,
+    use_vh_47_nl0_ae0JoinAttr : STRING,
+    use_vh_47_nl0_ae0JoinAttrRef : STRING
+}
+
+fall_vnm_60_nl0_ce0 {
+    expect_vnm_60_nl0_ae0ke0 : STRING,
+    punishment_vnm_60_nl0_ae1 : STRING,
+    finger_vnm_60_nl0_ae00 : STRING
+}
+
+family_vnm_20_nl0_ce0 {
+    ice_vnm_20_nl0_ae0ke0 : STRING,
+    pain_vnm_20_nl0_ae1 : STRING,
+    represent_vnm_20_nl0_ae00 : STRING
+}
+
+farm_vnm_3_nl0_ce0 {
+    sugar_vnm_3_nl0_ae0ke0 : STRING,
+    bent_vnm_3_nl0_ae1 : STRING,
+    crush_vnm_3_nl0_ae00 : STRING
+}
+
+father_vh_14_nl0_ce1 {
+    receive_vh_14_nl0_ae2 : STRING,
+    mark_vh_14_nl0_ae3 : STRING,
+    year_vh_14_nl0_ae0JoinAttr : STRING,
+    year_vh_14_nl0_ae0JoinAttrRef : STRING
+}
+
+feeble_ad_57_nl0_ce0 {
+    aim_vh_53_nl0_ae0 : STRING,
+    ticket_vh_53_nl0_ae1 : STRING,
+    different_vh_53_nl0_ae2 : STRING,
+    expansion_vh_53_nl0_ae3 : STRING,
+    share_vh_53_nl0_ae4 : STRING,
+    able_vh_53_nl0_ae5 : STRING,
+    zoo_ad_57_nl0_ae6 : STRING
+}
+
+feeble_vi_33_nl0_ce0 {
+    wear_vi_33_nl0_ae0ke0JoinAttr : STRING,
+    brother_vi_33_nl0_ae1 : STRING
+}
+
+female_vi_60_nl0_ce0 {
+    eye_vi_14_nl0_ae0ke0JoinAttr : STRING,
+    lead_vi_14_nl0_ae1 : STRING,
+    wound_vi_14_nl0_ae2 : STRING
+}
+
+fertile_vh_7_nl0_ce1 {
+    silver_vh_7_nl0_ae1 : STRING,
+    tight_vh_7_nl0_ae2 : STRING,
+    orange_vh_7_nl0_ae0JoinAttr : STRING,
+    orange_vh_7_nl0_ae0JoinAttrRef : STRING
+}
+
+fertile_vnm_57_nl0_ce1 {
+    rhythm_vnm_57_nl0_ae3 : STRING,
+    meal_vnm_57_nl0_ae4 : STRING,
+    pull_vnm_57_nl0_ae5 : STRING,
+    realize_vnm_57_nl1_ae01 : STRING
+}
+
+fiction_vh_9_nl0_ce1 {
+    sort_vh_9_nl0_ae2 : STRING,
+    mean_vh_9_nl0_ae3 : STRING,
+    desire_vh_9_nl0_ae4 : STRING,
+    paste_vh_9_nl0_ae0JoinAttr : STRING,
+    paste_vh_9_nl0_ae0JoinAttrRef : STRING
+}
+
+first_vnm_11_nl0_ce1 {
+    check_vnm_11_nl0_ae2 : STRING,
+    place_vnm_11_nl0_ae3 : STRING,
+    language_vnm_11_nl0_ae4 : STRING,
+    arrange_vnm_11_nl1_ae01 : STRING
+}
+
+fish_vi_49_nl0_ce0 {
+    gold_vi_49_nl0_ae0ke0JoinAttr : STRING,
+    button_vi_49_nl0_ae1 : STRING,
+    support_vi_49_nl0_ae2 : STRING
+}
+
+flower_vnm_48_nl0_ce1 {
+    face_ad_21_nl0_ae2 : STRING,
+    song_ad_21_nl0_ae3 : STRING,
+    writing_ad_21_nl0_ae4 : STRING,
+    potato_vnm_48_nl1_ae01 : STRING
+}
+
+fly_vh_39_nl0_ce0 {
+    consider_vh_39_nl0_ae0 : STRING,
+    sky_vh_39_nl0_ae1 : STRING,
+    memory_vh_39_nl0_ae0JoinAttr : STRING
+}
+
+fly_vh_64_nl0_ce0 {
+    humor_vh_64_nl0_ae0 : STRING,
+    aim_vh_64_nl0_ae0JoinAttr : STRING
+}
+
+fly_vi_7_nl0_ce0 {
+    private_vi_7_nl0_ae0ke0JoinAttr : STRING,
+    inform_vi_7_nl0_ae1 : STRING,
+    hollow_vi_7_nl0_ae2 : STRING
+}
+
+forgive_vi_9_nl0_ce1 {
+    prove_vi_9_nl0_ae0ke0Ref : STRING,
+    comb_vi_9_nl0_ae3 : STRING,
+    paint_vi_9_nl0_ae4 : STRING
+}
+
+forgive_vnm_33_nl0_ce1 {
+    receive_vh_14_nl0_ae2 : STRING,
+    mark_vh_14_nl0_ae3 : STRING,
+    office_vnm_33_nl1_ae01 : STRING
+}
+
+fork_ad_10_nl0_ce0 {
+    get_ad_10_nl0_ae0ke0 : STRING,
+    full_ad_10_nl0_ae1 : STRING,
+    complex_ad_10_nl0_ae2 : STRING,
+    stop_ad_10_nl0_ae3 : STRING
+}
+
+fork_ad_27_nl0_ce0 {
+    prose_ad_27_nl0_ae0ke0 : STRING,
+    swim_ad_27_nl0_ae1 : STRING,
+    cook_ad_27_nl0_ae2 : STRING,
+    wrong_ad_27_nl0_ae3 : STRING,
+    broken_ad_27_nl0_ae4 : STRING
+}
+
+found_vh_44_nl0_ce1 {
+    plan_ad_39_nl0_ae2 : STRING,
+    rub_ad_39_nl0_ae3 : STRING,
+    copper_ad_39_nl0_ae4 : STRING,
+    might_vh_44_nl0_ae0JoinAttr : STRING,
+    might_vh_44_nl0_ae0JoinAttrRef : STRING
+}
+
+future_ad_2_nl0_ce0 {
+    indicate_ad_2_nl0_ae0ke0 : STRING,
+    stick_ad_2_nl0_ae1 : STRING,
+    order_ad_2_nl0_ae2 : STRING,
+    twist_ad_2_nl0_ae3 : STRING,
+    account_ad_2_nl0_ae4 : STRING,
+    chin_ad_2_nl0_ae5 : STRING
+}
+
+garden_vnm_45_nl0_ce0 {
+    prevent_ad_5_nl0_ae0ke0 : STRING,
+    low_ad_5_nl0_ae1 : STRING,
+    return_vnm_45_nl0_ae00 : STRING
+}
+
+girl_vh_57_nl0_ce0 {
+    cow_vh_57_nl0_ae0 : STRING,
+    discovery_vh_57_nl0_ae1 : STRING,
+    set_vh_57_nl0_ae0JoinAttr : STRING
+}
+
+give_vi_6_nl0_ce1 {
+    return_vi_6_nl0_ae0ke0Ref : STRING,
+    wash_vi_6_nl0_ae2 : STRING,
+    gain_vi_6_nl0_ae3 : STRING
+}
+
+glove_vh_36_nl0_ce0 {
+    necessary_ad_30_nl0_ae0ke0 : STRING,
+    government_ad_30_nl0_ae1 : STRING,
+    gun_vh_36_nl0_ae0JoinAttr : STRING
+}
+
+gold_vnm_40_nl0_ce2 {
+    brass_vnm_40_nl0_ae00Ref : STRING,
+    serious_vnm_40_nl1_ae01Ref : STRING
+}
+
+gold_vnm_4_nl0_ce0 {
+    death_vnm_4_nl0_ae0ke0 : STRING,
+    leather_vnm_4_nl0_ae00 : STRING
+}
+
+grass_vnm_46_nl0_ce0 {
+    error_vnm_46_nl0_ae0ke0 : STRING,
+    purpose_vnm_46_nl0_ae1 : STRING,
+    advertisement_vnm_46_nl0_ae2 : STRING,
+    same_vnm_46_nl0_ae00 : STRING
+}
+
+green_vnm_8_nl0_ce1 {
+    sign_vnm_8_nl0_ae2 : STRING,
+    bitter_vnm_8_nl0_ae3 : STRING,
+    like_vnm_8_nl1_ae01 : STRING
+}
+
+grey_vi_61_nl0_ce1 {
+    winter_vi_61_nl0_ae0ke0Ref : STRING,
+    name_vi_61_nl0_ae3 : STRING,
+    deliver_vi_61_nl0_ae4 : STRING,
+    fat_vi_61_nl0_ae5 : STRING
+}
+
+grey_vnm_64_nl0_ce1 {
+    profit_ad_33_nl0_ae1 : STRING,
+    reward_ad_33_nl0_ae2 : STRING,
+    answer_vnm_64_nl1_ae01 : STRING
+}
+
+group_ad_17_nl0_ce0 {
+    committee_ad_17_nl0_ae0ke0 : STRING,
+    roof_ad_17_nl0_ae1 : STRING,
+    match_ad_17_nl0_ae2 : STRING,
+    education_ad_17_nl0_ae3 : STRING,
+    dress_ad_17_nl0_ae4 : STRING,
+    plough_ad_17_nl0_ae5 : STRING
+}
+
+group_vnm_44_nl0_ce2 {
+    parallel_vnm_44_nl0_ae00Ref : STRING,
+    slip_vnm_44_nl1_ae01Ref : STRING
+}
+
+gun_vi_63_nl0_ce1 {
+    opinion_vi_63_nl0_ae0ke0Ref : STRING,
+    news_vi_63_nl0_ae2 : STRING
+}
+
+hammer_vnm_7_nl0_ce2 {
+    disappear_vnm_7_nl0_ae00Ref : STRING,
+    indicate_vnm_7_nl1_ae01Ref : STRING
+}
+
+handle_vnm_2_nl0_ce2 {
+    knee_vnm_2_nl0_ae00Ref : STRING,
+    leave_vnm_2_nl1_ae01Ref : STRING
+}
+
+happen_vh_45_nl0_ce0 {
+    fall_vh_45_nl0_ae0 : STRING,
+    notice_vh_45_nl0_ae1 : STRING,
+    peace_vh_45_nl0_ae0JoinAttr : STRING
+}
+
+hate_vh_6_nl0_ce1 {
+    belong_vh_6_nl0_ae1 : STRING,
+    increase_vh_6_nl0_ae2 : STRING,
+    female_vh_6_nl0_ae0JoinAttr : STRING,
+    female_vh_6_nl0_ae0JoinAttrRef : STRING
+}
+
+have_vh_27_nl0_ce0 {
+    heart_vh_27_nl0_ae0 : STRING,
+    punishment_vh_27_nl0_ae1 : STRING,
+    dirty_vh_27_nl0_ae0JoinAttr : STRING
+}
+
+have_vi_24_nl0_ce0 {
+    behavior_vi_24_nl0_ae0ke0JoinAttr : STRING,
+    sponge_vi_24_nl0_ae1 : STRING,
+    curtain_vi_24_nl0_ae2 : STRING
+}
+
+healthy_ad_22_nl0_ce0 {
+    skin_ad_22_nl0_ae0ke0 : STRING,
+    realize_ad_22_nl0_ae1 : STRING,
+    purpose_ad_22_nl0_ae2 : STRING,
+    discuss_ad_22_nl0_ae3 : STRING,
+    warm_ad_22_nl0_ae4 : STRING,
+    would_ad_22_nl0_ae5 : STRING,
+    copy_ad_22_nl0_ae6 : STRING
+}
+
+help_vi_35_nl0_ce1 {
+    finger_vi_35_nl0_ae0ke0Ref : STRING,
+    town_vi_35_nl0_ae2 : STRING
+}
+
+hide_vi_17_nl0_ce0 {
+    cry_vi_17_nl0_ae0ke0JoinAttr : STRING,
+    stand_vi_17_nl0_ae1 : STRING
+}
+
+hide_vi_20_nl0_ce1 {
+    improve_vi_20_nl0_ae0ke0Ref : STRING,
+    boy_vi_20_nl0_ae3 : STRING,
+    solid_vi_20_nl0_ae4 : STRING
+}
+
+history_vnm_25_nl0_ce1 {
+    reflect_vnm_25_nl0_ae1 : STRING,
+    blue_vnm_25_nl0_ae2 : STRING,
+    cheap_vnm_25_nl1_ae01 : STRING
+}
+
+hold_vnm_50_nl0_ce1 {
+    money_vnm_44_nl0_ae1 : STRING,
+    money_vnm_44_nl0_ae2 : STRING,
+    slope_vnm_50_nl1_ae01 : STRING
+}
+
+horse_vnm_64_nl0_ce2 {
+    oil_vnm_64_nl0_ae00Ref : STRING,
+    answer_vnm_64_nl1_ae01Ref : STRING
+}
+
+ill_vi_32_nl0_ce1 {
+    shut_vi_32_nl0_ae0ke0Ref : STRING,
+    year_vi_32_nl0_ae2 : STRING
+}
+
+imagine_vi_28_nl0_ce0 {
+    share_vi_28_nl0_ae0ke0JoinAttr : STRING,
+    wine_vi_28_nl0_ae1 : STRING,
+    brush_vi_28_nl0_ae2 : STRING
+}
+
+indicate_vi_40_nl0_ce1 {
+    unit_vnm_38_nl0_ae0ke0Ref : STRING,
+    wall_vnm_38_nl0_ae3 : STRING,
+    tall_vnm_38_nl0_ae4 : STRING,
+    ill_vnm_38_nl0_ae5 : STRING
+}
+
+industry_vi_52_nl0_ce1 {
+    knife_vi_52_nl0_ae0ke0Ref : STRING,
+    arrive_vi_52_nl0_ae2 : STRING,
+    happen_vi_52_nl0_ae3 : STRING
+}
+
+industry_vnm_44_nl0_ce1 {
+    money_vnm_44_nl0_ae1 : STRING,
+    money_vnm_44_nl0_ae2 : STRING,
+    slip_vnm_44_nl1_ae01 : STRING
+}
+
+intend_vnm_47_nl0_ce1 {
+    suffer_vnm_47_nl0_ae2 : STRING,
+    achieve_vnm_47_nl0_ae3 : STRING,
+    river_vnm_47_nl1_ae01 : STRING
+}
+
+invention_vh_26_nl0_ce0 {
+    sweet_vh_26_nl0_ae0 : STRING,
+    face_vh_26_nl0_ae1 : STRING,
+    introduce_vh_26_nl0_ae2 : STRING,
+    young_vh_26_nl0_ae0JoinAttr : STRING
+}
+
+involve_vh_2_nl0_ce0 {
+    ready_vh_2_nl0_ae0 : STRING,
+    property_vh_2_nl0_ae1 : STRING,
+    gun_vh_2_nl0_ae2 : STRING,
+    discuss_vh_2_nl0_ae0JoinAttr : STRING
+}
+
+involve_vi_16_nl0_ce0 {
+    sun_vi_16_nl0_ae0ke0JoinAttr : STRING,
+    claim_vi_16_nl0_ae1 : STRING,
+    can_vi_16_nl0_ae2 : STRING
+}
+
+involve_vi_4_nl0_ce0 {
+    found_vi_4_nl0_ae0ke0JoinAttr : STRING,
+    sleep_vi_4_nl0_ae1 : STRING
+}
+
+involve_vnm_21_nl0_ce2 {
+    leaf_vnm_21_nl0_ae00Ref : STRING,
+    play_vnm_21_nl1_ae01Ref : STRING
+}
+
+jelly_vi_60_nl0_ce1 {
+    eye_vi_14_nl0_ae0ke0Ref : STRING,
+    happy_vi_14_nl0_ae3 : STRING,
+    prefer_vi_14_nl0_ae4 : STRING,
+    describe_vi_14_nl0_ae5 : STRING
+}
+
+jewel_vi_15_nl0_ce0 {
+    nerve_vi_15_nl0_ae0ke0JoinAttr : STRING,
+    ticket_vi_15_nl0_ae1 : STRING
+}
+
+join_vi_34_nl0_ce0 {
+    soap_ad_9_nl0_ae0ke0JoinAttr : STRING,
+    fruit_ad_9_nl0_ae1 : STRING,
+    stay_ad_9_nl0_ae2 : STRING
+}
+
+jump_vh_36_nl0_ce1 {
+    cut_ad_30_nl0_ae2 : STRING,
+    would_ad_30_nl0_ae3 : STRING,
+    apply_ad_30_nl0_ae4 : STRING,
+    gun_vh_36_nl0_ae0JoinAttr : STRING,
+    gun_vh_36_nl0_ae0JoinAttrRef : STRING
+}
+
+jump_vnm_8_nl0_ce2 {
+    observation_vnm_8_nl0_ae00Ref : STRING,
+    like_vnm_8_nl1_ae01Ref : STRING
+}
+
+kill_ad_38_nl0_ce0 {
+    dead_vnm_2_nl0_ae0ke0 : STRING,
+    send_vnm_2_nl0_ae1 : STRING,
+    regular_vnm_2_nl0_ae2 : STRING,
+    advertisement_ad_38_nl0_ae3 : STRING
+}
+
+kind_vi_3_nl0_ce0 {
+    necessary_vi_3_nl0_ae0ke0JoinAttr : STRING,
+    stick_vi_3_nl0_ae1 : STRING,
+    effect_vi_3_nl0_ae2 : STRING
+}
+
+knock_vh_58_nl0_ce1 {
+    trick_vh_58_nl0_ae1 : STRING,
+    guide_vh_58_nl0_ae2 : STRING,
+    bee_vh_58_nl0_ae0JoinAttr : STRING,
+    bee_vh_58_nl0_ae0JoinAttrRef : STRING
+}
+
+knot_vnm_27_nl0_ce1 {
+    dry_vnm_27_nl0_ae2 : STRING,
+    disgust_vnm_27_nl0_ae3 : STRING,
+    value_vnm_27_nl0_ae4 : STRING,
+    wrong_vnm_27_nl1_ae01 : STRING
+}
+
+knot_vnm_33_nl0_ce0 {
+    sudden_vh_14_nl0_ae0 : STRING,
+    obtain_vh_14_nl0_ae1 : STRING,
+    report_vnm_33_nl0_ae00 : STRING
+}
+
+know_vh_15_nl0_ce1 {
+    smooth_vh_15_nl0_ae2 : STRING,
+    will_vh_15_nl0_ae3 : STRING,
+    rest_vh_15_nl0_ae4 : STRING,
+    flat_vh_15_nl0_ae0JoinAttr : STRING,
+    flat_vh_15_nl0_ae0JoinAttrRef : STRING
+}
+
+knowledge_vi_38_nl0_ce0 {
+    angle_vh_8_nl0_ae0JoinAttr : STRING,
+    jump_vh_8_nl0_ae1 : STRING
+}
+
+language_vh_49_nl0_ce0 {
+    improve_vh_49_nl0_ae0 : STRING,
+    quick_vh_49_nl0_ae1 : STRING,
+    will_vh_49_nl0_ae0JoinAttr : STRING
+}
+
+language_vnm_21_nl0_ce0 {
+    blow_vnm_21_nl0_ae0ke0 : STRING,
+    person_vnm_21_nl0_ae1 : STRING,
+    leaf_vnm_21_nl0_ae00 : STRING
+}
+
+language_vnm_3_nl0_ce2 {
+    crush_vnm_3_nl0_ae00Ref : STRING,
+    treat_vnm_3_nl1_ae01Ref : STRING
+}
+
+last_ad_47_nl0_ce0 {
+    star_vnm_26_nl0_ae0ke0 : STRING,
+    sock_vnm_26_nl0_ae1 : STRING,
+    stone_vnm_26_nl0_ae2 : STRING,
+    call_vnm_26_nl0_ae3 : STRING,
+    win_vnm_26_nl0_ae4 : STRING,
+    like_ad_47_nl0_ae5 : STRING
+}
+
+late_vi_7_nl0_ce1 {
+    private_vi_7_nl0_ae0ke0Ref : STRING,
+    space_vi_7_nl0_ae3 : STRING,
+    art_vi_7_nl0_ae4 : STRING
+}
+
+late_vnm_6_nl0_ce1 {
+    act_vnm_6_nl0_ae1 : STRING,
+    turn_vnm_6_nl0_ae2 : STRING,
+    salt_vnm_6_nl1_ae01 : STRING
+}
+
+lay_vnm_58_nl0_ce2 {
+    regular_vnm_58_nl0_ae00Ref : STRING,
+    frequent_vnm_58_nl1_ae01Ref : STRING
+}
+
+learn_vh_56_nl0_ce0 {
+    desire_vh_56_nl0_ae0 : STRING,
+    daughter_vh_56_nl0_ae0JoinAttr : STRING
+}
+
+leather_vnm_27_nl0_ce2 {
+    chess_vnm_27_nl0_ae00Ref : STRING,
+    wrong_vnm_27_nl1_ae01Ref : STRING
+}
+
+left_vnm_22_nl0_ce0 {
+    carry_vnm_22_nl0_ae0ke0 : STRING,
+    face_vnm_22_nl0_ae1 : STRING,
+    reading_vnm_22_nl0_ae00 : STRING
+}
+
+let_vh_37_nl0_ce0 {
+    arm_vh_37_nl0_ae0 : STRING,
+    add_vh_37_nl0_ae0JoinAttr : STRING
+}
+
+level_vh_18_nl0_ce0 {
+    debts_vh_18_nl0_ae0 : STRING,
+    screw_vh_18_nl0_ae1 : STRING,
+    lock_vh_18_nl0_ae2 : STRING,
+    tax_vh_18_nl0_ae0JoinAttr : STRING
+}
+
+lift_vi_30_nl0_ce1 {
+    adjustment_vi_30_nl0_ae0ke0Ref : STRING,
+    strong_vi_30_nl0_ae2 : STRING,
+    sound_vi_30_nl0_ae3 : STRING
+}
+
+light_vi_52_nl0_ce0 {
+    knife_vi_52_nl0_ae0ke0JoinAttr : STRING,
+    clear_vi_52_nl0_ae1 : STRING
+}
+
+like_ad_34_nl0_ce0 {
+    regard_ad_34_nl0_ae0ke0 : STRING,
+    hope_ad_34_nl0_ae1 : STRING,
+    doubt_ad_34_nl0_ae2 : STRING,
+    push_ad_34_nl0_ae3 : STRING,
+    protect_ad_34_nl0_ae4 : STRING,
+    cook_ad_34_nl0_ae5 : STRING
+}
+
+line_vh_53_nl0_ce0 {
+    aim_vh_53_nl0_ae0 : STRING,
+    ticket_vh_53_nl0_ae1 : STRING,
+    different_vh_53_nl0_ae2 : STRING,
+    sneeze_vh_53_nl0_ae0JoinAttr : STRING
+}
+
+liquid_vnm_58_nl0_ce0 {
+    system_vnm_58_nl0_ae0ke0 : STRING,
+    stick_vnm_58_nl0_ae1 : STRING,
+    button_vnm_58_nl0_ae2 : STRING,
+    regular_vnm_58_nl0_ae00 : STRING
+}
+
+lock_vnm_54_nl0_ce2 {
+    responsible_vnm_54_nl0_ae00Ref : STRING,
+    poor_vnm_54_nl1_ae01Ref : STRING
+}
+
+long_vi_10_nl0_ce1 {
+    sail_vi_10_nl0_ae0ke0Ref : STRING,
+    lead_vi_10_nl0_ae3 : STRING,
+    basin_vi_10_nl0_ae4 : STRING
+}
+
+look_vi_13_nl0_ce1 {
+    avoid_vi_13_nl0_ae0ke0Ref : STRING,
+    talk_vi_13_nl0_ae3 : STRING,
+    bulb_vi_13_nl0_ae4 : STRING
+}
+
+loose_vh_56_nl0_ce1 {
+    consist_vh_56_nl0_ae1 : STRING,
+    chess_vh_56_nl0_ae2 : STRING,
+    daughter_vh_56_nl0_ae0JoinAttr : STRING,
+    daughter_vh_56_nl0_ae0JoinAttrRef : STRING
+}
+
+loose_vnm_13_nl0_ce2 {
+    pot_vnm_13_nl0_ae00Ref : STRING,
+    add_vnm_13_nl1_ae01Ref : STRING
+}
+
+loose_vnm_58_nl0_ce1 {
+    tree_vnm_58_nl0_ae3 : STRING,
+    wind_vnm_58_nl0_ae4 : STRING,
+    country_vnm_58_nl0_ae5 : STRING,
+    frequent_vnm_58_nl1_ae01 : STRING
+}
+
+loss_ad_48_nl0_ce0 {
+    error_vnm_46_nl0_ae0ke0 : STRING,
+    purpose_vnm_46_nl0_ae1 : STRING,
+    advertisement_vnm_46_nl0_ae2 : STRING,
+    friend_vnm_46_nl0_ae3 : STRING,
+    collar_vnm_46_nl0_ae4 : STRING,
+    attorneys_vnm_46_nl0_ae5 : STRING,
+    cut_ad_48_nl0_ae6 : STRING
+}
+
+machine_vnm_24_nl0_ce0 {
+    servant_vnm_24_nl0_ae0ke0 : STRING,
+    snow_vnm_24_nl0_ae1 : STRING,
+    work_vnm_24_nl0_ae2 : STRING,
+    regard_vnm_24_nl0_ae00 : STRING
+}
+
+manager_vnm_49_nl0_ce0 {
+    stomach_vnm_49_nl0_ae0ke0 : STRING,
+    protest_vnm_49_nl0_ae00 : STRING
+}
+
+market_ad_25_nl0_ce0 {
+    table_ad_25_nl0_ae0ke0 : STRING,
+    parcel_ad_25_nl0_ae1 : STRING,
+    time_ad_25_nl0_ae2 : STRING,
+    brush_ad_25_nl0_ae3 : STRING,
+    wrong_ad_25_nl0_ae4 : STRING,
+    shake_ad_25_nl0_ae5 : STRING
+}
+
+mass_ad_19_nl0_ce0 {
+    shame_ad_19_nl0_ae0ke0 : STRING,
+    bone_ad_19_nl0_ae1 : STRING,
+    slow_ad_19_nl0_ae2 : STRING,
+    comb_ad_19_nl0_ae3 : STRING
+}
+
+material_vh_31_nl0_ce0 {
+    brick_vh_31_nl0_ae0 : STRING,
+    extend_vh_31_nl0_ae1 : STRING,
+    complete_vh_31_nl0_ae2 : STRING,
+    reward_vh_31_nl0_ae0JoinAttr : STRING
+}
+
+matter_vnm_19_nl0_ce2 {
+    sharp_vnm_19_nl0_ae00Ref : STRING,
+    cause_vnm_19_nl1_ae01Ref : STRING
+}
+
+meal_vh_46_nl0_ce1 {
+    hanging_vh_46_nl0_ae3 : STRING,
+    can_vh_46_nl0_ae4 : STRING,
+    button_vh_46_nl0_ae5 : STRING,
+    act_vh_46_nl0_ae0JoinAttr : STRING,
+    act_vh_46_nl0_ae0JoinAttrRef : STRING
+}
+
+mean_vi_59_nl0_ce1 {
+    tendency_vi_59_nl0_ae0ke0Ref : STRING,
+    engine_vi_59_nl0_ae3 : STRING,
+    edge_vi_59_nl0_ae4 : STRING,
+    form_vi_59_nl0_ae5 : STRING
+}
+
+measure_vnm_12_nl0_ce1 {
+    powder_vnm_12_nl0_ae2 : STRING,
+    tax_vnm_12_nl0_ae3 : STRING,
+    desire_vnm_12_nl1_ae01 : STRING
+}
+
+mention_vi_4_nl0_ce1 {
+    found_vi_4_nl0_ae0ke0Ref : STRING,
+    clean_vi_4_nl0_ae2 : STRING,
+    flower_vi_4_nl0_ae3 : STRING
+}
+
+mind_vh_22_nl0_ce1 {
+    dear_vh_22_nl0_ae2 : STRING,
+    loud_vh_22_nl0_ae3 : STRING,
+    station_vh_22_nl0_ae0JoinAttr : STRING,
+    station_vh_22_nl0_ae0JoinAttrRef : STRING
+}
+
+mine_vh_32_nl0_ce1 {
+    introduce_vh_32_nl0_ae1 : STRING,
+    building_vh_32_nl0_ae0JoinAttr : STRING,
+    building_vh_32_nl0_ae0JoinAttrRef : STRING
+}
+
+mist_vnm_25_nl0_ce2 {
+    encourage_vnm_25_nl0_ae00Ref : STRING,
+    cheap_vnm_25_nl1_ae01Ref : STRING
+}
+
+monkey_ad_24_nl0_ce0 {
+    may_ad_24_nl0_ae0ke0 : STRING,
+    lock_ad_24_nl0_ae1 : STRING,
+    tin_ad_24_nl0_ae2 : STRING,
+    steel_ad_24_nl0_ae3 : STRING,
+    record_ad_24_nl0_ae4 : STRING,
+    different_ad_24_nl0_ae5 : STRING,
+    weight_ad_24_nl0_ae6 : STRING
+}
+
+moon_vnm_32_nl0_ce2 {
+    change_vnm_32_nl0_ae00Ref : STRING,
+    contain_vnm_32_nl1_ae01Ref : STRING
+}
+
+mouth_vnm_44_nl0_ce0 {
+    shake_vnm_44_nl0_ae0ke0 : STRING,
+    parallel_vnm_44_nl0_ae00 : STRING
+}
+
+move_vh_40_nl0_ce0 {
+    library_vh_21_nl0_ae0 : STRING,
+    hanging_vh_40_nl0_ae0JoinAttr : STRING
+}
+
+move_vnm_37_nl0_ce0 {
+    pig_vnm_37_nl0_ae0ke0 : STRING,
+    consist_vnm_37_nl0_ae1 : STRING,
+    mass_vnm_37_nl0_ae00 : STRING
+}
+
+move_vnm_53_nl0_ce1 {
+    knock_vnm_53_nl0_ae3 : STRING,
+    page_vnm_53_nl0_ae4 : STRING,
+    egg_vnm_53_nl0_ae5 : STRING,
+    should_vnm_53_nl0_ae6 : STRING,
+    hole_vnm_53_nl1_ae01 : STRING
+}
+
+music_vnm_53_nl0_ce2 {
+    zoo_vnm_53_nl0_ae00Ref : STRING,
+    hole_vnm_53_nl1_ae01Ref : STRING
+}
+
+must_vnm_48_nl0_ce2 {
+    enjoy_vnm_48_nl0_ae00Ref : STRING,
+    potato_vnm_48_nl1_ae01Ref : STRING
+}
+
+narrow_vi_45_nl0_ce0 {
+    sleep_ad_6_nl0_ae0ke0JoinAttr : STRING,
+    call_ad_6_nl0_ae1 : STRING
+}
+
+nation_vh_58_nl0_ce0 {
+    intend_vh_58_nl0_ae0 : STRING,
+    bee_vh_58_nl0_ae0JoinAttr : STRING
+}
+
+nation_vi_27_nl0_ce0 {
+    mention_vi_27_nl0_ae0ke0JoinAttr : STRING,
+    road_vi_27_nl0_ae1 : STRING
+}
+
+neck_vi_64_nl0_ce0 {
+    summer_vi_64_nl0_ae0ke0JoinAttr : STRING,
+    want_vi_64_nl0_ae1 : STRING
+}
+
+need_vi_27_nl0_ce1 {
+    mention_vi_27_nl0_ae0ke0Ref : STRING,
+    thought_vi_27_nl0_ae2 : STRING,
+    sudden_vi_27_nl0_ae3 : STRING
+}
+
+needle_ad_9_nl0_ce0 {
+    soap_ad_9_nl0_ae0ke0 : STRING,
+    fruit_ad_9_nl0_ae1 : STRING,
+    stay_ad_9_nl0_ae2 : STRING,
+    shall_ad_9_nl0_ae3 : STRING,
+    committee_ad_9_nl0_ae4 : STRING,
+    aim_ad_9_nl0_ae5 : STRING
+}
+
+night_vh_38_nl0_ce0 {
+    cough_vh_38_nl0_ae0 : STRING,
+    window_vh_38_nl0_ae1 : STRING,
+    hold_vh_38_nl0_ae0JoinAttr : STRING
+}
+
+obtain_vi_48_nl0_ce1 {
+    sneeze_vh_16_nl0_ae0Ref : STRING,
+    begin_vh_16_nl0_ae4 : STRING,
+    create_vh_16_nl0_ae5 : STRING,
+    copy_vh_16_nl0_ae6 : STRING
+}
+
+offer_vnm_57_nl0_ce0 {
+    thin_vnm_57_nl0_ae0ke0 : STRING,
+    indicate_vnm_57_nl0_ae1 : STRING,
+    fish_vnm_57_nl0_ae2 : STRING,
+    disgust_vnm_57_nl0_ae00 : STRING
+}
+
+office_vnm_46_nl0_ce2 {
+    same_vnm_46_nl0_ae00Ref : STRING,
+    group_vnm_46_nl1_ae01Ref : STRING
+}
+
+open_vh_33_nl0_ce1 {
+    buy_vh_33_nl0_ae2 : STRING,
+    tray_vh_33_nl0_ae3 : STRING,
+    ball_vh_33_nl0_ae4 : STRING,
+    rest_vh_33_nl0_ae0JoinAttr : STRING,
+    rest_vh_33_nl0_ae0JoinAttrRef : STRING
+}
+
+orange_vh_41_nl0_ce1 {
+    snake_vh_41_nl0_ae2 : STRING,
+    put_vh_41_nl0_ae3 : STRING,
+    fight_vh_41_nl0_ae4 : STRING,
+    care_vh_41_nl0_ae0JoinAttr : STRING,
+    care_vh_41_nl0_ae0JoinAttrRef : STRING
+}
+
+oven_vh_25_nl0_ce1 {
+    push_vh_25_nl0_ae2 : STRING,
+    order_vh_25_nl0_ae3 : STRING,
+    need_vh_25_nl0_ae0JoinAttr : STRING,
+    need_vh_25_nl0_ae0JoinAttrRef : STRING
+}
+
+oven_vi_6_nl0_ce0 {
+    return_vi_6_nl0_ae0ke0JoinAttr : STRING,
+    debts_vi_6_nl0_ae1 : STRING
+}
+
+oven_vnm_18_nl0_ce0 {
+    sheep_vnm_18_nl0_ae0ke0 : STRING,
+    muscle_vnm_18_nl0_ae00 : STRING
+}
+
+own_vnm_47_nl0_ce0 {
+    throat_vnm_47_nl0_ae0ke0 : STRING,
+    fertile_vnm_47_nl0_ae1 : STRING,
+    natural_vnm_47_nl0_ae00 : STRING
+}
+
+page_vh_60_nl0_ce1 {
+    miss_ad_55_nl0_ae1 : STRING,
+    found_vh_60_nl0_ae0JoinAttr : STRING,
+    found_vh_60_nl0_ae0JoinAttrRef : STRING
+}
+
+pain_vi_5_nl0_ce0 {
+    feeling_vi_5_nl0_ae0ke0JoinAttr : STRING,
+    disease_vi_5_nl0_ae1 : STRING,
+    attraction_vi_5_nl0_ae2 : STRING
+}
+
+pain_vnm_4_nl0_ce1 {
+    hollow_vnm_4_nl0_ae1 : STRING,
+    hollow_vnm_4_nl0_ae2 : STRING,
+    distribution_vnm_4_nl1_ae01 : STRING
+}
+
+paint_vh_24_nl0_ce1 {
+    prove_vh_24_nl0_ae3 : STRING,
+    payment_vh_24_nl0_ae4 : STRING,
+    pin_vh_24_nl0_ae5 : STRING,
+    white_vh_24_nl0_ae0JoinAttr : STRING,
+    white_vh_24_nl0_ae0JoinAttrRef : STRING
+}
+
+paper_vh_22_nl0_ce0 {
+    smile_vh_22_nl0_ae0 : STRING,
+    indicate_vh_22_nl0_ae1 : STRING,
+    station_vh_22_nl0_ae0JoinAttr : STRING
+}
+
+parallel_vnm_2_nl0_ce0 {
+    dead_vnm_2_nl0_ae0ke0 : STRING,
+    knee_vnm_2_nl0_ae00 : STRING
+}
+
+peace_vi_34_nl0_ce1 {
+    soap_ad_9_nl0_ae0ke0Ref : STRING,
+    shall_ad_9_nl0_ae3 : STRING,
+    committee_ad_9_nl0_ae4 : STRING
+}
+
+peace_vi_40_nl0_ce0 {
+    unit_vnm_38_nl0_ae0ke0JoinAttr : STRING,
+    conscious_vnm_38_nl0_ae1 : STRING,
+    shut_vnm_38_nl0_ae2 : STRING
+}
+
+person_ad_44_nl0_ce0 {
+    cry_ad_44_nl0_ae0ke0 : STRING,
+    separate_ad_44_nl0_ae1 : STRING,
+    grow_ad_44_nl0_ae2 : STRING,
+    animal_ad_44_nl0_ae3 : STRING,
+    raise_ad_44_nl0_ae4 : STRING,
+    wind_ad_44_nl0_ae5 : STRING
+}
+
+place_vh_40_nl0_ce1 {
+    crime_vh_21_nl0_ae1 : STRING,
+    measure_vh_21_nl0_ae2 : STRING,
+    hanging_vh_40_nl0_ae0JoinAttr : STRING,
+    hanging_vh_40_nl0_ae0JoinAttrRef : STRING
+}
+
+place_vnm_1_nl0_ce1 {
+    discover_vnm_1_nl0_ae2 : STRING,
+    different_vnm_1_nl0_ae3 : STRING,
+    reveal_vnm_1_nl0_ae4 : STRING,
+    narrow_vnm_1_nl1_ae01 : STRING
+}
+
+plate_vi_30_nl0_ce0 {
+    adjustment_vi_30_nl0_ae0ke0JoinAttr : STRING,
+    fowl_vi_30_nl0_ae1 : STRING
+}
+
+play_vh_59_nl0_ce1 {
+    man_vi_17_nl0_ae2 : STRING,
+    begin_vi_17_nl0_ae3 : STRING,
+    spade_vh_59_nl0_ae0JoinAttr : STRING,
+    spade_vh_59_nl0_ae0JoinAttrRef : STRING
+}
+
+play_vi_58_nl0_ce1 {
+    use_vi_58_nl0_ae0ke0Ref : STRING,
+    limit_vi_58_nl0_ae2 : STRING,
+    shoe_vi_58_nl0_ae3 : STRING
+}
+
+play_vnm_11_nl0_ce2 {
+    side_vnm_11_nl0_ae00Ref : STRING,
+    arrange_vnm_11_nl1_ae01Ref : STRING
+}
+
+point_vi_18_nl0_ce0 {
+    public_vi_18_nl0_ae0ke0JoinAttr : STRING,
+    like_vi_18_nl0_ae1 : STRING
+}
+
+point_vnm_10_nl0_ce1 {
+    grain_vnm_10_nl0_ae3 : STRING,
+    lift_vnm_10_nl0_ae4 : STRING,
+    thin_vnm_10_nl0_ae5 : STRING,
+    yellow_vnm_10_nl0_ae6 : STRING,
+    company_vnm_10_nl1_ae01 : STRING
+}
+
+poison_ad_62_nl0_ce0 {
+    memory_ad_62_nl0_ae0ke0 : STRING,
+    wonder_ad_62_nl0_ae1 : STRING,
+    train_ad_62_nl0_ae2 : STRING,
+    look_ad_62_nl0_ae3 : STRING,
+    authority_ad_62_nl0_ae4 : STRING
+}
+
+poison_vnm_46_nl0_ce1 {
+    friend_vnm_46_nl0_ae3 : STRING,
+    collar_vnm_46_nl0_ae4 : STRING,
+    attorneys_vnm_46_nl0_ae5 : STRING,
+    group_vnm_46_nl1_ae01 : STRING
+}
+
+political_vnm_3_nl0_ce1 {
+    sweet_vnm_3_nl0_ae2 : STRING,
+    rod_vnm_3_nl0_ae3 : STRING,
+    silk_vnm_3_nl0_ae4 : STRING,
+    treat_vnm_3_nl1_ae01 : STRING
+}
+
+poor_ad_12_nl0_ce0 {
+    appear_ad_12_nl0_ae0ke0 : STRING,
+    jewel_ad_12_nl0_ae1 : STRING,
+    key_ad_12_nl0_ae2 : STRING,
+    cry_ad_12_nl0_ae3 : STRING,
+    check_ad_12_nl0_ae4 : STRING,
+    long_ad_12_nl0_ae5 : STRING
+}
+
+present_vh_18_nl0_ce1 {
+    examine_vh_18_nl0_ae3 : STRING,
+    simple_vh_18_nl0_ae4 : STRING,
+    past_vh_18_nl0_ae5 : STRING,
+    page_vh_18_nl0_ae6 : STRING,
+    tax_vh_18_nl0_ae0JoinAttr : STRING,
+    tax_vh_18_nl0_ae0JoinAttrRef : STRING
+}
+
+present_vnm_15_nl0_ce0 {
+    wash_vnm_15_nl0_ae0ke0 : STRING,
+    amount_vnm_15_nl0_ae1 : STRING,
+    feed_vnm_15_nl0_ae00 : STRING
+}
+
+private_vnm_54_nl0_ce0 {
+    sneeze_vh_16_nl0_ae0 : STRING,
+    avoid_vh_16_nl0_ae1 : STRING,
+    clean_vh_16_nl0_ae2 : STRING,
+    responsible_vnm_54_nl0_ae00 : STRING
+}
+
+probable_vh_5_nl0_ce1 {
+    involve_vh_5_nl0_ae3 : STRING,
+    explain_vh_5_nl0_ae4 : STRING,
+    theory_vh_5_nl0_ae5 : STRING,
+    settle_vh_5_nl0_ae0JoinAttr : STRING,
+    settle_vh_5_nl0_ae0JoinAttrRef : STRING
+}
+
+process_vnm_49_nl0_ce2 {
+    protest_vnm_49_nl0_ae00Ref : STRING,
+    grain_vnm_49_nl1_ae01Ref : STRING
+}
+
+protest_ad_56_nl0_ce0 {
+    return_vi_6_nl0_ae0ke0 : STRING,
+    debts_vi_6_nl0_ae1 : STRING,
+    wash_vi_6_nl0_ae2 : STRING,
+    gain_vi_6_nl0_ae3 : STRING,
+    fall_ad_56_nl0_ae4 : STRING
+}
+
+protest_ad_63_nl0_ce0 {
+    sneeze_vh_16_nl0_ae0 : STRING,
+    avoid_vh_16_nl0_ae1 : STRING,
+    clean_vh_16_nl0_ae2 : STRING,
+    round_vh_16_nl0_ae3 : STRING,
+    begin_vh_16_nl0_ae4 : STRING,
+    create_vh_16_nl0_ae5 : STRING,
+    copy_vh_16_nl0_ae6 : STRING,
+    replace_ad_63_nl0_ae7 : STRING
+}
+
+protest_vh_30_nl0_ce0 {
+    ring_vh_30_nl0_ae0 : STRING,
+    nation_vh_30_nl0_ae1 : STRING,
+    sweet_vh_30_nl0_ae0JoinAttr : STRING
+}
+
+protest_vi_35_nl0_ce0 {
+    finger_vi_35_nl0_ae0ke0JoinAttr : STRING,
+    body_vi_35_nl0_ae1 : STRING
+}
+
+prove_ad_43_nl0_ce0 {
+    use_ad_13_nl0_ae0ke0 : STRING,
+    hard_ad_13_nl0_ae1 : STRING,
+    touch_ad_13_nl0_ae2 : STRING,
+    hard_ad_13_nl0_ae3 : STRING,
+    admit_ad_43_nl0_ae4 : STRING
+}
+
+prove_vi_3_nl0_ce1 {
+    necessary_vi_3_nl0_ae0ke0Ref : STRING,
+    slow_vi_3_nl0_ae3 : STRING,
+    word_vi_3_nl0_ae4 : STRING
+}
+
+provide_vi_12_nl0_ce0 {
+    request_vi_12_nl0_ae0ke0JoinAttr : STRING,
+    shade_vi_12_nl0_ae1 : STRING,
+    point_vi_12_nl0_ae2 : STRING
+}
+
+provide_vi_26_nl0_ce0 {
+    snake_vi_26_nl0_ae0ke0JoinAttr : STRING,
+    shelf_vi_26_nl0_ae1 : STRING
+}
+
+punishment_vnm_24_nl0_ce1 {
+    ship_vnm_24_nl0_ae3 : STRING,
+    distribution_vnm_24_nl0_ae4 : STRING,
+    lie_vnm_24_nl0_ae5 : STRING,
+    breath_vnm_24_nl1_ae01 : STRING
+}
+
+raise_vnm_17_nl0_ce1 {
+    card_vnm_17_nl0_ae2 : STRING,
+    walk_vnm_17_nl0_ae3 : STRING,
+    cough_vnm_17_nl1_ae01 : STRING
+}
+
+ray_ad_64_nl0_ce0 {
+    sheep_vnm_18_nl0_ae0ke0 : STRING,
+    grey_vnm_18_nl0_ae1 : STRING,
+    trouble_vnm_18_nl0_ae2 : STRING,
+    stocking_ad_64_nl0_ae3 : STRING
+}
+
+reading_ad_32_nl0_ce0 {
+    ice_ad_32_nl0_ae0ke0 : STRING,
+    comb_ad_32_nl0_ae1 : STRING,
+    glass_ad_32_nl0_ae2 : STRING,
+    shame_ad_32_nl0_ae3 : STRING,
+    prose_ad_32_nl0_ae4 : STRING
+}
+
+reading_vnm_16_nl0_ce1 {
+    baby_vnm_16_nl0_ae2 : STRING,
+    pass_vnm_16_nl0_ae3 : STRING,
+    orange_vnm_16_nl0_ae4 : STRING,
+    grip_vnm_16_nl1_ae01 : STRING
+}
+
+reason_ad_18_nl0_ce0 {
+    middle_ad_18_nl0_ae0ke0 : STRING,
+    attempt_ad_18_nl0_ae1 : STRING,
+    hear_ad_18_nl0_ae2 : STRING,
+    meal_ad_18_nl0_ae3 : STRING,
+    degree_ad_18_nl0_ae4 : STRING
+}
+
+record_ad_11_nl0_ce0 {
+    matter_ad_11_nl0_ae0ke0 : STRING,
+    train_ad_11_nl0_ae1 : STRING,
+    suggest_ad_11_nl0_ae2 : STRING,
+    seem_ad_11_nl0_ae3 : STRING,
+    stem_ad_11_nl0_ae4 : STRING
+}
+
+record_vh_5_nl0_ce0 {
+    question_vh_5_nl0_ae0 : STRING,
+    walk_vh_5_nl0_ae1 : STRING,
+    count_vh_5_nl0_ae2 : STRING,
+    settle_vh_5_nl0_ae0JoinAttr : STRING
+}
+
+record_vnm_23_nl0_ce2 {
+    warm_vnm_23_nl0_ae00Ref : STRING,
+    religion_vnm_23_nl1_ae01Ref : STRING
+}
+
+reflect_vh_16_nl0_ce1 {
+    round_vh_16_nl0_ae3 : STRING,
+    begin_vh_16_nl0_ae4 : STRING,
+    create_vh_16_nl0_ae5 : STRING,
+    copy_vh_16_nl0_ae6 : STRING,
+    laugh_vh_16_nl0_ae0JoinAttr : STRING,
+    laugh_vh_16_nl0_ae0JoinAttrRef : STRING
+}
+
+regret_vi_54_nl0_ce1 {
+    interest_vnm_7_nl0_ae0ke0Ref : STRING,
+    heart_vnm_7_nl0_ae2 : STRING,
+    seem_vnm_7_nl0_ae3 : STRING
+}
+
+regret_vnm_30_nl0_ce0 {
+    comfort_vnm_30_nl0_ae0ke0 : STRING,
+    kiss_vnm_30_nl0_ae00 : STRING
+}
+
+relate_vnm_42_nl0_ce2 {
+    ticket_vnm_42_nl0_ae00Ref : STRING,
+    price_vnm_42_nl1_ae01Ref : STRING
+}
+
+relation_vnm_53_nl0_ce0 {
+    gain_vnm_53_nl0_ae0ke0 : STRING,
+    raise_vnm_53_nl0_ae1 : STRING,
+    mean_vnm_53_nl0_ae2 : STRING,
+    zoo_vnm_53_nl0_ae00 : STRING
+}
+
+remain_vnm_20_nl0_ce1 {
+    thumb_vnm_20_nl0_ae2 : STRING,
+    request_vnm_20_nl0_ae3 : STRING,
+    division_vnm_20_nl0_ae4 : STRING,
+    earth_vnm_20_nl1_ae01 : STRING
+}
+
+reply_vh_10_nl0_ce0 {
+    destruction_vh_10_nl0_ae0 : STRING,
+    insurance_vh_10_nl0_ae1 : STRING,
+    thin_vh_10_nl0_ae0JoinAttr : STRING
+}
+
+reply_vh_30_nl0_ce1 {
+    art_vh_30_nl0_ae2 : STRING,
+    lock_vh_30_nl0_ae3 : STRING,
+    become_vh_30_nl0_ae4 : STRING,
+    sweet_vh_30_nl0_ae0JoinAttr : STRING,
+    sweet_vh_30_nl0_ae0JoinAttrRef : STRING
+}
+
+report_vnm_38_nl0_ce2 {
+    thread_vnm_38_nl0_ae00Ref : STRING,
+    can_vnm_38_nl1_ae01Ref : STRING
+}
+
+require_vh_10_nl0_ce1 {
+    rhythm_vh_10_nl0_ae2 : STRING,
+    fiction_vh_10_nl0_ae3 : STRING,
+    cook_vh_10_nl0_ae4 : STRING,
+    thin_vh_10_nl0_ae0JoinAttr : STRING,
+    thin_vh_10_nl0_ae0JoinAttrRef : STRING
+}
+
+respect_vh_37_nl0_ce1 {
+    mark_vh_37_nl0_ae1 : STRING,
+    sea_vh_37_nl0_ae2 : STRING,
+    add_vh_37_nl0_ae0JoinAttr : STRING,
+    add_vh_37_nl0_ae0JoinAttrRef : STRING
+}
+
+rest_vh_34_nl0_ce0 {
+    pleasure_vh_34_nl0_ae0 : STRING,
+    worry_vh_34_nl0_ae1 : STRING,
+    authority_vh_34_nl0_ae0JoinAttr : STRING
+}
+
+rest_vnm_1_nl0_ce0 {
+    night_vnm_1_nl0_ae0ke0 : STRING,
+    attention_vnm_1_nl0_ae1 : STRING,
+    oven_vnm_1_nl0_ae00 : STRING
+}
+
+return_vnm_28_nl0_ce2 {
+    pull_vnm_28_nl0_ae00Ref : STRING,
+    base_vnm_28_nl1_ae01Ref : STRING
+}
+
+ring_vnm_40_nl0_ce0 {
+    example_vnm_40_nl0_ae0ke0 : STRING,
+    brass_vnm_40_nl0_ae00 : STRING
+}
+
+ring_vnm_9_nl0_ce0 {
+    round_vnm_9_nl0_ae0ke0 : STRING,
+    regret_vnm_9_nl0_ae1 : STRING,
+    cut_vnm_9_nl0_ae00 : STRING
+}
+
+rise_vnm_28_nl0_ce0 {
+    bulb_vnm_28_nl0_ae0ke0 : STRING,
+    theory_vnm_28_nl0_ae1 : STRING,
+    whistle_vnm_28_nl0_ae2 : STRING,
+    pull_vnm_28_nl0_ae00 : STRING
+}
+
+roll_ad_45_nl0_ce0 {
+    go_ad_45_nl0_ae0ke0 : STRING,
+    hard_ad_45_nl0_ae1 : STRING,
+    chance_ad_45_nl0_ae2 : STRING,
+    release_ad_45_nl0_ae3 : STRING,
+    crush_ad_45_nl0_ae4 : STRING,
+    help_ad_45_nl0_ae5 : STRING
+}
+
+room_vnm_9_nl0_ce2 {
+    cut_vnm_9_nl0_ae00Ref : STRING,
+    connection_vnm_9_nl1_ae01Ref : STRING
+}
+
+round_vh_51_nl0_ce1 {
+    wet_vi_21_nl0_ae1 : STRING,
+    disgust_vh_51_nl0_ae0JoinAttr : STRING,
+    disgust_vh_51_nl0_ae0JoinAttrRef : STRING
+}
+
+rub_ad_23_nl0_ce0 {
+    separate_ad_23_nl0_ae0ke0 : STRING,
+    deal_ad_23_nl0_ae1 : STRING,
+    head_ad_23_nl0_ae2 : STRING,
+    insect_ad_23_nl0_ae3 : STRING,
+    push_ad_23_nl0_ae4 : STRING,
+    girl_ad_23_nl0_ae5 : STRING,
+    blade_ad_23_nl0_ae6 : STRING
+}
+
+run_ad_15_nl0_ce0 {
+    eye_ad_15_nl0_ae0ke0 : STRING,
+    tree_ad_15_nl0_ae1 : STRING,
+    industry_ad_15_nl0_ae2 : STRING,
+    hold_ad_15_nl0_ae3 : STRING
+}
+
+safe_vnm_60_nl0_ce2 {
+    finger_vnm_60_nl0_ae00Ref : STRING,
+    enjoy_vnm_60_nl1_ae01Ref : STRING
+}
+
+science_ad_4_nl0_ce0 {
+    chalk_ad_4_nl0_ae0ke0 : STRING,
+    degree_ad_4_nl0_ae1 : STRING,
+    start_ad_4_nl0_ae2 : STRING,
+    fruit_ad_4_nl0_ae3 : STRING,
+    desire_ad_4_nl0_ae4 : STRING
+}
+
+science_vnm_63_nl0_ce2 {
+    act_vnm_63_nl0_ae00Ref : STRING,
+    rate_vnm_63_nl1_ae01Ref : STRING
+}
+
+screw_vi_21_nl0_ce0 {
+    nation_vi_21_nl0_ae0ke0JoinAttr : STRING
+}
+
+sea_ad_21_nl0_ce0 {
+    snow_ad_21_nl0_ae0ke0 : STRING,
+    wheel_ad_21_nl0_ae1 : STRING,
+    face_ad_21_nl0_ae2 : STRING,
+    song_ad_21_nl0_ae3 : STRING,
+    writing_ad_21_nl0_ae4 : STRING,
+    ticket_ad_21_nl0_ae5 : STRING
+}
+
+sea_vnm_5_nl0_ce2 {
+    flat_vnm_5_nl0_ae00Ref : STRING,
+    train_vnm_5_nl1_ae01Ref : STRING
+}
+
+second_vnm_16_nl0_ce2 {
+    cheese_vnm_16_nl0_ae00Ref : STRING,
+    grip_vnm_16_nl1_ae01Ref : STRING
+}
+
+secret_vi_12_nl0_ce1 {
+    request_vi_12_nl0_ae0ke0Ref : STRING,
+    learn_vi_12_nl0_ae3 : STRING,
+    acid_vi_12_nl0_ae4 : STRING
+}
+
+seem_vh_35_nl0_ce0 {
+    stop_vh_35_nl0_ae0 : STRING,
+    jump_vh_35_nl0_ae0JoinAttr : STRING
+}
+
+selection_vnm_29_nl0_ce2 {
+    female_vnm_29_nl0_ae00Ref : STRING,
+    existence_vnm_29_nl1_ae01Ref : STRING
+}
+
+sense_vnm_42_nl0_ce0 {
+    hold_vnm_42_nl0_ae0ke0 : STRING,
+    smell_vnm_42_nl0_ae1 : STRING,
+    jump_vnm_42_nl0_ae2 : STRING,
+    ticket_vnm_42_nl0_ae00 : STRING
+}
+
+separate_vh_27_nl0_ce1 {
+    support_vh_27_nl0_ae2 : STRING,
+    acid_vh_27_nl0_ae3 : STRING,
+    dirty_vh_27_nl0_ae0JoinAttr : STRING,
+    dirty_vh_27_nl0_ae0JoinAttrRef : STRING
+}
+
+separate_vi_41_nl0_ce1 {
+    soap_ad_9_nl0_ae0ke0Ref : STRING,
+    shall_ad_9_nl0_ae3 : STRING,
+    committee_ad_9_nl0_ae4 : STRING
+}
+
+set_ad_13_nl0_ce0 {
+    use_ad_13_nl0_ae0ke0 : STRING,
+    hard_ad_13_nl0_ae1 : STRING,
+    touch_ad_13_nl0_ae2 : STRING,
+    hard_ad_13_nl0_ae3 : STRING,
+    remain_ad_13_nl0_ae4 : STRING
+}
+
+settle_vh_8_nl0_ce1 {
+    lift_vh_8_nl0_ae2 : STRING,
+    exchange_vh_8_nl0_ae3 : STRING,
+    discover_vh_8_nl0_ae0JoinAttr : STRING,
+    discover_vh_8_nl0_ae0JoinAttrRef : STRING
+}
+
+shade_vh_45_nl0_ce1 {
+    blade_vh_45_nl0_ae2 : STRING,
+    ear_vh_45_nl0_ae3 : STRING,
+    peace_vh_45_nl0_ae0JoinAttr : STRING,
+    peace_vh_45_nl0_ae0JoinAttrRef : STRING
+}
+
+shake_vnm_23_nl0_ce1 {
+    insect_vnm_23_nl0_ae1 : STRING,
+    intend_vnm_23_nl0_ae2 : STRING,
+    religion_vnm_23_nl1_ae01 : STRING
+}
+
+shame_vnm_29_nl0_ce0 {
+    mind_vnm_29_nl0_ae0ke0 : STRING,
+    kick_vnm_29_nl0_ae1 : STRING,
+    female_vnm_29_nl0_ae00 : STRING
+}
+
+shoe_vi_17_nl0_ce1 {
+    cry_vi_17_nl0_ae0ke0Ref : STRING,
+    man_vi_17_nl0_ae2 : STRING,
+    begin_vi_17_nl0_ae3 : STRING
+}
+
+short_ad_41_nl0_ce0 {
+    return_ad_41_nl0_ae0ke0 : STRING,
+    simple_ad_41_nl0_ae1 : STRING,
+    hard_ad_41_nl0_ae2 : STRING,
+    red_ad_41_nl0_ae3 : STRING,
+    drawer_ad_41_nl0_ae4 : STRING
+}
+
+shut_vi_37_nl0_ce0 {
+    arch_vi_37_nl0_ae0ke0JoinAttr : STRING,
+    afford_vi_37_nl0_ae1 : STRING,
+    continue_vi_37_nl0_ae2 : STRING
+}
+
+shut_vnm_28_nl0_ce1 {
+    language_vnm_28_nl0_ae3 : STRING,
+    meat_vnm_28_nl0_ae4 : STRING,
+    discuss_vnm_28_nl0_ae5 : STRING,
+    base_vnm_28_nl1_ae01 : STRING
+}
+
+side_vh_41_nl0_ce0 {
+    rise_vh_41_nl0_ae0 : STRING,
+    sun_vh_41_nl0_ae1 : STRING,
+    care_vh_41_nl0_ae0JoinAttr : STRING
+}
+
+simple_vnm_23_nl0_ce0 {
+    star_vnm_23_nl0_ae0ke0 : STRING,
+    warm_vnm_23_nl0_ae00 : STRING
+}
+
+sister_vnm_15_nl0_ce1 {
+    medical_vnm_15_nl0_ae2 : STRING,
+    delicate_vnm_15_nl0_ae3 : STRING,
+    price_vnm_15_nl1_ae01 : STRING
+}
+
+size_vnm_17_nl0_ce0 {
+    last_vnm_17_nl0_ae0ke0 : STRING,
+    avoid_vnm_17_nl0_ae1 : STRING,
+    drain_vnm_17_nl0_ae00 : STRING
+}
+
+skin_vi_24_nl0_ce1 {
+    behavior_vi_24_nl0_ae0ke0Ref : STRING,
+    glove_vi_24_nl0_ae3 : STRING,
+    snow_vi_24_nl0_ae4 : STRING
+}
+
+skin_vnm_14_nl0_ce0 {
+    touch_vnm_14_nl0_ae0ke0 : STRING,
+    opinion_vnm_14_nl0_ae1 : STRING,
+    taste_vnm_14_nl0_ae00 : STRING
+}
+
+sleep_vnm_12_nl0_ce0 {
+    driving_vnm_12_nl0_ae0ke0 : STRING,
+    mountain_vnm_12_nl0_ae1 : STRING,
+    dependent_vnm_12_nl0_ae00 : STRING
+}
+
+smell_vh_62_nl0_ce0 {
+    shade_vh_62_nl0_ae0 : STRING,
+    dirty_vh_62_nl0_ae1 : STRING,
+    door_vh_62_nl0_ae0JoinAttr : STRING
+}
+
+smile_vi_19_nl0_ce1 {
+    study_vi_19_nl0_ae0ke0Ref : STRING,
+    shut_vi_19_nl0_ae3 : STRING,
+    miss_vi_19_nl0_ae4 : STRING,
+    manage_vi_19_nl0_ae5 : STRING
+}
+
+smoke_vi_14_nl0_ce1 {
+    eye_vi_14_nl0_ae0ke0Ref : STRING,
+    happy_vi_14_nl0_ae3 : STRING,
+    prefer_vi_14_nl0_ae4 : STRING,
+    describe_vi_14_nl0_ae5 : STRING
+}
+
+smoke_vnm_52_nl0_ce1 {
+    help_vnm_52_nl0_ae2 : STRING,
+    act_vnm_52_nl0_ae3 : STRING,
+    handle_vnm_52_nl1_ae01 : STRING
+}
+
+snake_vi_8_nl0_ce1 {
+    foot_vi_8_nl0_ae0ke0Ref : STRING,
+    opinion_vi_8_nl0_ae3 : STRING,
+    help_vi_8_nl0_ae4 : STRING
+}
+
+snow_vnm_52_nl0_ce0 {
+    weather_vnm_52_nl0_ae0ke0 : STRING,
+    steel_vnm_52_nl0_ae1 : STRING,
+    share_vnm_52_nl0_ae00 : STRING
+}
+
+society_vi_1_nl0_ce1 {
+    compare_vi_1_nl0_ae0ke0Ref : STRING,
+    board_vi_1_nl0_ae3 : STRING,
+    affect_vi_1_nl0_ae4 : STRING
+}
+
+society_vi_22_nl0_ce1 {
+    change_vi_22_nl0_ae0ke0Ref : STRING,
+    smooth_vi_22_nl0_ae3 : STRING,
+    walk_vi_22_nl0_ae4 : STRING
+}
+
+sock_vnm_26_nl0_ce0 {
+    star_vnm_26_nl0_ae0ke0 : STRING,
+    sock_vnm_26_nl0_ae1 : STRING,
+    deal_vnm_26_nl0_ae00 : STRING
+}
+
+soft_vnm_29_nl0_ce1 {
+    person_vnm_29_nl0_ae2 : STRING,
+    suggestion_vnm_29_nl0_ae3 : STRING,
+    salt_vnm_29_nl0_ae4 : STRING,
+    existence_vnm_29_nl1_ae01 : STRING
+}
+
+solid_vh_47_nl0_ce0 {
+    condition_vh_47_nl0_ae0 : STRING,
+    use_vh_47_nl0_ae0JoinAttr : STRING
+}
+
+sort_vi_31_nl0_ce1 {
+    harmony_vi_31_nl0_ae0ke0Ref : STRING,
+    sleep_vi_31_nl0_ae3 : STRING,
+    create_vi_31_nl0_ae4 : STRING,
+    agree_vi_31_nl0_ae5 : STRING
+}
+
+sound_vi_47_nl0_ce1 {
+    ready_vh_2_nl0_ae0Ref : STRING,
+    winter_vh_2_nl0_ae3 : STRING,
+    powder_vh_2_nl0_ae4 : STRING,
+    work_vh_2_nl0_ae5 : STRING
+}
+
+steel_ad_42_nl0_ce0 {
+    jelly_ad_42_nl0_ae0ke0 : STRING,
+    doubt_ad_42_nl0_ae1 : STRING,
+    fight_ad_42_nl0_ae2 : STRING,
+    glass_ad_42_nl0_ae3 : STRING
+}
+
+stick_vh_61_nl0_ce1 {
+    light_ad_36_nl0_ae2 : STRING,
+    wet_ad_36_nl0_ae3 : STRING,
+    quality_vh_61_nl0_ae0JoinAttr : STRING,
+    quality_vh_61_nl0_ae0JoinAttrRef : STRING
+}
+
+stitch_vnm_19_nl0_ce1 {
+    parcel_vnm_19_nl0_ae2 : STRING,
+    ray_vnm_19_nl0_ae3 : STRING,
+    cause_vnm_19_nl1_ae01 : STRING
+}
+
+stitch_vnm_32_nl0_ce0 {
+    connection_vnm_32_nl0_ae0ke0 : STRING,
+    attempt_vnm_32_nl0_ae1 : STRING,
+    change_vnm_32_nl0_ae00 : STRING
+}
+
+stomach_ad_6_nl0_ce0 {
+    sleep_ad_6_nl0_ae0ke0 : STRING,
+    call_ad_6_nl0_ae1 : STRING,
+    road_ad_6_nl0_ae2 : STRING,
+    rhythm_ad_6_nl0_ae3 : STRING,
+    speak_ad_6_nl0_ae4 : STRING
+}
+
+stone_vh_7_nl0_ce0 {
+    support_vh_7_nl0_ae0 : STRING,
+    orange_vh_7_nl0_ae0JoinAttr : STRING
+}
+
+straight_vi_5_nl0_ce1 {
+    feeling_vi_5_nl0_ae0ke0Ref : STRING,
+    sad_vi_5_nl0_ae3 : STRING,
+    root_vi_5_nl0_ae4 : STRING
+}
+
+substance_ad_26_nl0_ce0 {
+    daughter_ad_26_nl0_ae0ke0 : STRING,
+    market_ad_26_nl0_ae1 : STRING,
+    healthy_ad_26_nl0_ae2 : STRING,
+    design_ad_26_nl0_ae3 : STRING,
+    start_ad_26_nl0_ae4 : STRING
+}
+
+substance_vi_59_nl0_ce0 {
+    tendency_vi_59_nl0_ae0ke0JoinAttr : STRING,
+    drain_vi_59_nl0_ae1 : STRING,
+    future_vi_59_nl0_ae2 : STRING
+}
+
+suggest_ad_51_nl0_ce0 {
+    smile_vh_22_nl0_ae0 : STRING,
+    indicate_vh_22_nl0_ae1 : STRING,
+    dear_vh_22_nl0_ae2 : STRING,
+    loud_vh_22_nl0_ae3 : STRING,
+    button_ad_51_nl0_ae4 : STRING
+}
+
+summer_vnm_39_nl0_ce0 {
+    orange_vnm_19_nl0_ae0ke0 : STRING,
+    seat_vnm_19_nl0_ae1 : STRING,
+    store_vnm_39_nl0_ae00 : STRING
+}
+
+summer_vnm_6_nl0_ce2 {
+    chin_vnm_6_nl0_ae00Ref : STRING,
+    salt_vnm_6_nl1_ae01Ref : STRING
+}
+
+sun_vh_42_nl0_ce0 {
+    dust_vh_42_nl0_ae0 : STRING,
+    sort_vh_42_nl0_ae1 : STRING,
+    comfort_vh_42_nl0_ae2 : STRING,
+    use_vh_42_nl0_ae0JoinAttr : STRING
+}
+
+swim_vi_54_nl0_ce0 {
+    interest_vnm_7_nl0_ae0ke0JoinAttr : STRING,
+    connection_vnm_7_nl0_ae1 : STRING
+}
+
+system_vh_24_nl0_ce0 {
+    short_vh_24_nl0_ae0 : STRING,
+    include_vh_24_nl0_ae1 : STRING,
+    become_vh_24_nl0_ae2 : STRING,
+    white_vh_24_nl0_ae0JoinAttr : STRING
+}
+
+table_ad_28_nl0_ce0 {
+    measure_ad_28_nl0_ae0ke0 : STRING,
+    silver_ad_28_nl0_ae1 : STRING,
+    plane_ad_28_nl0_ae2 : STRING,
+    structure_ad_28_nl0_ae3 : STRING,
+    weather_ad_28_nl0_ae4 : STRING
+}
+
+talk_ad_29_nl0_ce0 {
+    breath_ad_29_nl0_ae0ke0 : STRING,
+    match_ad_29_nl0_ae1 : STRING,
+    lose_ad_29_nl0_ae2 : STRING,
+    roll_ad_29_nl0_ae3 : STRING,
+    noise_ad_29_nl0_ae4 : STRING
+}
+
+test_vh_32_nl0_ce0 {
+    coat_vh_32_nl0_ae0 : STRING,
+    building_vh_32_nl0_ae0JoinAttr : STRING
+}
+
+thick_ad_5_nl0_ce0 {
+    prevent_ad_5_nl0_ae0ke0 : STRING,
+    low_ad_5_nl0_ae1 : STRING,
+    bath_ad_5_nl0_ae2 : STRING,
+    butter_ad_5_nl0_ae3 : STRING,
+    copy_ad_5_nl0_ae4 : STRING,
+    close_ad_5_nl0_ae5 : STRING
+}
+
+thread_vi_13_nl0_ce0 {
+    avoid_vi_13_nl0_ae0ke0JoinAttr : STRING,
+    do_vi_13_nl0_ae1 : STRING,
+    knock_vi_13_nl0_ae2 : STRING
+}
+
+thumb_vh_29_nl0_ce0 {
+    feel_vh_29_nl0_ae0 : STRING,
+    correct_vh_29_nl0_ae1 : STRING,
+    bulb_vh_29_nl0_ae2 : STRING,
+    box_vh_29_nl0_ae0JoinAttr : STRING
+}
+
+tight_vi_49_nl0_ce1 {
+    gold_vi_49_nl0_ae0ke0Ref : STRING,
+    attention_vi_49_nl0_ae3 : STRING,
+    feed_vi_49_nl0_ae4 : STRING
+}
+
+tin_ad_14_nl0_ce0 {
+    tend_ad_14_nl0_ae0ke0 : STRING,
+    suppose_ad_14_nl0_ae1 : STRING,
+    regret_ad_14_nl0_ae2 : STRING,
+    hurt_ad_14_nl0_ae3 : STRING
+}
+
+tin_vnm_16_nl0_ce0 {
+    side_vnm_16_nl0_ae0ke0 : STRING,
+    fixed_vnm_16_nl0_ae1 : STRING,
+    cheese_vnm_16_nl0_ae00 : STRING
+}
+
+touch_ad_1_nl0_ce0 {
+    nut_ad_1_nl0_ae0ke0 : STRING,
+    slope_ad_1_nl0_ae1 : STRING,
+    measure_ad_1_nl0_ae2 : STRING,
+    cheese_ad_1_nl0_ae3 : STRING
+}
+
+touch_vh_21_nl0_ce0 {
+    library_vh_21_nl0_ae0 : STRING,
+    board_vh_21_nl0_ae0JoinAttr : STRING
+}
+
+touch_vh_8_nl0_ce0 {
+    angle_vh_8_nl0_ae0 : STRING,
+    jump_vh_8_nl0_ae1 : STRING,
+    discover_vh_8_nl0_ae0JoinAttr : STRING
+}
+
+touch_vi_41_nl0_ce0 {
+    soap_ad_9_nl0_ae0ke0JoinAttr : STRING,
+    fruit_ad_9_nl0_ae1 : STRING,
+    stay_ad_9_nl0_ae2 : STRING
+}
+
+tray_vh_44_nl0_ce0 {
+    top_ad_39_nl0_ae0ke0 : STRING,
+    shock_ad_39_nl0_ae1 : STRING,
+    might_vh_44_nl0_ae0JoinAttr : STRING
+}
+
+treat_ad_37_nl0_ce0 {
+    angry_ad_37_nl0_ae0ke0 : STRING,
+    occur_ad_37_nl0_ae1 : STRING,
+    servant_ad_37_nl0_ae2 : STRING,
+    full_ad_37_nl0_ae3 : STRING,
+    perform_ad_37_nl0_ae4 : STRING,
+    sign_ad_37_nl0_ae5 : STRING
+}
+
+tree_ad_58_nl0_ce0 {
+    sort_ad_58_nl0_ae0ke0 : STRING,
+    burst_ad_58_nl0_ae1 : STRING,
+    goat_ad_58_nl0_ae2 : STRING,
+    come_ad_58_nl0_ae3 : STRING,
+    introduce_ad_58_nl0_ae4 : STRING,
+    start_ad_58_nl0_ae5 : STRING
+}
+
+trick_vnm_8_nl0_ce0 {
+    winter_vnm_8_nl0_ae0ke0 : STRING,
+    hollow_vnm_8_nl0_ae1 : STRING,
+    observation_vnm_8_nl0_ae00 : STRING
+}
+
+true_vnm_47_nl0_ce2 {
+    natural_vnm_47_nl0_ae00Ref : STRING,
+    river_vnm_47_nl1_ae01Ref : STRING
+}
+
+try_vh_12_nl0_ce0 {
+    see_vh_12_nl0_ae0 : STRING,
+    open_vh_12_nl0_ae1 : STRING,
+    silk_vh_12_nl0_ae2 : STRING,
+    trousers_vh_12_nl0_ae0JoinAttr : STRING
+}
+
+twist_vh_64_nl0_ce1 {
+    open_vh_64_nl0_ae1 : STRING,
+    regret_vh_64_nl0_ae2 : STRING,
+    aim_vh_64_nl0_ae0JoinAttr : STRING,
+    aim_vh_64_nl0_ae0JoinAttrRef : STRING
+}
+
+twist_vi_56_nl0_ce1 {
+    observation_vi_56_nl0_ae0ke0Ref : STRING,
+    finger_vi_56_nl0_ae3 : STRING,
+    examine_vi_56_nl0_ae4 : STRING,
+    stocking_vi_56_nl0_ae5 : STRING
+}
+
+use_ad_61_nl0_ce0 {
+    influence_ad_33_nl0_ae0ke0 : STRING,
+    profit_ad_33_nl0_ae1 : STRING,
+    reward_ad_33_nl0_ae2 : STRING,
+    belief_ad_61_nl0_ae3 : STRING
+}
+
+use_vh_26_nl0_ce1 {
+    stomach_vh_26_nl0_ae3 : STRING,
+    afford_vh_26_nl0_ae4 : STRING,
+    base_vh_26_nl0_ae5 : STRING,
+    young_vh_26_nl0_ae0JoinAttr : STRING,
+    young_vh_26_nl0_ae0JoinAttrRef : STRING
+}
+
+use_vh_2_nl0_ce1 {
+    winter_vh_2_nl0_ae3 : STRING,
+    powder_vh_2_nl0_ae4 : STRING,
+    work_vh_2_nl0_ae5 : STRING,
+    discuss_vh_2_nl0_ae0JoinAttr : STRING,
+    discuss_vh_2_nl0_ae0JoinAttrRef : STRING
+}
+
+use_vi_23_nl0_ce0 {
+    price_vi_23_nl0_ae0ke0JoinAttr : STRING,
+    orange_vi_23_nl0_ae1 : STRING,
+    copy_vi_23_nl0_ae2 : STRING
+}
+
+use_vnm_64_nl0_ce0 {
+    influence_ad_33_nl0_ae0ke0 : STRING,
+    oil_vnm_64_nl0_ae00 : STRING
+}
+
+verse_vh_33_nl0_ce0 {
+    street_vh_33_nl0_ae0 : STRING,
+    door_vh_33_nl0_ae1 : STRING,
+    rest_vh_33_nl0_ae0JoinAttr : STRING
+}
+
+violent_vi_20_nl0_ce0 {
+    improve_vi_20_nl0_ae0ke0JoinAttr : STRING,
+    band_vi_20_nl0_ae1 : STRING,
+    sail_vi_20_nl0_ae2 : STRING
+}
+
+voice_vnm_48_nl0_ce0 {
+    snow_ad_21_nl0_ae0ke0 : STRING,
+    wheel_ad_21_nl0_ae1 : STRING,
+    enjoy_vnm_48_nl0_ae00 : STRING
+}
+
+voice_vnm_9_nl0_ce1 {
+    train_vnm_9_nl0_ae2 : STRING,
+    beat_vnm_9_nl0_ae3 : STRING,
+    hammer_vnm_9_nl0_ae4 : STRING,
+    connection_vnm_9_nl1_ae01 : STRING
+}
+
+wait_vnm_13_nl0_ce1 {
+    year_vnm_13_nl0_ae2 : STRING,
+    expert_vnm_13_nl0_ae3 : STRING,
+    promise_vnm_13_nl0_ae4 : STRING,
+    add_vnm_13_nl1_ae01 : STRING
+}
+
+war_vnm_25_nl0_ce0 {
+    agencies_vnm_25_nl0_ae0ke0 : STRING,
+    encourage_vnm_25_nl0_ae00 : STRING
+}
+
+watch_vh_11_nl0_ce1 {
+    wish_vh_11_nl0_ae2 : STRING,
+    red_vh_11_nl0_ae3 : STRING,
+    thumb_vh_11_nl0_ae4 : STRING,
+    go_vh_11_nl0_ae0JoinAttr : STRING,
+    go_vh_11_nl0_ae0JoinAttrRef : STRING
+}
+
+watch_vh_53_nl0_ce1 {
+    expansion_vh_53_nl0_ae3 : STRING,
+    share_vh_53_nl0_ae4 : STRING,
+    able_vh_53_nl0_ae5 : STRING,
+    sneeze_vh_53_nl0_ae0JoinAttr : STRING,
+    sneeze_vh_53_nl0_ae0JoinAttrRef : STRING
+}
+
+wave_vh_20_nl0_ce1 {
+    cover_vh_20_nl0_ae2 : STRING,
+    copper_vh_20_nl0_ae3 : STRING,
+    depend_vh_20_nl0_ae4 : STRING,
+    change_vh_20_nl0_ae0JoinAttr : STRING,
+    change_vh_20_nl0_ae0JoinAttrRef : STRING
+}
+
+wax_ad_60_nl0_ce0 {
+    jelly_ad_42_nl0_ae0ke0 : STRING,
+    doubt_ad_42_nl0_ae1 : STRING,
+    fight_ad_42_nl0_ae2 : STRING,
+    muscle_ad_60_nl0_ae3 : STRING
+}
+
+way_vnm_39_nl0_ce1 {
+    parcel_vnm_19_nl0_ae2 : STRING,
+    ray_vnm_19_nl0_ae3 : STRING,
+    flame_vnm_39_nl1_ae01 : STRING
+}
+
+weather_vnm_31_nl0_ce2 {
+    smile_vnm_31_nl0_ae00Ref : STRING,
+    meal_vnm_31_nl1_ae01Ref : STRING
+}
+
+weight_vh_60_nl0_ce0 {
+    possible_ad_55_nl0_ae0ke0 : STRING,
+    found_vh_60_nl0_ae0JoinAttr : STRING
+}
+
+wet_vh_13_nl0_ce0 {
+    ticket_vh_13_nl0_ae0 : STRING,
+    desire_vh_13_nl0_ae1 : STRING,
+    death_vh_13_nl0_ae0JoinAttr : STRING
+}
+
+whistle_ad_49_nl0_ce0 {
+    sail_vi_39_nl0_ae0ke0 : STRING,
+    jelly_vi_39_nl0_ae1 : STRING,
+    lift_vi_39_nl0_ae2 : STRING,
+    dog_ad_49_nl0_ae3 : STRING
+}
+
+white_vi_23_nl0_ce1 {
+    price_vi_23_nl0_ae0ke0Ref : STRING,
+    board_vi_23_nl0_ae3 : STRING,
+    process_vi_23_nl0_ae4 : STRING
+}
+
+wonder_ad_30_nl0_ce0 {
+    necessary_ad_30_nl0_ae0ke0 : STRING,
+    government_ad_30_nl0_ae1 : STRING,
+    cut_ad_30_nl0_ae2 : STRING,
+    would_ad_30_nl0_ae3 : STRING,
+    apply_ad_30_nl0_ae4 : STRING,
+    be_ad_30_nl0_ae5 : STRING
+}
+
+work_vnm_30_nl0_ce2 {
+    kiss_vnm_30_nl0_ae00Ref : STRING,
+    zoo_vnm_30_nl1_ae01Ref : STRING
+}
+
+work_vnm_50_nl0_ce2 {
+    drop_vnm_50_nl0_ae00Ref : STRING,
+    slope_vnm_50_nl1_ae01Ref : STRING
+}
+
+would_vi_63_nl0_ce0 {
+    opinion_vi_63_nl0_ae0ke0JoinAttr : STRING,
+    rice_vi_63_nl0_ae1 : STRING
+}
+
+yellow_vi_11_nl0_ce1 {
+    safe_vi_11_nl0_ae0ke0Ref : STRING,
+    regard_vi_11_nl0_ae2 : STRING,
+    burn_vi_11_nl0_ae3 : STRING
+}
+
+yellow_vnm_33_nl0_ce2 {
+    report_vnm_33_nl0_ae00Ref : STRING,
+    office_vnm_33_nl1_ae01Ref : STRING
+}
+
+yellow_vnm_45_nl0_ce2 {
+    return_vnm_45_nl0_ae00Ref : STRING,
+    same_vnm_45_nl1_ae01Ref : STRING
+}

@@ -1,0 +1,16 @@
+A,B,C
+EE0,EE1,t3
+EE2,EE3,x3
+EE4,EE5,x5
+EE6,EE7,x5
+t1,EE8,t4
+t1,EE9,t4
+t1,t3,t3
+t8,EE13,EE18
+t8,EE16,EE20
+t8,EE17,EE22
+t8,t8,EE10
+t8,t8,EE12
+x1,x3,x3
+x1,x5,x5
+x9,x5,x5

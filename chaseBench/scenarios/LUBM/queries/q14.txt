@@ -1,0 +1,2 @@
+q14(?X) <-
+    UndergraduateStudent(?X) .

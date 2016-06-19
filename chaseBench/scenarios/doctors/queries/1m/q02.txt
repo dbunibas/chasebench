@@ -1,0 +1,4 @@
+q02(?doctor_doctor,?prescription_patient,?targethospital_hospital) <-
+    targethospital(?targethospital_doctor,?targethospital_spec,?targethospital_hospital,?targethospital_npi,?targethospital_conf),
+    doctor(?doctor_npi,?doctor_doctor,?targethospital_spec,?doctor_hospital,?doctor_conf),
+    prescription(?prescription_id,?prescription_patient,?doctor_npi,?prescription_conf) .

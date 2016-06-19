@@ -1,0 +1,4 @@
+q09(?targethospital_npi,?prescription_id,?targethospital_spec,?prescription_patient,?doctor_hospital) <-
+    targethospital(?targethospital_doctor,?targethospital_spec,"OOQT13408",?targethospital_npi,?targethospital_conf),
+    doctor(?targethospital_npi,?doctor_doctor,?doctor_spec,?doctor_hospital,?doctor_conf),
+    prescription(?prescription_id,?prescription_patient,?targethospital_npi,?prescription_conf) .

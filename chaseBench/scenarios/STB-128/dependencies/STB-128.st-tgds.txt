@@ -1,0 +1,160 @@
+test_cp_1_nl0_ce0(?a,?b,?c,?d,?e) -> test_cp_1_nl0_ce0copy1_0(?a,?b,?c,?d,?e) .
+cheese_hp_1_nl0_ce0(?a,?b,?c,?d,?e,?f) -> cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999(?b,?c,?d,?e,?f) .
+cheese_hp_1_nl0_ce0(?a,?b,?c,?d,?e,?f) -> cheese_hp_1_nl0_ce0__HP1FR1_from_5000_to_9999(?b,?c,?d,?e,?f) .
+board_su_1_nl0_ce0(?a,?b,?c,?d,?e,?f) -> past_su_1_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h) .
+letter_vp_1_nl0_ce0(?a,?b,?c,?d) -> discover_vp_1_nl0_ce0(?a,?b,?e), different_vp_1_nl0_ce1(?c,?d,?e) .
+reveal_cp_2_nl0_ce0(?a,?b,?c,?d,?e) -> reveal_cp_2_nl0_ce0copy2_1(?a,?b,?c,?d,?e) .
+pipe_hp_2_nl0_ce0(?a,?b,?c,?d) -> pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999(?b,?c,?d) .
+pipe_hp_2_nl0_ce0(?a,?b,?c,?d) -> pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999(?b,?c,?d) .
+order_su_2_nl0_ce0(?a,?b,?c,?d,?e,?f,?g) -> branch_su_2_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h,?i) .
+approval_vp_2_nl0_ce0(?a,?b,?c,?d,?e,?f,?g) -> involve_vp_2_nl0_ce0(?a,?b,?c,?h), use_vp_2_nl0_ce1(?d,?e,?f,?g,?h) .
+paint_cp_3_nl0_ce0(?a,?b,?c) -> paint_cp_3_nl0_ce0copy3_2(?a,?b,?c) .
+regular_hp_3_nl0_ce0(?a,?b,?c,?d,?e,?f) -> regular_hp_3_nl0_ce0__HP3FR0_from_0_to_4999(?b,?c,?d,?e,?f) .
+regular_hp_3_nl0_ce0(?a,?b,?c,?d,?e,?f) -> regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999(?b,?c,?d,?e,?f) .
+library_su_3_nl0_ce0(?a,?b,?c) -> paint_su_3_nl0_ce0(?a,?b,?c,?d,?e) .
+garden_vp_3_nl0_ce0(?a,?b) -> slow_vp_3_nl0_ce0(?a,?c), word_vp_3_nl0_ce1(?b,?c) .
+kind_cp_4_nl0_ce0(?a,?b,?c) -> kind_cp_4_nl0_ce0copy4_3(?a,?b,?c) .
+violent_hp_4_nl0_ce0(?a,?b,?c) -> violent_hp_4_nl0_ce0__HP4FR0_from_0_to_4999(?b,?c) .
+violent_hp_4_nl0_ce0(?a,?b,?c) -> violent_hp_4_nl0_ce0__HP4FR1_from_5000_to_9999(?b,?c) .
+love_su_4_nl0_ce0(?a,?b,?c,?d,?e) -> bent_su_4_nl0_ce0(?a,?b,?c,?d,?e,?f,?g) .
+silk_vp_4_nl0_ce0(?a,?b) -> language_vp_4_nl0_ce0(?a,?c), worry_vp_4_nl0_ce1(?b,?c) .
+chalk_cp_5_nl0_ce0(?a,?b) -> chalk_cp_5_nl0_ce0copy5_4(?a,?b) .
+start_hp_5_nl0_ce0(?a,?b,?c,?d) -> start_hp_5_nl0_ce0__HP5FR0_from_0_to_4999(?b,?c,?d) .
+start_hp_5_nl0_ce0(?a,?b,?c,?d) -> start_hp_5_nl0_ce0__HP5FR1_from_5000_to_9999(?b,?c,?d) .
+last_su_5_nl0_ce0(?a,?b) -> clean_su_5_nl0_ce0(?a,?b,?c,?d) .
+mention_vp_5_nl0_ce0(?a,?b) -> state_vp_5_nl0_ce0(?a,?c), egg_vp_5_nl0_ce1(?b,?c) .
+agency_cp_6_nl0_ce0(?a,?b) -> agency_cp_6_nl0_ce0copy6_5(?a,?b) .
+amount_hp_6_nl0_ce0(?a,?b,?c,?d,?e) -> amount_hp_6_nl0_ce0__HP6FR0_from_0_to_4999(?b,?c,?d,?e) .
+amount_hp_6_nl0_ce0(?a,?b,?c,?d,?e) -> amount_hp_6_nl0_ce0__HP6FR1_from_5000_to_9999(?b,?c,?d,?e) .
+leather_su_6_nl0_ce0(?a,?b) -> accept_su_6_nl0_ce0(?a,?b,?c,?d) .
+probable_vp_6_nl0_ce0(?a,?b,?c,?d) -> stiff_vp_6_nl0_ce0(?a,?b,?e), feeling_vp_6_nl0_ce1(?c,?d,?e) .
+connect_cp_7_nl0_ce0(?a,?b,?c) -> connect_cp_7_nl0_ce0copy7_6(?a,?b,?c) .
+root_hp_7_nl0_ce0(?a,?b,?c,?d) -> root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999(?b,?c,?d) .
+root_hp_7_nl0_ce0(?a,?b,?c,?d) -> root_hp_7_nl0_ce0__HP7FR1_from_5000_to_9999(?b,?c,?d) .
+question_su_7_nl0_ce0(?a,?b,?c,?d) -> settle_su_7_nl0_ce0(?a,?b,?c,?d,?e,?f) .
+poor_vp_7_nl0_ce0(?a,?b,?c,?d) -> agencies_vp_7_nl0_ce0(?a,?b,?e), flat_vp_7_nl0_ce1(?c,?d,?e) .
+train_cp_8_nl0_ce0(?a,?b) -> train_cp_8_nl0_ce0copy8_7(?a,?b) .
+sea_hp_8_nl0_ce0(?a,?b,?c) -> sea_hp_8_nl0_ce0__HP8FR0_from_0_to_4999(?b,?c) .
+sea_hp_8_nl0_ce0(?a,?b,?c) -> sea_hp_8_nl0_ce0__HP8FR1_from_5000_to_9999(?b,?c) .
+bath_su_8_nl0_ce0(?a,?b) -> stomach_su_8_nl0_ce0(?a,?b,?c,?d) .
+return_vp_8_nl0_ce0(?a,?b,?c) -> give_vp_8_nl0_ce0(?a,?d), selection_vp_8_nl0_ce1(?b,?c,?d) .
+window_cp_9_nl0_ce0(?a,?b,?c,?d) -> window_cp_9_nl0_ce0copy9_8(?a,?b,?c,?d) .
+hate_hp_9_nl0_ce0(?a,?b,?c) -> hate_hp_9_nl0_ce0__HP9FR0_from_0_to_4999(?b,?c) .
+hate_hp_9_nl0_ce0(?a,?b,?c) -> hate_hp_9_nl0_ce0__HP9FR1_from_5000_to_9999(?b,?c) .
+win_su_9_nl0_ce0(?a,?b,?c,?d) -> late_su_9_nl0_ce0(?a,?b,?c,?d,?e,?f) .
+shut_vp_9_nl0_ce0(?a,?b) -> tail_vp_9_nl0_ce0(?a,?c), clock_vp_9_nl0_ce1(?b,?c) .
+express_cp_10_nl0_ce0(?a,?b,?c,?d) -> express_cp_10_nl0_ce0copy10_9(?a,?b,?c,?d) .
+hollow_hp_10_nl0_ce0(?a,?b,?c,?d,?e,?f) -> hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999(?b,?c,?d,?e,?f) .
+hollow_hp_10_nl0_ce0(?a,?b,?c,?d,?e,?f) -> hollow_hp_10_nl0_ce0__HP10FR1_from_5000_to_9999(?b,?c,?d,?e,?f) .
+support_su_10_nl0_ce0(?a,?b,?c) -> fertile_su_10_nl0_ce0(?a,?b,?c,?d,?e) .
+condition_vp_10_nl0_ce0(?a,?b,?c,?d,?e,?f) -> disgust_vp_10_nl0_ce0(?a,?b,?c,?g), shut_vp_10_nl0_ce1(?d,?e,?f,?g) .
+experience_cp_11_nl0_ce0(?a,?b,?c) -> experience_cp_11_nl0_ce0copy11_10(?a,?b,?c) .
+eat_hp_11_nl0_ce0(?a,?b,?c) -> eat_hp_11_nl0_ce0__HP11FR0_from_0_to_4999(?b,?c) .
+eat_hp_11_nl0_ce0(?a,?b,?c) -> eat_hp_11_nl0_ce0__HP11FR1_from_5000_to_9999(?b,?c) .
+foot_su_11_nl0_ce0(?a,?b) -> opinion_su_11_nl0_ce0(?a,?b,?c,?d) .
+snake_vp_11_nl0_ce0(?a,?b) -> exchange_vp_11_nl0_ce0(?a,?c), discover_vp_11_nl0_ce1(?b,?c) .
+touch_cp_12_nl0_ce0(?a,?b,?c,?d) -> touch_cp_12_nl0_ce0copy12_11(?a,?b,?c,?d) .
+hollow_hp_12_nl0_ce0(?a,?b,?c) -> hollow_hp_12_nl0_ce0__HP12FR0_from_0_to_4999(?b,?c) .
+hollow_hp_12_nl0_ce0(?a,?b,?c) -> hollow_hp_12_nl0_ce0__HP12FR1_from_5000_to_9999(?b,?c) .
+observation_su_12_nl0_ce0(?a,?b,?c) -> enable_su_12_nl0_ce0(?a,?b,?c,?d,?e) .
+fruit_vp_12_nl0_ce0(?a,?b,?c,?d,?e) -> tall_vp_12_nl0_ce0(?a,?b,?f), base_vp_12_nl0_ce1(?c,?d,?e,?f) .
+speak_cp_13_nl0_ce0(?a,?b) -> speak_cp_13_nl0_ce0copy13_12(?a,?b) .
+degree_hp_13_nl0_ce0(?a,?b,?c) -> degree_hp_13_nl0_ce0__HP13FR0_from_0_to_4999(?b,?c) .
+degree_hp_13_nl0_ce0(?a,?b,?c) -> degree_hp_13_nl0_ce0__HP13FR1_from_5000_to_9999(?b,?c) .
+weight_su_13_nl0_ce0(?a,?b) -> desire_su_13_nl0_ce0(?a,?b,?c,?d) .
+fiction_vp_13_nl0_ce0(?a,?b) -> train_vp_13_nl0_ce0(?a,?c), beat_vp_13_nl0_ce1(?b,?c) .
+hammer_cp_14_nl0_ce0(?a,?b,?c,?d,?e) -> hammer_cp_14_nl0_ce0copy14_13(?a,?b,?c,?d,?e) .
+impulse_hp_14_nl0_ce0(?a,?b,?c,?d,?e,?f) -> impulse_hp_14_nl0_ce0__HP14FR0_from_0_to_4999(?b,?c,?d,?e,?f) .
+impulse_hp_14_nl0_ce0(?a,?b,?c,?d,?e,?f) -> impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999(?b,?c,?d,?e,?f) .
+stop_su_14_nl0_ce0(?a,?b) -> ink_su_14_nl0_ce0(?a,?b,?c,?d) .
+basin_vp_14_nl0_ce0(?a,?b) -> insurance_vp_14_nl0_ce0(?a,?c), rhythm_vp_14_nl0_ce1(?b,?c) .
+fiction_cp_15_nl0_ce0(?a,?b,?c) -> fiction_cp_15_nl0_ce0copy15_14(?a,?b,?c) .
+require_hp_15_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h) -> require_hp_15_nl0_ce0__HP15FR0_from_0_to_4999(?b,?c,?d,?e,?f,?g,?h) .
+require_hp_15_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h) -> require_hp_15_nl0_ce0__HP15FR1_from_5000_to_9999(?b,?c,?d,?e,?f,?g,?h) .
+thin_su_15_nl0_ce0(?a,?b,?c,?d) -> digestion_su_15_nl0_ce0(?a,?b,?c,?d,?e,?f) .
+rough_vp_15_nl0_ce0(?a,?b,?c,?d,?e) -> office_vp_15_nl0_ce0(?a,?b,?f), talk_vp_15_nl0_ce1(?c,?d,?e,?f) .
+regard_cp_16_nl0_ce0(?a,?b,?c) -> regard_cp_16_nl0_ce0copy16_15(?a,?b,?c) .
+whip_hp_16_nl0_ce0(?a,?b,?c,?d,?e,?f,?g) -> whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999(?b,?c,?d,?e,?f,?g) .
+whip_hp_16_nl0_ce0(?a,?b,?c,?d,?e,?f,?g) -> whip_hp_16_nl0_ce0__HP16FR1_from_5000_to_9999(?b,?c,?d,?e,?f,?g) .
+beautiful_su_16_nl0_ce0(?a,?b,?c,?d) -> check_su_16_nl0_ce0(?a,?b,?c,?d,?e,?f) .
+side_vp_16_nl0_ce0(?a,?b,?c,?d,?e,?f) -> key_vp_16_nl0_ce0(?a,?b,?c,?g), cry_vp_16_nl0_ce1(?d,?e,?f,?g) .
+regular_hp_3_nl0_ce0(?a,?b,?c,?d,?e,?f) -> regular_hp_3_nl0_ce0copy17_16(?a,?b,?c,?d,?e,?f) .
+check_hp_17_nl0_ce0(?a,?b,?c,?d,?e) -> check_hp_17_nl0_ce0__HP17FR0_from_0_to_4999(?b,?c,?d,?e) .
+check_hp_17_nl0_ce0(?a,?b,?c,?d,?e) -> check_hp_17_nl0_ce0__HP17FR1_from_5000_to_9999(?b,?c,?d,?e) .
+rhythm_su_17_nl0_ce0(?a,?b) -> acid_su_17_nl0_ce0(?a,?b,?c,?d) .
+poor_vp_17_nl0_ce0(?a,?b,?c) -> bell_vp_17_nl0_ce0(?a,?d), trousers_vp_17_nl0_ce1(?b,?c,?d) .
+probable_vp_6_nl0_ce0(?a,?b,?c,?d) -> probable_vp_6_nl0_ce0copy18_17(?a,?b,?c,?d) .
+try_hp_18_nl0_ce0(?a,?b,?c,?d) -> try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999(?b,?c,?d) .
+try_hp_18_nl0_ce0(?a,?b,?c,?d) -> try_hp_18_nl0_ce0__HP18FR1_from_5000_to_9999(?b,?c,?d) .
+orange_su_18_nl0_ce0(?a,?b,?c,?d) -> sleep_su_18_nl0_ce0(?a,?b,?c,?d,?e,?f) .
+laugh_vp_18_nl0_ce0(?a,?b) -> hard_vp_18_nl0_ce0(?a,?c), set_vp_18_nl0_ce1(?b,?c) .
+remain_cp_19_nl0_ce0(?a,?b,?c,?d,?e,?f) -> remain_cp_19_nl0_ce0copy19_18(?a,?b,?c,?d,?e,?f) .
+bulb_hp_19_nl0_ce0(?a,?b,?c,?d,?e,?f) -> bulb_hp_19_nl0_ce0__HP19FR0_from_0_to_4999(?b,?c,?d,?e,?f) .
+bulb_hp_19_nl0_ce0(?a,?b,?c,?d,?e,?f) -> bulb_hp_19_nl0_ce0__HP19FR1_from_5000_to_9999(?b,?c,?d,?e,?f) .
+male_su_19_nl0_ce0(?a,?b,?c,?d) -> check_su_16_nl0_ce0(?a,?b,?c,?d,?e,?f) .
+hurt_vp_19_nl0_ce0(?a,?b) -> promise_vp_19_nl0_ce0(?a,?c), pot_vp_19_nl0_ce1(?b,?c) .
+agency_cp_6_nl0_ce0(?a,?b) -> agency_cp_6_nl0_ce0copy20_19(?a,?b) .
+rough_vp_15_nl0_ce0(?a,?b,?c,?d,?e) -> rough_vp_15_nl0_ce0__HP20FR0_from_0_to_4999(?b,?c,?d,?e) .
+rough_vp_15_nl0_ce0(?a,?b,?c,?d,?e) -> rough_vp_15_nl0_ce0__HP20FR1_from_5000_to_9999(?b,?c,?d,?e) .
+add_su_20_nl0_ce0(?a,?b,?c,?d) -> remain_cp_19_nl0_ce0copy19_18(?a,?b,?c,?d,?e,?f) .
+learn_vp_20_nl0_ce0(?a,?b,?c) -> eye_vp_20_nl0_ce0(?a,?d), cork_vp_20_nl0_ce1(?b,?c,?d) .
+lead_cp_21_nl0_ce0(?a,?b,?c,?d) -> lead_cp_21_nl0_ce0copy21_20(?a,?b,?c,?d) .
+advertisement_hp_21_nl0_ce0(?a,?b,?c) -> advertisement_hp_21_nl0_ce0__HP21FR0_from_0_to_4999(?b,?c) .
+advertisement_hp_21_nl0_ce0(?a,?b,?c) -> advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999(?b,?c) .
+sudden_su_21_nl0_ce0(?a,?b,?c) -> regular_hp_3_nl0_ce0__HP3FR1_from_5000_to_9999(?a,?b,?c,?d,?e) .
+coat_vp_21_nl0_ce0(?a,?b,?c,?d) -> root_hp_7_nl0_ce0__HP7FR0_from_0_to_4999(?a,?b,?e), selection_vp_8_nl0_ce1(?c,?d,?e) .
+receive_cp_22_nl0_ce0(?a,?b,?c) -> receive_cp_22_nl0_ce0copy22_21(?a,?b,?c) .
+steel_hp_22_nl0_ce0(?a,?b,?c,?d,?e) -> steel_hp_22_nl0_ce0__HP22FR0_from_0_to_4999(?b,?c,?d,?e) .
+steel_hp_22_nl0_ce0(?a,?b,?c,?d,?e) -> steel_hp_22_nl0_ce0__HP22FR1_from_5000_to_9999(?b,?c,?d,?e) .
+rhythm_su_17_nl0_ce0(?a,?b) -> eye_su_22_nl0_ce0(?a,?b,?c,?d) .
+industry_vp_22_nl0_ce0(?a,?b,?c) -> ticket_vp_22_nl0_ce0(?a,?d), warn_vp_22_nl0_ce1(?b,?c,?d) .
+jewel_cp_23_nl0_ce0(?a,?b,?c,?d,?e) -> jewel_cp_23_nl0_ce0copy23_22(?a,?b,?c,?d,?e) .
+window_cp_9_nl0_ce0(?a,?b,?c,?d) -> window_cp_9_nl0_ce0__HP23FR0_from_0_to_4999(?b,?c,?d) .
+window_cp_9_nl0_ce0(?a,?b,?c,?d) -> window_cp_9_nl0_ce0__HP23FR1_from_5000_to_9999(?b,?c,?d) .
+will_su_23_nl0_ce0(?a,?b,?c) -> hollow_hp_10_nl0_ce0__HP10FR0_from_0_to_4999(?a,?b,?c,?d,?e) .
+committee_vp_23_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h,?i,?j) -> check_su_16_nl0_ce0(?a,?b,?c,?d,?e,?k), whip_hp_16_nl0_ce0__HP16FR0_from_0_to_4999(?f,?g,?h,?i,?j,?k) .
+toe_cp_24_nl0_ce0(?a,?b) -> beat_vp_13_nl0_ce1(?a,?b) .
+glove_hp_24_nl0_ce0(?a,?b,?c,?d,?e) -> glove_hp_24_nl0_ce0__HP24FR0_from_0_to_4999(?b,?c,?d,?e) .
+glove_hp_24_nl0_ce0(?a,?b,?c,?d,?e) -> glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999(?b,?c,?d,?e) .
+hollow_hp_10_nl0_ce0(?a,?b,?c,?d,?e,?f) -> sun_su_24_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h) .
+kind_cp_4_nl0_ce0(?a,?b,?c) -> clean_vp_24_nl0_ce0(?a,?d), smell_vp_24_nl0_ce1(?b,?c,?d) .
+involve_cp_25_nl0_ce0(?a,?b,?c,?d,?e) -> cheese_hp_1_nl0_ce0__HP1FR0_from_0_to_4999(?a,?b,?c,?d,?e) .
+express_cp_10_nl0_ce0(?a,?b,?c,?d) -> express_cp_10_nl0_ce0__HP25FR0_from_0_to_4999(?b,?c,?d) .
+express_cp_10_nl0_ce0(?a,?b,?c,?d) -> express_cp_10_nl0_ce0__HP25FR1_from_5000_to_9999(?b,?c,?d) .
+round_su_25_nl0_ce0(?a,?b) -> glove_hp_24_nl0_ce0__HP24FR1_from_5000_to_9999(?a,?b,?c,?d) .
+laugh_vp_25_nl0_ce0(?a,?b) -> push_vp_25_nl0_ce0(?a,?c), fixed_vp_25_nl0_ce1(?b,?c) .
+baby_cp_26_nl0_ce0(?a,?b,?c) -> baby_cp_26_nl0_ce0copy26_23(?a,?b,?c) .
+require_hp_15_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h) -> require_hp_15_nl0_ce0__HP26FR0_from_0_to_4999(?b,?c,?d,?e,?f,?g,?h) .
+require_hp_15_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h) -> require_hp_15_nl0_ce0__HP26FR1_from_5000_to_9999(?b,?c,?d,?e,?f,?g,?h) .
+grip_su_26_nl0_ce0(?a,?b) -> news_su_26_nl0_ce0(?a,?b,?c,?d) .
+roof_vp_26_nl0_ce0(?a,?b,?c) -> cover_vp_26_nl0_ce0(?a,?d), cry_vp_26_nl0_ce1(?b,?c,?d) .
+stocking_cp_27_nl0_ce0(?a,?b) -> advertisement_hp_21_nl0_ce0__HP21FR1_from_5000_to_9999(?a,?b) .
+begin_hp_27_nl0_ce0(?a,?b,?c,?d) -> begin_hp_27_nl0_ce0__HP27FR0_from_0_to_4999(?b,?c,?d) .
+begin_hp_27_nl0_ce0(?a,?b,?c,?d) -> begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999(?b,?c,?d) .
+expert_su_27_nl0_ce0(?a,?b,?c,?d) -> act_su_27_nl0_ce0(?a,?b,?c,?d,?e,?f) .
+bath_su_8_nl0_ce0(?a,?b) -> avoid_vp_27_nl0_ce0(?a,?c), card_vp_27_nl0_ce1(?b,?c) .
+win_su_9_nl0_ce0(?a,?b,?c,?d) -> win_su_9_nl0_ce0copy28_24(?a,?b,?c,?d) .
+walk_hp_28_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h) -> walk_hp_28_nl0_ce0__HP28FR0_from_0_to_4999(?b,?c,?d,?e,?f,?g,?h) .
+walk_hp_28_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h) -> walk_hp_28_nl0_ce0__HP28FR1_from_5000_to_9999(?b,?c,?d,?e,?f,?g,?h) .
+touch_cp_12_nl0_ce0(?a,?b,?c,?d) -> fat_su_28_nl0_ce0(?a,?b,?c,?d,?e,?f) .
+meal_vp_28_nl0_ce0(?a,?b,?c) -> like_vp_28_nl0_ce0(?a,?d), oven_vp_28_nl0_ce1(?b,?c,?d) .
+sky_cp_29_nl0_ce0(?a,?b,?c,?d,?e) -> impulse_hp_14_nl0_ce0__HP14FR1_from_5000_to_9999(?a,?b,?c,?d,?e) .
+amount_hp_6_nl0_ce0(?a,?b,?c,?d,?e) -> amount_hp_6_nl0_ce0__HP29FR0_from_0_to_4999(?b,?c,?d,?e) .
+amount_hp_6_nl0_ce0(?a,?b,?c,?d,?e) -> amount_hp_6_nl0_ce0__HP29FR1_from_5000_to_9999(?b,?c,?d,?e) .
+lock_su_29_nl0_ce0(?a,?b,?c) -> tax_su_29_nl0_ce0(?a,?b,?c,?d,?e) .
+belong_vp_29_nl0_ce0(?a,?b,?c) -> lie_vp_29_nl0_ce0(?a,?d), oven_vp_29_nl0_ce1(?b,?c,?d) .
+amount_cp_30_nl0_ce0(?a,?b,?c,?d,?e) -> amount_cp_30_nl0_ce0copy30_25(?a,?b,?c,?d,?e) .
+slow_hp_30_nl0_ce0(?a,?b,?c,?d) -> begin_hp_27_nl0_ce0__HP27FR1_from_5000_to_9999(?b,?c,?d) .
+slow_hp_30_nl0_ce0(?a,?b,?c,?d) -> pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999(?b,?c,?d) .
+study_su_30_nl0_ce0(?a) -> regard_cp_16_nl0_ce0copy16_15(?a,?b,?c) .
+copy_vp_30_nl0_ce0(?a,?b,?c,?d,?e) -> sort_vp_30_nl0_ce0(?a,?b,?f), hope_vp_30_nl0_ce1(?c,?d,?e,?f) .
+jewel_cp_23_nl0_ce0(?a,?b,?c,?d,?e) -> jewel_cp_23_nl0_ce0copy31_26(?a,?b,?c,?d,?e) .
+advertisement_hp_31_nl0_ce0(?a,?b,?c,?d,?e,?f,?g) -> advertisement_hp_31_nl0_ce0__HP31FR0_from_0_to_4999(?b,?c,?d,?e,?f,?g) .
+advertisement_hp_31_nl0_ce0(?a,?b,?c,?d,?e,?f,?g) -> advertisement_hp_31_nl0_ce0__HP31FR1_from_5000_to_9999(?b,?c,?d,?e,?f,?g) .
+seat_su_31_nl0_ce0(?a,?b,?c,?d,?e) -> matter_su_31_nl0_ce0(?a,?b,?c,?d,?e,?f,?g) .
+dress_vp_31_nl0_ce0(?a,?b) -> design_vp_31_nl0_ce0(?a,?c), fit_vp_31_nl0_ce1(?b,?c) .
+check_hp_17_nl0_ce0(?a,?b,?c,?d,?e) -> check_hp_17_nl0_ce0copy32_27(?a,?b,?c,?d,?e) .
+moon_hp_32_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h,?i) -> moon_hp_32_nl0_ce0__HP32FR0_from_0_to_4999(?b,?c,?d,?e,?f,?g,?h,?i) .
+moon_hp_32_nl0_ce0(?a,?b,?c,?d,?e,?f,?g,?h,?i) -> moon_hp_32_nl0_ce0__HP32FR1_from_5000_to_9999(?b,?c,?d,?e,?f,?g,?h,?i) .
+hide_su_32_nl0_ce0(?a,?b) -> copper_su_32_nl0_ce0(?a,?b,?c,?d) .
+impulse_hp_14_nl0_ce0(?a,?b,?c,?d,?e,?f) -> wave_vp_32_nl0_ce0(?a,?b,?c,?g), buy_vp_32_nl0_ce1(?d,?e,?f,?g) .

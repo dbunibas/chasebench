@@ -1,0 +1,7 @@
+q09(?X,?Y,?Z) <-
+    Student(?X),
+    Faculty(?Y),
+    Course(?Z),
+    advisor(?X,?Y),
+    teacherOf(?Y,?Z),
+    takesCourse(?X,?Z) .

@@ -1,0 +1,6 @@
+q04(?X,?Y1,?Y2,?Y3) <-
+    Professor(?X),
+    worksFor(?X,Department0-University0),
+    name(?X,?Y1),
+    emailAddress(?X,?Y2),
+    telephone(?X,?Y3) .

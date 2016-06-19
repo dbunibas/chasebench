@@ -1,0 +1,5 @@
+deptemp {
+    d : STRING,
+    n : STRING,
+    e : STRING
+}

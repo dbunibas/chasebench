@@ -1,0 +1,3 @@
+q13(?X) <-
+    Person(?X),
+    hasAlumnus(University0,?X) .
