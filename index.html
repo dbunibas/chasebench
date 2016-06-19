@@ -13,14 +13,14 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>Chasebench by dbunibas</title>
+    <title>ChaseBench by dbunibas</title>
   </head>
 
   <body>
     <header>
       <div class="inner">
-        <h1>Chasebench</h1>
-        <h2></h2>
+        <h1>ChaseBench</h1>
+        <h2>Benchmarking the Chase</h2>
         <a href="https://github.com/dbunibas/chasebench" class="button"><small>View project on</small> GitHub</a>
       </div>
     </header>
@@ -29,9 +29,39 @@
       <div class="inner clearfix">
         <section id="main-content">
           <h2>
-<a id="tested-systems" class="anchor" href="#tested-systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tested Systems</h2>
+<a id="test-scenarios" class="anchor" href="#test-scenarios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Test Scenarios</h2>
 
-<p>Our main goals are to determine whether available chase implementations can support data exchange and query answering in absolute terms, and to investigate the implementation decisions that are most rele- vant to performance. To answer these questions, we identified nine publicly available chase implementations.</p>
+<p>Our benchmark consists of a total of 23 scenarios, each scenario consisting of source and target schemas, constraints, queries, and source data. The scenarios belong to 5 different families, detailed in Table 2. The first one includes 6 small scenarios used as correctness tests for data exchange. The others were used for performance testing, both in data ex- change and query evaluation, and for correctness tests based on query results. Two of these, IBENCH and LUBM, are based on known standards, either from the database or the Semantic Web community. The other two, MANUALLY CURATED and DEEP, we developed ourselves in order to test specific aspects of the chase.</p>
+
+<p><img width="650" src="https://www.dropbox.com/s/lweb4v3wrk9o02d/test-scenarios.png?dl=1"></p>
+
+<h2>
+<a id="test-infrastructure" class="anchor" href="#test-infrastructure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Test Infrastructure</h2>
+
+<h4>
+<a id="the-common-format-parser" class="anchor" href="#the-common-format-parser" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Common-Format Parser</h4>
+
+<p>The tools under evaluation differ widely on their assumptions about input. To this end, we standardized the way in which tests were run, creating our own “common format” for constraints, queries, and also data. A standard parser for the common format was developed. Based on the parser, a converter was created for each tool.</p>
+
+<h4>
+<a id="the-target-tgd-generator" class="anchor" href="#the-target-tgd-generator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Target TGD Generator</h4>
+
+<p>Our major set of experiments concern performance. In addition to being able to generate source instances of different size, one primary concern was to have data-exchange scenarios with a significant number of s-t TGDs, target TGDs, and target EGDs. To do this, we used a custom target TGD generator. The generator allowed us to generate weakly acyclic TGDs (where the chase terminates), while controlling the depth and complexity of some of the scenarios, and to complement existing scenarios with additional target TGDs to increase their level of difficulty. </p>
+
+<h4>
+<a id="the-query-generator" class="anchor" href="#the-query-generator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Query Generator</h4>
+
+<p>Query answering experiments are about finding the certain answers to a set of given queries, and thus we needed a method to generate interesting queries on the target instances. Besides leveraging known benchmarks that come for a set of queries, like LUBM, we had to develop our own query generator. The query generator was essential in order to have queries with non-empty results. In addition, on large schemas it allows us to control the number of joins – we generated queries with up to 7 joins – and therefore the complexity of query evaluation. More detail on the generator is provided in the appendix</p>
+
+<h4>
+<a id="the-homomorphism-checker-and-data-exchange-correctness-tests" class="anchor" href="#the-homomorphism-checker-and-data-exchange-correctness-tests" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Homomorphism Checker and Data Exchange Correctness Tests</h4>
+
+<p>It was important to test not only the performance of the tools but also their correctness. We thus developed a tool capable of testing homomorphisms, mutual homomorphisms, and isomorphisms between database instances. The tool uses essentially a brute-force approach, and therefore can be used only on relatively small instances, of a few thousands tuples at most. Thus our correctness test for data exchange consisted of a collection of test scenarios for which the chase result was small. The scenarios covered standard examples from some of the prior papers and surveys on the chase, including cases where TGDs and EGDs interact, where the chase fails, and scenarios that distinguish termination conditions based on various acyclicity conditions. We then used the homomorphism checker to check for homomorphic equivalence among the outputs of the given tools</p>
+
+<h2>
+<a id="systems-under-evaluation" class="anchor" href="#systems-under-evaluation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Systems Under Evaluation</h2>
+
+<p>Our main goals are to determine whether available chase implementations can support data exchange and query answering in absolute terms, and to investigate the implementation decisions that are most relevant to performance. To answer these questions, we identified nine publicly available chase implementations.</p>
 
 <h4>
 <a id="chase-for-data-exchange" class="anchor" href="#chase-for-data-exchange" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chase for data exchange</h4>
@@ -44,7 +74,8 @@
 <strong>DEMO</strong> (Data Exchange Modelling) <em>R. Pichler and V. Savenkov. DEMo: Data Exchange Modeling Tool. PVLDB, 2(2):1606–1609, 2009</em>
 </li>
 <li>
-<strong>LLUNATIC</strong> - <em>F. Geerts, G. Mecca, P. Papotti, and D. Santoro. That’s all folks! LLUNATIC goes open source. PVLDB, 7(13):1565–1568, 2014</em> </li>
+<strong>LLUNATIC</strong> - <em>F. Geerts, G. Mecca, P. Papotti, and D. Santoro. The LLUNATIC Data-Cleaning Framework. PVLDB, 6(9):625-636, 2013</em> <a href="http://db.unibas.it/projects/llunatic/">http://db.unibas.it/projects/llunatic/</a>
+</li>
 </ul>
 
 <h4>
@@ -54,7 +85,7 @@
 <li>
 <strong>PDQ</strong> - <em>M. Benedikt, J. Leblay, and E. Tsamoura. Querying
 with access patterns and integrity constraints. In
-VLDB, 2015</em>
+VLDB, 2015</em> <a href="http://www.cs.ox.ac.uk/projects/pdq/home.html">http://www.cs.ox.ac.uk/projects/pdq/home.html</a>
 </li>
 <li>
 <strong>PEGASUS</strong> - <em>M. Meier. The backchase revisited. VLDB J., 23(3):495–516, 2014</em>
@@ -66,9 +97,7 @@ VLDB, 2015</em>
 
 <ul>
 <li>
-<strong>GRAAL</strong> - <em>J.-F. Baget, M. Leclère, M.-L. Mugnier, S. Rocher,
-and C. Sipieter. Graal: A toolkit for query answering
-with existential rules. In RuleML, 2015</em>
+<strong>GRAAL</strong> - <em>J.-F. Baget, M. Leclère, M.-L. Mugnier, S. Rocher, and C. Sipieter. Graal: A toolkit for query answering with existential rules. In RuleML, 2015</em> <a href="https://graphik-team.github.io/graal/">https://graphik-team.github.io/graal/</a>
 </li>
 </ul>
 
@@ -90,14 +119,17 @@ with existential rules. In RuleML, 2015</em>
 <p><img width="550" src="https://www.dropbox.com/s/ydvq5ngdm6d8wob/test-tools.png?dl=1"></p>
 
 <h2>
-<a id="test-scenarios" class="anchor" href="#test-scenarios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Test Scenarios</h2>
+<a id="people" class="anchor" href="#people" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>People</h2>
 
-<p>Our benchmark consists of a total of 23 scenarios, each scenario consisting of source and target schemas, constraints, queries, and source data. The scenarios belong to 5 different families, detailed in Table 2. The first one includes 6 small scenarios used as correctness tests for data exchange. The others were used for performance testing, both in data ex- change and query evaluation, and for correctness tests based on query results. Two of these, IBENCH and LUBM, are based on known standards, either from the database or the Semantic Web community. The other two, MANUALLY CURATED and DEEP, we developed ourselves in order to test specific aspects of the chase.</p>
-
-<p><img width="650" src="https://www.dropbox.com/s/lweb4v3wrk9o02d/test-scenarios.png?dl=1"></p>
-
-<h2>
-<a id="other-tools" class="anchor" href="#other-tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other Tools</h2>
+<ul>
+<li>Michael <strong>Benedikt</strong> - University of Oxford</li>
+<li>George <strong>Konstantinidis</strong> - University of Oxford</li>
+<li>Giansalvatore <strong>Mecca</strong> - University of Basilicata</li>
+<li>Boris <strong>Motik</strong> - University of Oxford</li>
+<li>Paolo <strong>Papotti</strong> - Arizona State University</li>
+<li>Donatello <strong>Santoro</strong> - University of Basilicata</li>
+<li>Efthymia <strong>Tsamoura</strong> - University of Oxford</li>
+</ul>
         </section>
 
         <aside id="sidebar">
