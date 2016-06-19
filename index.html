@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Chasebench by dbunibas</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Chasebench</h1>
+        <h2></h2>
+        <a href="https://github.com/dbunibas/chasebench" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h2>
+<a id="tested-systems" class="anchor" href="#tested-systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tested Systems</h2>
+
+<p>Our main goals are to determine whether available chase implementations can support data exchange and query answering in absolute terms, and to investigate the implementation decisions that are most rele- vant to performance. To answer these questions, we identified nine publicly available chase implementations.</p>
+
+<h4>
+<a id="chase-for-data-exchange" class="anchor" href="#chase-for-data-exchange" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chase for data exchange</h4>
+
+<ul>
+<li>
+<strong>CHASEFUN</strong> - <em>A. Bonifati, I. Ileana, and M. Linardi. Functional Dependencies Unleashed for Scalable Data Exchange. In SSDBM, 2016</em>
+</li>
+<li>
+<strong>DEMO</strong> (Data Exchange Modelling) <em>R. Pichler and V. Savenkov. DEMo: Data Exchange Modeling Tool. PVLDB, 2(2):1606–1609, 2009</em>
+</li>
+<li>
+<strong>LLUNATIC</strong> - <em>F. Geerts, G. Mecca, P. Papotti, and D. Santoro. That’s all folks! LLUNATIC goes open source. PVLDB, 7(13):1565–1568, 2014</em> </li>
+</ul>
+
+<h4>
+<a id="chase-for-query-reformulation" class="anchor" href="#chase-for-query-reformulation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chase for query reformulation</h4>
+
+<ul>
+<li>
+<strong>PDQ</strong> - <em>M. Benedikt, J. Leblay, and E. Tsamoura. Querying
+with access patterns and integrity constraints. In
+VLDB, 2015</em>
+</li>
+<li>
+<strong>PEGASUS</strong> - <em>M. Meier. The backchase revisited. VLDB J., 23(3):495–516, 2014</em>
+</li>
+</ul>
+
+<h4>
+<a id="chase-for-query-answering" class="anchor" href="#chase-for-query-answering" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chase for query answering</h4>
+
+<ul>
+<li>
+<strong>GRAAL</strong> - <em>J.-F. Baget, M. Leclère, M.-L. Mugnier, S. Rocher,
+and C. Sipieter. Graal: A toolkit for query answering
+with existential rules. In RuleML, 2015</em>
+</li>
+</ul>
+
+<h4>
+<a id="chase-related-tools" class="anchor" href="#chase-related-tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chase-related tools</h4>
+
+<ul>
+<li>
+<strong>DLV</strong> - <em>N. Leone, G. Pfeifer, W. Faber, T. Eiter, G. Gottlob, S. Perri, and F. Scarcello. The DLV system for knowledge representation and reasoning. TOCL, 7(3):499–562, 2006</em>
+</li>
+<li>
+<strong>E</strong> - <em>The E theorem prover. <a href="http://wwwlehre.dhbw-stuttgart.de/">http://wwwlehre.dhbw-stuttgart.de/</a> sschulz/E/E.html</em>
+</li>
+<li>
+<strong>RDFOX</strong> - <em>B. Motik, Y. Nenov, R. Piro, I. Horrocks, and D. Olteanu. Parallel Materialisation of Datalog Programs in Centralised, Main-Memory RDF Systems. In AAAI, 2014</em>
+</li>
+</ul>
+
+<p><img width="550" src="https://www.dropbox.com/s/ydvq5ngdm6d8wob/test-tools.png?dl=1"></p>
+
+<h2>
+<a id="test-scenarios" class="anchor" href="#test-scenarios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Test Scenarios</h2>
+
+<p>Our benchmark consists of a total of 23 scenarios, each scenario consisting of source and target schemas, constraints, queries, and source data. The scenarios belong to 5 different families, detailed in Table 2. The first one includes 6 small scenarios used as correctness tests for data exchange. The others were used for performance testing, both in data ex- change and query evaluation, and for correctness tests based on query results. Two of these, IBENCH and LUBM, are based on known standards, either from the database or the Semantic Web community. The other two, MANUALLY CURATED and DEEP, we developed ourselves in order to test specific aspects of the chase.</p>
+
+<p><img width="650" src="https://www.dropbox.com/s/lweb4v3wrk9o02d/test-scenarios.png?dl=1"></p>
+
+<h2>
+<a id="other-tools" class="anchor" href="#other-tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other Tools</h2>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/dbunibas/chasebench/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/dbunibas/chasebench/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/dbunibas/chasebench"></a> is maintained by <a href="https://github.com/dbunibas">dbunibas</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
