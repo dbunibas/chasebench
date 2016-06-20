@@ -8,7 +8,7 @@ Our benchmark consists of a total of 23 scenarios, each scenario consisting of s
 #### The Common-Format Parser
 The tools under evaluation differ widely on their assumptions about input. To this end, we standardized the way in which tests were run, creating our own “common format” for constraints, queries, and also data. A standard parser for the common format was developed. Based on the parser, a converter was created for each tool.
 
-#### The Target TGD Generator
+#### [The Target TGD Generator](https://github.com/dbunibas/chasebench/tree/master/utilities/WeaklyAcyclicTGD-Generator)
 Our major set of experiments concern performance. In addition to being able to generate source instances of different size, one primary concern was to have data-exchange scenarios with a significant number of s-t TGDs, target TGDs, and target EGDs. To do this, we used a custom target TGD generator. The generator allowed us to generate weakly acyclic TGDs (where the chase terminates), while controlling the depth and complexity of some of the scenarios, and to complement existing scenarios with additional target TGDs to increase their level of difficulty. 
 
 #### The Query Generator
