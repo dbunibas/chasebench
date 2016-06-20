@@ -14,7 +14,7 @@ Our major set of experiments concern performance. In addition to being able to g
 #### The Query Generator
 Query answering experiments are about finding the certain answers to a set of given queries, and thus we needed a method to generate interesting queries on the target instances. Besides leveraging known benchmarks that come for a set of queries, like LUBM, we had to develop our own query generator. The query generator was essential in order to have queries with non-empty results. In addition, on large schemas it allows us to control the number of joins – we generated queries with up to 7 joins – and therefore the complexity of query evaluation. 
 
-#### The Homomorphism Checker and Data Exchange Correctness Tests
+#### [The Homomorphism Checker and Data Exchange Correctness Tests](https://github.com/dbunibas/chasebench/tree/master/utilities/homomorphismchecker-java)
 
 It was important to test not only the performance of the tools but also their correctness. We thus developed a tool capable of testing homomorphisms, mutual homomorphisms, and isomorphisms between database instances. The tool uses essentially a brute-force approach, and therefore can be used only on relatively small instances, of a few thousands tuples at most. Thus our correctness test for data exchange consisted of a collection of test scenarios for which the chase result was small. The scenarios covered standard examples from some of the prior papers and surveys on the chase, including cases where TGDs and EGDs interact, where the chase fails, and scenarios that distinguish termination conditions based on various acyclicity conditions. We then used the homomorphism checker to check for homomorphic equivalence among the outputs of the given tools
 
