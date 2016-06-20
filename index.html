@@ -44,7 +44,8 @@
 <p>The tools under evaluation differ widely on their assumptions about input. To this end, we standardized the way in which tests were run, creating our own “common format” for constraints, queries, and also data. A standard parser for the common format was developed. Based on the parser, a converter was created for each tool.</p>
 
 <h4>
-<a id="the-target-tgd-generator" class="anchor" href="#the-target-tgd-generator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Target TGD Generator</h4>
+<a id="the-target-tgd-generator" class="anchor" href="#the-target-tgd-generator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://github.com/dbunibas/chasebench/tree/master/utilities/WeaklyAcyclicTGD-Generator">The Target TGD Generator</a>
+</h4>
 
 <p>Our major set of experiments concern performance. In addition to being able to generate source instances of different size, one primary concern was to have data-exchange scenarios with a significant number of s-t TGDs, target TGDs, and target EGDs. To do this, we used a custom target TGD generator. The generator allowed us to generate weakly acyclic TGDs (where the chase terminates), while controlling the depth and complexity of some of the scenarios, and to complement existing scenarios with additional target TGDs to increase their level of difficulty. </p>
 
@@ -70,13 +71,13 @@ The table at the bottom shows the main aspects of each system. Moreover, we grou
 
 <ul>
 <li>
-<strong>CHASEFUN</strong> - <em>A. Bonifati, I. Ileana, and M. Linardi. Functional Dependencies Unleashed for Scalable Data Exchange. In SSDBM, 2016</em>
+<a href="https://github.com/dbunibas/chasebench/tree/master/tools/chasefun"><strong>ChaseFun</strong></a> - <em>A. Bonifati, I. Ileana, and M. Linardi. Functional Dependencies Unleashed for Scalable Data Exchange. In SSDBM, 2016</em>
 </li>
 <li>
-<strong>DEMO</strong> (Data Exchange Modelling) <em>R. Pichler and V. Savenkov. DEMo: Data Exchange Modeling Tool. PVLDB, 2(2):1606–1609, 2009</em>
+<a href="https://github.com/dbunibas/chasebench/tree/master/tools/demo"><strong>DEMo</strong></a> (Data Exchange Modelling) <em>R. Pichler and V. Savenkov. DEMo: Data Exchange Modeling Tool. PVLDB, 2(2):1606–1609, 2009</em>
 </li>
 <li>
-<strong>LLUNATIC</strong> - <em>F. Geerts, G. Mecca, P. Papotti, and D. Santoro. The LLUNATIC Data-Cleaning Framework. PVLDB, 6(9):625-636, 2013</em> <a href="http://db.unibas.it/projects/llunatic/">http://db.unibas.it/projects/llunatic/</a>
+<a href="https://github.com/dbunibas/chasebench/tree/master/tools/llunatic"><strong>Llunatic</strong></a> - <em>F. Geerts, G. Mecca, P. Papotti, and D. Santoro. The LLUNATIC Data-Cleaning Framework. PVLDB, 6(9):625-636, 2013</em> <a href="http://db.unibas.it/projects/llunatic/">http://db.unibas.it/projects/llunatic/</a>
 </li>
 </ul>
 
@@ -85,12 +86,10 @@ The table at the bottom shows the main aspects of each system. Moreover, we grou
 
 <ul>
 <li>
-<strong>PDQ</strong> - <em>M. Benedikt, J. Leblay, and E. Tsamoura. Querying
-with access patterns and integrity constraints. In
-VLDB, 2015</em> <a href="http://www.cs.ox.ac.uk/projects/pdq/home.html">http://www.cs.ox.ac.uk/projects/pdq/home.html</a>
+<a href="https://github.com/dbunibas/chasebench/tree/master/tools/pdq"><strong>PDQ</strong></a> - <em>M. Benedikt, J. Leblay, and E. Tsamoura. Querying with access patterns and integrity constraints. In VLDB, 2015</em> <a href="http://www.cs.ox.ac.uk/projects/pdq/home.html">http://www.cs.ox.ac.uk/projects/pdq/home.html</a>
 </li>
 <li>
-<strong>PEGASUS</strong> - <em>M. Meier. The backchase revisited. VLDB J., 23(3):495–516, 2014</em>
+<a href="https://github.com/dbunibas/chasebench/tree/master/tools/pegasus"><strong>Pegasus</strong></a> - <em>M. Meier. The backchase revisited. VLDB J., 23(3):495–516, 2014</em>
 </li>
 </ul>
 
@@ -99,7 +98,7 @@ VLDB, 2015</em> <a href="http://www.cs.ox.ac.uk/projects/pdq/home.html">http://w
 
 <ul>
 <li>
-<strong>GRAAL</strong> - <em>J.-F. Baget, M. Leclère, M.-L. Mugnier, S. Rocher, and C. Sipieter. Graal: A toolkit for query answering with existential rules. In RuleML, 2015</em> <a href="https://graphik-team.github.io/graal/">https://graphik-team.github.io/graal/</a>
+<a href="https://github.com/dbunibas/chasebench/tree/master/tools/graal"><strong>Graal</strong></a> - <em>J.-F. Baget, M. Leclère, M.-L. Mugnier, S. Rocher, and C. Sipieter. Graal: A toolkit for query answering with existential rules. In RuleML, 2015</em> <a href="https://graphik-team.github.io/graal/">https://graphik-team.github.io/graal/</a>
 </li>
 </ul>
 
@@ -108,13 +107,13 @@ VLDB, 2015</em> <a href="http://www.cs.ox.ac.uk/projects/pdq/home.html">http://w
 
 <ul>
 <li>
-<strong>DLV</strong> - <em>N. Leone, G. Pfeifer, W. Faber, T. Eiter, G. Gottlob, S. Perri, and F. Scarcello. The DLV system for knowledge representation and reasoning. TOCL, 7(3):499–562, 2006</em>
+<a href="https://github.com/dbunibas/chasebench/tree/master/tools/dlv"><strong>DLV</strong></a> - <em>N. Leone, G. Pfeifer, W. Faber, T. Eiter, G. Gottlob, S. Perri, and F. Scarcello. The DLV system for knowledge representation and reasoning. TOCL, 7(3):499–562, 2006</em>
 </li>
 <li>
-<strong>E</strong> - <em>The E theorem prover</em> <a href="http://wwwlehre.dhbw-stuttgart.de/sschulz/E/E.html">http://wwwlehre.dhbw-stuttgart.de/sschulz/E/E.html</a>
+<a href="https://github.com/dbunibas/chasebench/tree/master/tools/e"><strong>E</strong></a> - <em>The E theorem prover</em> <a href="http://wwwlehre.dhbw-stuttgart.de/sschulz/E/E.html">http://wwwlehre.dhbw-stuttgart.de/sschulz/E/E.html</a>
 </li>
 <li>
-<strong>RDFOX</strong> - <em>B. Motik, Y. Nenov, R. Piro, I. Horrocks, and D. Olteanu. Parallel Materialisation of Datalog Programs in Centralised, Main-Memory RDF Systems. In AAAI, 2014</em>
+<a href="https://github.com/dbunibas/chasebench/tree/master/tools/rdfox"><strong>RDFox</strong></a> - <em>B. Motik, Y. Nenov, R. Piro, I. Horrocks, and D. Olteanu. Parallel Materialisation of Datalog Programs in Centralised, Main-Memory RDF Systems. In AAAI, 2014</em>
 </li>
 </ul>
 
