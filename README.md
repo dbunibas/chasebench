@@ -26,27 +26,23 @@ The table at the bottom shows the main aspects of each system. Moreover, we grou
 
 
 #### Chase for data exchange
-- **CHASEFUN** - _A. Bonifati, I. Ileana, and M. Linardi. Functional Dependencies Unleashed for Scalable Data Exchange. In SSDBM, 2016_
-- **DEMO** (Data Exchange Modelling) _R. Pichler and V. Savenkov. DEMo: Data Exchange Modeling Tool. PVLDB, 2(2):1606–1609, 2009_
-- **LLUNATIC** - _F. Geerts, G. Mecca, P. Papotti, and D. Santoro. The LLUNATIC Data-Cleaning Framework. PVLDB, 6(9):625-636, 2013_ http://db.unibas.it/projects/llunatic/
+- [**ChaseFun**](https://github.com/dbunibas/chasebench/tree/master/tools/chasefun) - _A. Bonifati, I. Ileana, and M. Linardi. Functional Dependencies Unleashed for Scalable Data Exchange. In SSDBM, 2016_
+- [**DEMo**](https://github.com/dbunibas/chasebench/tree/master/tools/demo) (Data Exchange Modelling) _R. Pichler and V. Savenkov. DEMo: Data Exchange Modeling Tool. PVLDB, 2(2):1606–1609, 2009_
+- [**Llunatic**](https://github.com/dbunibas/chasebench/tree/master/tools/llunatic) - _F. Geerts, G. Mecca, P. Papotti, and D. Santoro. The LLUNATIC Data-Cleaning Framework. PVLDB, 6(9):625-636, 2013_ http://db.unibas.it/projects/llunatic/
 
 #### Chase for query reformulation
-- **PDQ** - _M. Benedikt, J. Leblay, and E. Tsamoura. Querying
-with access patterns and integrity constraints. In
-VLDB, 2015_ http://www.cs.ox.ac.uk/projects/pdq/home.html
-- **PEGASUS** - _M. Meier. The backchase revisited. VLDB J., 23(3):495–516, 2014_
+- [**PDQ**](https://github.com/dbunibas/chasebench/tree/master/tools/pdq) - _M. Benedikt, J. Leblay, and E. Tsamoura. Querying with access patterns and integrity constraints. In VLDB, 2015_ http://www.cs.ox.ac.uk/projects/pdq/home.html
+- [**Pegasus**](https://github.com/dbunibas/chasebench/tree/master/tools/pegasus) - _M. Meier. The backchase revisited. VLDB J., 23(3):495–516, 2014_
 
 #### Chase for query answering
-- **GRAAL** - _J.-F. Baget, M. Leclère, M.-L. Mugnier, S. Rocher, and C. Sipieter. Graal: A toolkit for query answering with existential rules. In RuleML, 2015_ https://graphik-team.github.io/graal/
+- [**Graal**](https://github.com/dbunibas/chasebench/tree/master/tools/graal) - _J.-F. Baget, M. Leclère, M.-L. Mugnier, S. Rocher, and C. Sipieter. Graal: A toolkit for query answering with existential rules. In RuleML, 2015_ https://graphik-team.github.io/graal/
 
 #### Chase-related tools
-- **DLV** - _N. Leone, G. Pfeifer, W. Faber, T. Eiter, G. Gottlob, S. Perri, and F. Scarcello. The DLV system for knowledge representation and reasoning. TOCL, 7(3):499–562, 2006_
-- **E** - _The E theorem prover_ http://wwwlehre.dhbw-stuttgart.de/sschulz/E/E.html
-- **RDFOX** - _B. Motik, Y. Nenov, R. Piro, I. Horrocks, and D. Olteanu. Parallel Materialisation of Datalog Programs in Centralised, Main-Memory RDF Systems. In AAAI, 2014_
-
+- [**DLV**](https://github.com/dbunibas/chasebench/tree/master/tools/dlv) - _N. Leone, G. Pfeifer, W. Faber, T. Eiter, G. Gottlob, S. Perri, and F. Scarcello. The DLV system for knowledge representation and reasoning. TOCL, 7(3):499–562, 2006_
+- [**E**](https://github.com/dbunibas/chasebench/tree/master/tools/e) - _The E theorem prover_ http://wwwlehre.dhbw-stuttgart.de/sschulz/E/E.html
+- [**RDFox**](https://github.com/dbunibas/chasebench/tree/master/tools/rdfox) - _B. Motik, Y. Nenov, R. Piro, I. Horrocks, and D. Olteanu. Parallel Materialisation of Datalog Programs in Centralised, Main-Memory RDF Systems. In AAAI, 2014_
 
 <img width=550 src="https://raw.githubusercontent.com/dbunibas/chasebench/gh-pages/images/test-tools.png"/>
-
 
 ## People
 
