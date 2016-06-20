@@ -1,0 +1,1 @@
+java -jar querygen.jar -s input/doctors.xml -t input/stats-synthetic.xml -q input/query-policies.xml -o input/

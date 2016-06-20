@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE doc [
+<!ENTITY BASE_FOLDER "/chasebench/datasets/STB-128-deep/">
+]>
+<scenario>
+  <source>
+    <type>DBMS</type>
+    <access-configuration>
+      <driver>org.postgresql.Driver</driver>
+      <uri>jdbc:postgresql:chasebench_stb128_de</uri>
+      <schema>source</schema>
+      <login>pguser</login>
+      <password>pguser</password>
+    </access-configuration>
+    <schemaFile schema="source">&BASE_FOLDER;/schema/STB-128-deep.s-schema.txt</schemaFile>
+    <import>
+      <input type="csv" separator="," hasHeader="false" table="add_su_20_nl0_ce0">&BASE_FOLDER;/data/add_su_20_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="advertisement_hp_21_nl0_ce0">&BASE_FOLDER;/data/advertisement_hp_21_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="advertisement_hp_31_nl0_ce0">&BASE_FOLDER;/data/advertisement_hp_31_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="agency_cp_6_nl0_ce0">&BASE_FOLDER;/data/agency_cp_6_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="amount_cp_30_nl0_ce0">&BASE_FOLDER;/data/amount_cp_30_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="amount_hp_6_nl0_ce0">&BASE_FOLDER;/data/amount_hp_6_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="approval_vp_2_nl0_ce0">&BASE_FOLDER;/data/approval_vp_2_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="baby_cp_26_nl0_ce0">&BASE_FOLDER;/data/baby_cp_26_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="basin_vp_14_nl0_ce0">&BASE_FOLDER;/data/basin_vp_14_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="bath_su_8_nl0_ce0">&BASE_FOLDER;/data/bath_su_8_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="beautiful_su_16_nl0_ce0">&BASE_FOLDER;/data/beautiful_su_16_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="begin_hp_27_nl0_ce0">&BASE_FOLDER;/data/begin_hp_27_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="belong_vp_29_nl0_ce0">&BASE_FOLDER;/data/belong_vp_29_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="board_su_1_nl0_ce0">&BASE_FOLDER;/data/board_su_1_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="bulb_hp_19_nl0_ce0">&BASE_FOLDER;/data/bulb_hp_19_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="chalk_cp_5_nl0_ce0">&BASE_FOLDER;/data/chalk_cp_5_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="check_hp_17_nl0_ce0">&BASE_FOLDER;/data/check_hp_17_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="cheese_hp_1_nl0_ce0">&BASE_FOLDER;/data/cheese_hp_1_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="coat_vp_21_nl0_ce0">&BASE_FOLDER;/data/coat_vp_21_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="committee_vp_23_nl0_ce0">&BASE_FOLDER;/data/committee_vp_23_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="condition_vp_10_nl0_ce0">&BASE_FOLDER;/data/condition_vp_10_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="connect_cp_7_nl0_ce0">&BASE_FOLDER;/data/connect_cp_7_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="copy_vp_30_nl0_ce0">&BASE_FOLDER;/data/copy_vp_30_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="degree_hp_13_nl0_ce0">&BASE_FOLDER;/data/degree_hp_13_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="dress_vp_31_nl0_ce0">&BASE_FOLDER;/data/dress_vp_31_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="eat_hp_11_nl0_ce0">&BASE_FOLDER;/data/eat_hp_11_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="experience_cp_11_nl0_ce0">&BASE_FOLDER;/data/experience_cp_11_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="expert_su_27_nl0_ce0">&BASE_FOLDER;/data/expert_su_27_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="express_cp_10_nl0_ce0">&BASE_FOLDER;/data/express_cp_10_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="fiction_cp_15_nl0_ce0">&BASE_FOLDER;/data/fiction_cp_15_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="fiction_vp_13_nl0_ce0">&BASE_FOLDER;/data/fiction_vp_13_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="foot_su_11_nl0_ce0">&BASE_FOLDER;/data/foot_su_11_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="fruit_vp_12_nl0_ce0">&BASE_FOLDER;/data/fruit_vp_12_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="garden_vp_3_nl0_ce0">&BASE_FOLDER;/data/garden_vp_3_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="glove_hp_24_nl0_ce0">&BASE_FOLDER;/data/glove_hp_24_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="grip_su_26_nl0_ce0">&BASE_FOLDER;/data/grip_su_26_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="hammer_cp_14_nl0_ce0">&BASE_FOLDER;/data/hammer_cp_14_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="hate_hp_9_nl0_ce0">&BASE_FOLDER;/data/hate_hp_9_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="hide_su_32_nl0_ce0">&BASE_FOLDER;/data/hide_su_32_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="hollow_hp_10_nl0_ce0">&BASE_FOLDER;/data/hollow_hp_10_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="hollow_hp_12_nl0_ce0">&BASE_FOLDER;/data/hollow_hp_12_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="hurt_vp_19_nl0_ce0">&BASE_FOLDER;/data/hurt_vp_19_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="impulse_hp_14_nl0_ce0">&BASE_FOLDER;/data/impulse_hp_14_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="industry_vp_22_nl0_ce0">&BASE_FOLDER;/data/industry_vp_22_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="involve_cp_25_nl0_ce0">&BASE_FOLDER;/data/involve_cp_25_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="jewel_cp_23_nl0_ce0">&BASE_FOLDER;/data/jewel_cp_23_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="kind_cp_4_nl0_ce0">&BASE_FOLDER;/data/kind_cp_4_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="last_su_5_nl0_ce0">&BASE_FOLDER;/data/last_su_5_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="laugh_vp_18_nl0_ce0">&BASE_FOLDER;/data/laugh_vp_18_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="laugh_vp_25_nl0_ce0">&BASE_FOLDER;/data/laugh_vp_25_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="lead_cp_21_nl0_ce0">&BASE_FOLDER;/data/lead_cp_21_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="learn_vp_20_nl0_ce0">&BASE_FOLDER;/data/learn_vp_20_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="leather_su_6_nl0_ce0">&BASE_FOLDER;/data/leather_su_6_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="letter_vp_1_nl0_ce0">&BASE_FOLDER;/data/letter_vp_1_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="library_su_3_nl0_ce0">&BASE_FOLDER;/data/library_su_3_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="lock_su_29_nl0_ce0">&BASE_FOLDER;/data/lock_su_29_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="love_su_4_nl0_ce0">&BASE_FOLDER;/data/love_su_4_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="male_su_19_nl0_ce0">&BASE_FOLDER;/data/male_su_19_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="meal_vp_28_nl0_ce0">&BASE_FOLDER;/data/meal_vp_28_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="mention_vp_5_nl0_ce0">&BASE_FOLDER;/data/mention_vp_5_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="moon_hp_32_nl0_ce0">&BASE_FOLDER;/data/moon_hp_32_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="observation_su_12_nl0_ce0">&BASE_FOLDER;/data/observation_su_12_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="orange_su_18_nl0_ce0">&BASE_FOLDER;/data/orange_su_18_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="order_su_2_nl0_ce0">&BASE_FOLDER;/data/order_su_2_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="paint_cp_3_nl0_ce0">&BASE_FOLDER;/data/paint_cp_3_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="pipe_hp_2_nl0_ce0">&BASE_FOLDER;/data/pipe_hp_2_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="poor_vp_7_nl0_ce0">&BASE_FOLDER;/data/poor_vp_7_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="poor_vp_17_nl0_ce0">&BASE_FOLDER;/data/poor_vp_17_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="probable_vp_6_nl0_ce0">&BASE_FOLDER;/data/probable_vp_6_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="question_su_7_nl0_ce0">&BASE_FOLDER;/data/question_su_7_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="receive_cp_22_nl0_ce0">&BASE_FOLDER;/data/receive_cp_22_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="regard_cp_16_nl0_ce0">&BASE_FOLDER;/data/regard_cp_16_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="regular_hp_3_nl0_ce0">&BASE_FOLDER;/data/regular_hp_3_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="remain_cp_19_nl0_ce0">&BASE_FOLDER;/data/remain_cp_19_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="require_hp_15_nl0_ce0">&BASE_FOLDER;/data/require_hp_15_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="return_vp_8_nl0_ce0">&BASE_FOLDER;/data/return_vp_8_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="reveal_cp_2_nl0_ce0">&BASE_FOLDER;/data/reveal_cp_2_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="rhythm_su_17_nl0_ce0">&BASE_FOLDER;/data/rhythm_su_17_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="roof_vp_26_nl0_ce0">&BASE_FOLDER;/data/roof_vp_26_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="root_hp_7_nl0_ce0">&BASE_FOLDER;/data/root_hp_7_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="rough_vp_15_nl0_ce0">&BASE_FOLDER;/data/rough_vp_15_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="round_su_25_nl0_ce0">&BASE_FOLDER;/data/round_su_25_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="sea_hp_8_nl0_ce0">&BASE_FOLDER;/data/sea_hp_8_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="seat_su_31_nl0_ce0">&BASE_FOLDER;/data/seat_su_31_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="shut_vp_9_nl0_ce0">&BASE_FOLDER;/data/shut_vp_9_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="side_vp_16_nl0_ce0">&BASE_FOLDER;/data/side_vp_16_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="silk_vp_4_nl0_ce0">&BASE_FOLDER;/data/silk_vp_4_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="sky_cp_29_nl0_ce0">&BASE_FOLDER;/data/sky_cp_29_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="slow_hp_30_nl0_ce0">&BASE_FOLDER;/data/slow_hp_30_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="snake_vp_11_nl0_ce0">&BASE_FOLDER;/data/snake_vp_11_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="speak_cp_13_nl0_ce0">&BASE_FOLDER;/data/speak_cp_13_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="start_hp_5_nl0_ce0">&BASE_FOLDER;/data/start_hp_5_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="steel_hp_22_nl0_ce0">&BASE_FOLDER;/data/steel_hp_22_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="stocking_cp_27_nl0_ce0">&BASE_FOLDER;/data/stocking_cp_27_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="stop_su_14_nl0_ce0">&BASE_FOLDER;/data/stop_su_14_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="study_su_30_nl0_ce0">&BASE_FOLDER;/data/study_su_30_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="sudden_su_21_nl0_ce0">&BASE_FOLDER;/data/sudden_su_21_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="support_su_10_nl0_ce0">&BASE_FOLDER;/data/support_su_10_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="test_cp_1_nl0_ce0">&BASE_FOLDER;/data/test_cp_1_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="thin_su_15_nl0_ce0">&BASE_FOLDER;/data/thin_su_15_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="toe_cp_24_nl0_ce0">&BASE_FOLDER;/data/toe_cp_24_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="touch_cp_12_nl0_ce0">&BASE_FOLDER;/data/touch_cp_12_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="train_cp_8_nl0_ce0">&BASE_FOLDER;/data/train_cp_8_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="try_hp_18_nl0_ce0">&BASE_FOLDER;/data/try_hp_18_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="violent_hp_4_nl0_ce0">&BASE_FOLDER;/data/violent_hp_4_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="walk_hp_28_nl0_ce0">&BASE_FOLDER;/data/walk_hp_28_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="weight_su_13_nl0_ce0">&BASE_FOLDER;/data/weight_su_13_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="whip_hp_16_nl0_ce0">&BASE_FOLDER;/data/whip_hp_16_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="will_su_23_nl0_ce0">&BASE_FOLDER;/data/will_su_23_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="win_su_9_nl0_ce0">&BASE_FOLDER;/data/win_su_9_nl0_ce0.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="window_cp_9_nl0_ce0">&BASE_FOLDER;/data/window_cp_9_nl0_ce0.csv</input>
+    </import>
+  </source>
+  <target>
+    <type>DBMS</type>
+    <access-configuration>
+      <driver>org.postgresql.Driver</driver>
+      <uri>jdbc:postgresql:chasebench_stb128_de</uri>
+      <schema>target</schema>
+      <login>pguser</login>
+      <password>pguser</password>
+    </access-configuration>
+    <schemaFile schema="target">&BASE_FOLDER;/schema/STB-128-deep.t-schema.txt</schemaFile>
+  </target>
+  <configuration>
+    <printResults>true</printResults>
+    <exportSolutions>true</exportSolutions>
+    <exportSolutionsPath>/chasebench/tools/output/llunatic/STB-128-deep/</exportSolutionsPath>
+    <exportSolutionsType>CSV</exportSolutionsType>
+    <exportQueryResults>true</exportQueryResults>
+    <exportQueryResultsPath>/chasebench/tools/output/llunatic/STB-128-deep/queries/</exportQueryResultsPath>
+    <exportQueryResultsType>CSV</exportQueryResultsType>
+  </configuration>
+  <dependencies>
+    <sttgdsFile>&BASE_FOLDER;/dependencies/STB-128-deep.st-tgds.txt</sttgdsFile>
+    <ttgdsFile>&BASE_FOLDER;/dependencies/STB-128-deep.t-tgds.txt</ttgdsFile>
+    <egdsFile>&BASE_FOLDER;/dependencies/STB-128-deep.t-egds.txt</egdsFile>
+  </dependencies>
+  <queries>
+    <queryFile>&BASE_FOLDER;/queries/q1.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q2.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q3.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q4.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q5.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q6.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q7.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q8.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q9.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q10.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q11.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q12.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q13.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q14.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q15.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q16.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q17.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q18.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q19.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q20.txt</queryFile>
+  </queries>
+</scenario>

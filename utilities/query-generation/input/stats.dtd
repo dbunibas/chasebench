@@ -1,0 +1,16 @@
+
+    <!ELEMENT schemaStats (tableStats*)>
+        <!ATTLIST schemaStats 
+            name   ID    #REQUIRED>
+    <!ELEMENT tableStats (attrStats*)>
+        <!ATTLIST tableStats
+            name   ID    #REQUIRED>
+    <!ELEMENT attrStats (listValues | rangeValues)>
+        <!ATTLIST attrStats
+            name   ID    #REQUIRED
+            type   CDATA #REQUIRED>
+    <!ELEMENT listValues (value+)>
+    <!ELEMENT value (#PCDATA)>
+    <!ELEMENT rangeValues (min, max)>
+    <!ELEMENT max (#PCDATA)>
+    <!ELEMENT min (#PCDATA)>

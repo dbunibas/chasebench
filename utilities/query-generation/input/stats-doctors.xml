@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE schemaStats SYSTEM "stats.dtd">
+<schemaStats name="doctors">
+  <tableStats name="doctor">
+    <attrStats name="doctor.hospital" type="string">
+      <listValues>
+        <value>HH30727</value>
+        <value>HH65795</value>
+        <value>HH82606</value>
+      </listValues>
+    </attrStats>
+  </tableStats>
+
+  <tableStats name="prescription">
+    <attrStats name="prescription.npi" type="int">
+      <listValues>
+        <value>274</value>
+        <value>436</value>
+        <value>84</value>
+        <value>65</value>
+        <value>379</value>
+        <value>122</value>
+        <value>478</value>
+      </listValues>
+    </attrStats>
+  </tableStats>
+ 
+  <tableStats name="targethospital">
+    <attrStats name="targethospital.hospital" type="string">
+      <listValues>
+        <value>HH30727</value>
+        <value>HH65795</value> 
+      </listValues>
+    </attrStats>
+  </tableStats>
+  
+</schemaStats>
