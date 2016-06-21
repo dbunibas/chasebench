@@ -1,0 +1,13 @@
+
+    <!ELEMENT Policies (QueryGenPolicy)>
+    <!ELEMENT QueryGenPolicy (Policy+)>
+        <!ATTLIST QueryGenPolicy
+            numQueries   CDATA    #REQUIRED>
+    <!ELEMENT Policy (Parameter*)>
+        <!ATTLIST Policy
+            class   CDATA #REQUIRED>
+    <!ELEMENT Parameter (Name, Value)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Value (#PCDATA)>
+    
+

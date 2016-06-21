@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE schema SYSTEM "schema.dtd">
+<schema name="schema">
+	<table name="prescription">
+		<attribute name="prescription.id" type="integer"></attribute>
+		<attribute name="prescription.patient" type="string"></attribute>
+		<attribute name="prescription.npi" type="integer"></attribute>
+		<attribute name="prescription.conf" type="double"></attribute>
+		<primaryKey attrNames="prescription.id"></primaryKey>
+		<joinableKey attrName1="prescription.npi" attrName2="doctor.npi" />
+		<joinableKey attrName1="prescription.npi" attrName2="targethospital.npi" />
+		<filtered attrName="prescription.npi" />
+		<filtered attrName="prescription.conf" />
+		<filtered attrName="prescription.id" />
+		<filtered attrName="prescription.patient" />
+	</table>
+	<table name="targethospital">
+		<attribute name="targethospital.doctor" type="string" />
+		<attribute name="targethospital.spec" type="string" />
+		<attribute name="targethospital.hospital" type="string" />
+		<attribute name="targethospital.npi" type="integer" />
+		<attribute name="targethospital.conf" type="double" />
+		<joinableKey attrName1="targethospital.spec" attrName2="doctor.spec" />
+		<joinableKey attrName1="targethospital.hospital" attrName2="doctor.hospital" />
+		<joinableKey attrName1="targethospital.npi" attrName2="doctor.npi" />
+		<joinableKey attrName1="targethospital.npi" attrName2="prescription.npi" />
+		<joinableKey attrName1="targethospital.doctor" attrName2="doctor.doctor" />
+		<filtered attrName="targethospital.conf" />
+		<filtered attrName="targethospital.hospital" />
+		<filtered attrName="targethospital.doctor" />
+		<filtered attrName="targethospital.npi" />
+		<filtered attrName="targethospital.spec" />
+	</table>
+	<table name="doctor">
+		<attribute name="doctor.npi" type="integer" />
+		<attribute name="doctor.doctor" type="string" />
+		<attribute name="doctor.spec" type="string" />
+		<attribute name="doctor.hospital" type="string" />
+		<attribute name="doctor.conf" type="double" />
+		<primaryKey attrNames="doctor.npi"></primaryKey>
+		<joinableKey attrName1="doctor.npi" attrName2="prescription.npi" />
+		<joinableKey attrName1="doctor.npi" attrName2="targethospital.npi" />
+		<joinableKey attrName1="doctor.spec" attrName2="targethospital.spec" />
+		<joinableKey attrName1="doctor.hospital" attrName2="targethospital.hospital" />
+		<joinableKey attrName1="doctor.doctor" attrName2="targethospital.doctor" />
+		<filtered attrName="doctor.npi" />
+		<filtered attrName="doctor.doctor" />
+		<filtered attrName="doctor.hospital" />
+		<filtered attrName="doctor.conf" />
+		<filtered attrName="doctor.spec" />
+	</table>
+
+</schema>
