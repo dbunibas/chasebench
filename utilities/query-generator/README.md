@@ -3,7 +3,7 @@ Generates non-empty queries over the relations of a target schema.
 The data of the target schema must be stored in a relational DBMS. 
 The current software distribution supports Microsoft SQL Server 2014.
 
-The query generator runs in two modes, the automatic and the semi-automatic mode. The automatic mode takes as input schemata and dependencies in the common format, while the semi-automatic mode reads schemata in a query generator-specific format (see file doctors.xml under folder semi-automatic). Both modes return non-empty SPJ queries.  
+The query generator runs in two modes, the automatic and the semi-automatic mode. The automatic mode takes as input schemata and dependencies in the common format, while the semi-automatic mode reads schemata in a query generator-specific format (see file schema.xml under folder semi-automatic). Both modes return non-empty SPJ queries.  
 The second mode is useful in cases where the input dependencies are not enough to specify joinable attribute pairs.
 
 The inputs to the automatic mode are
