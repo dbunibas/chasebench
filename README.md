@@ -5,7 +5,7 @@ Our benchmark consists of a total of 23 scenarios, each scenario consisting of s
 
 ## Test Infrastructure
 
-#### The Common-Format Parser
+#### [The Common-Format Parser](https://github.com/dbunibas/chasebench/tree/master/utilities/parser)
 The tools under evaluation differ widely on their assumptions about input. To this end, we standardized the way in which tests were run, creating our own “common format” for constraints, queries, and also data. A standard parser for the common format was developed. Based on the parser, a converter was created for each tool.
 
 #### [Instance repair tool](https://github.com/dbunibas/chasebench/tree/master/utilities/instance-repair)
