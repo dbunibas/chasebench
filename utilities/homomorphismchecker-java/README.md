@@ -7,7 +7,7 @@ Execute script `./compare <comparison_task.properties>`, for example `./compare.
 ### How to configure a ComparisonTask
 A ComparisonTask is specified in an .properties file, with the following properties
 
-##### Instance folders containing several .csv files, one per table, each named after the table
+##### Instance folders containing several .csv files, one per table, each named after the table. The first row in a csv file is expected to contain the labels of the attributes.
 
 leftInstanceFolder    = leftInstance/  
 rightInstanceFolder   = rightInstance/
