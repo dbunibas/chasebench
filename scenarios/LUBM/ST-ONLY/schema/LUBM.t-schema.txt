@@ -1,0 +1,326 @@
+AdministrativeStaff {
+    c0 : SYMBOL
+}
+
+Article {
+    c0 : SYMBOL
+}
+
+AssistantProfessor {
+    c0 : SYMBOL
+}
+
+AssociateProfessor {
+    c0 : SYMBOL
+}
+
+Book {
+    c0 : SYMBOL
+}
+
+Chair {
+    c0 : SYMBOL
+}
+
+ClericalStaff {
+    c0 : SYMBOL
+}
+
+College {
+    c0 : SYMBOL
+}
+
+ConferencePaper {
+    c0 : SYMBOL
+}
+
+Course {
+    c0 : SYMBOL
+}
+
+Dean {
+    c0 : SYMBOL
+}
+
+Department {
+    c0 : SYMBOL
+}
+
+Director {
+    c0 : SYMBOL
+}
+
+Employee {
+    c0 : SYMBOL
+}
+
+Faculty {
+    c0 : SYMBOL
+}
+
+FullProfessor {
+    c0 : SYMBOL
+}
+
+GraduateCourse {
+    c0 : SYMBOL
+}
+
+GraduateStudent {
+    c0 : SYMBOL
+}
+
+Institute {
+    c0 : SYMBOL
+}
+
+JournalArticle {
+    c0 : SYMBOL
+}
+
+Lecturer {
+    c0 : SYMBOL
+}
+
+Manual {
+    c0 : SYMBOL
+}
+
+Organization {
+    c0 : SYMBOL
+}
+
+Person {
+    c0 : SYMBOL
+}
+
+PostDoc {
+    c0 : SYMBOL
+}
+
+Professor {
+    c0 : SYMBOL
+}
+
+Program {
+    c0 : SYMBOL
+}
+
+Publication {
+    c0 : SYMBOL
+}
+
+Research {
+    c0 : SYMBOL
+}
+
+ResearchAssistant {
+    c0 : SYMBOL
+}
+
+ResearchGroup {
+    c0 : SYMBOL
+}
+
+Schedule {
+    c0 : SYMBOL
+}
+
+Software {
+    c0 : SYMBOL
+}
+
+Specification {
+    c0 : SYMBOL
+}
+
+Student {
+    c0 : SYMBOL
+}
+
+SystemsStaff {
+    c0 : SYMBOL
+}
+
+TeachingAssistant {
+    c0 : SYMBOL
+}
+
+TechnicalReport {
+    c0 : SYMBOL
+}
+
+UndergraduateStudent {
+    c0 : SYMBOL
+}
+
+University {
+    c0 : SYMBOL
+}
+
+UnofficialPublication {
+    c0 : SYMBOL
+}
+
+VisitingProfessor {
+    c0 : SYMBOL
+}
+
+Work {
+    c0 : SYMBOL
+}
+
+age {
+    c0 : SYMBOL,
+    c1 : INTEGER
+}
+    
+advisor {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+affiliateOf {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+affiliatedOrganizationOf {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+degreeFrom {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+doctoralDegreeFrom {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+emailAddress {
+    c0 : SYMBOL,
+    c1 : STRING
+}
+
+hasAlumnus {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+headOf {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+listedCourse {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+mastersDegreeFrom {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+member {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+memberOf {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+name {
+    c0 : SYMBOL,
+    c1 : STRING
+}
+
+orgPublication {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+publicationAuthor {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+publicationDate {
+    c0 : SYMBOL,
+    c1 : STRING
+}
+
+publicationResearch {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+researchInterest {
+    c0 : SYMBOL,
+    c1 : STRING
+}
+
+researchProject {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+softwareDocumentation {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+softwareVersion {
+    c0 : SYMBOL,
+    c1 : INTEGER
+}
+
+subOrganizationOf {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+takesCourse {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+teacherOf {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+teachingAssistantOf {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+telephone {
+    c0 : SYMBOL,
+    c1 : STRING
+}
+
+tenured {
+    c0 : SYMBOL,
+    c1 : INTEGER
+}
+
+title {
+    c0 : SYMBOL,
+    c1 : STRING
+}
+
+undergraduateDegreeFrom {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
+
+worksFor {
+    c0 : SYMBOL,
+    c1 : SYMBOL
+}
