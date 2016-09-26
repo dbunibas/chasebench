@@ -58,7 +58,7 @@ The table at the bottom shows the main aspects of each system. Moreover, we grou
 
 ### Experimental Results
 We ran all tests on a server with 6 physical Xeon v3 cores running at 1.9GHz, 16 GB of RAM, and a 512 GB SSD, running Ubuntu v16. Our configuration is thus not very far from that of a high-end laptop. 
-The results are shown at the follow link [https://dbunibas.github.io/chasebench/times.htm](https://dbunibas.github.io/chasebench/times.htm) (times are in seconds).
+The results are shown at the follow link [https://dbunibas.github.io/chasebench/times.pdf](https://dbunibas.github.io/chasebench/times.pdf) (times are in seconds).
 
 
 ## People
