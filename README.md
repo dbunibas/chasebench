@@ -40,7 +40,7 @@ The table at the bottom shows the main aspects of each system. Moreover, we grou
 
 #### Chase for data exchange
 - **ChaseFun** - _A. Bonifati, I. Ileana, and M. Linardi. Functional Dependencies Unleashed for Scalable Data Exchange. In SSDBM, 2016_
-- **DEMo** (Data Exchange Modelling) _R. Pichler and V. Savenkov. DEMo: Data Exchange Modeling Tool. PVLDB, 2(2):1606–1609, 2009_
+- [**DEMo**](http://www.vldb.org/pvldb/2/vldb09-1043.pdf) (Data Exchange Modelling) _R. Pichler and V. Savenkov. DEMo: Data Exchange Modeling Tool. PVLDB, 2(2):1606–1609, 2009_
 - [**Llunatic**](https://github.com/dbunibas/chasebench/tree/master/tools/llunatic) - _F. Geerts, G. Mecca, P. Papotti, and D. Santoro. The LLUNATIC Data-Cleaning Framework. PVLDB, 6(9):625-636, 2013_ http://db.unibas.it/projects/llunatic/
 
 #### Chase for query reformulation
