@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE doc [
+<!ENTITY BASE_FOLDER "/chasebench/datasets/Ontology-256/">
+]>
+<scenario>
+  <source>
+    <type>DBMS</type>
+    <access-configuration>
+      <driver>org.postgresql.Driver</driver>
+      <uri>jdbc:postgresql:chasebench_ontology256_de</uri>
+      <schema>source</schema>
+      <login>pguser</login>
+      <password>pguser</password>
+    </access-configuration>
+    <schemaFile schema="source">&BASE_FOLDER;/schema/Ontology-256.s-schema.txt</schemaFile>
+    <import>
+<input type="csv" separator="," hasHeader="false" table="act_vnm_8_nl0_ce0">&BASE_FOLDER;/data/act_vnm_8_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="air_ad_39_nl0_ce0">&BASE_FOLDER;/data/air_ad_39_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="amount_vnm_4_nl0_ce0">&BASE_FOLDER;/data/amount_vnm_4_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="apparatus_vnm_47_nl0_ce0">&BASE_FOLDER;/data/apparatus_vnm_47_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="attack_vi_51_nl0_ce0">&BASE_FOLDER;/data/attack_vi_51_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="automatic_ad_29_nl0_ce0">&BASE_FOLDER;/data/automatic_ad_29_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="automatic_vnm_22_nl0_ce0">&BASE_FOLDER;/data/automatic_vnm_22_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="avoid_vh_18_nl0_ce0">&BASE_FOLDER;/data/avoid_vh_18_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="avoid_vi_32_nl0_ce0">&BASE_FOLDER;/data/avoid_vi_32_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="back_ad_62_nl0_ce0">&BASE_FOLDER;/data/back_ad_62_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="bag_vh_38_nl0_ce0">&BASE_FOLDER;/data/bag_vh_38_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="base_vh_64_nl0_ce0">&BASE_FOLDER;/data/base_vh_64_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="bath_ad_14_nl0_ce0">&BASE_FOLDER;/data/bath_ad_14_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="become_ad_32_nl0_ce0">&BASE_FOLDER;/data/become_ad_32_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="become_vh_45_nl0_ce0">&BASE_FOLDER;/data/become_vh_45_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="bed_ad_53_nl0_ce0">&BASE_FOLDER;/data/bed_ad_53_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="behavior_vi_59_nl0_ce0">&BASE_FOLDER;/data/behavior_vi_59_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="belong_vnm_18_nl0_ce0">&BASE_FOLDER;/data/belong_vnm_18_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="birth_vi_15_nl0_ce0">&BASE_FOLDER;/data/birth_vi_15_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="book_vh_42_nl0_ce0">&BASE_FOLDER;/data/book_vh_42_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="branch_vi_11_nl0_ce0">&BASE_FOLDER;/data/branch_vi_11_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="brick_vi_62_nl0_ce0">&BASE_FOLDER;/data/brick_vi_62_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="bright_vi_12_nl0_ce0">&BASE_FOLDER;/data/bright_vi_12_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="bucket_vh_8_nl0_ce0">&BASE_FOLDER;/data/bucket_vh_8_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="building_vh_33_nl0_ce0">&BASE_FOLDER;/data/building_vh_33_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="buy_vh_62_nl0_ce0">&BASE_FOLDER;/data/buy_vh_62_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="buy_vnm_20_nl0_ce0">&BASE_FOLDER;/data/buy_vnm_20_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="cause_ad_31_nl0_ce0">&BASE_FOLDER;/data/cause_ad_31_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="certain_vnm_3_nl0_ce0">&BASE_FOLDER;/data/certain_vnm_3_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="check_vi_49_nl0_ce0">&BASE_FOLDER;/data/check_vi_49_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="chemical_ad_20_nl0_ce0">&BASE_FOLDER;/data/chemical_ad_20_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="chess_ad_52_nl0_ce0">&BASE_FOLDER;/data/chess_ad_52_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="chief_vnm_17_nl0_ce0">&BASE_FOLDER;/data/chief_vnm_17_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="chief_vnm_30_nl0_ce0">&BASE_FOLDER;/data/chief_vnm_30_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="chin_vnm_13_nl0_ce0">&BASE_FOLDER;/data/chin_vnm_13_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="circle_vnm_51_nl0_ce0">&BASE_FOLDER;/data/circle_vnm_51_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="clear_vi_64_nl0_ce0">&BASE_FOLDER;/data/clear_vi_64_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="collect_vh_19_nl0_ce0">&BASE_FOLDER;/data/collect_vh_19_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="comb_vi_52_nl0_ce0">&BASE_FOLDER;/data/comb_vi_52_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="committee_vnm_15_nl0_ce0">&BASE_FOLDER;/data/committee_vnm_15_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="complain_vh_5_nl0_ce0">&BASE_FOLDER;/data/complain_vh_5_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="condition_ad_35_nl0_ce0">&BASE_FOLDER;/data/condition_ad_35_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="contact_vh_58_nl0_ce0">&BASE_FOLDER;/data/contact_vh_58_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="control_ad_11_nl0_ce0">&BASE_FOLDER;/data/control_ad_11_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="control_vh_39_nl0_ce0">&BASE_FOLDER;/data/control_vh_39_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="copy_vnm_23_nl0_ce0">&BASE_FOLDER;/data/copy_vnm_23_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="cover_vi_17_nl0_ce0">&BASE_FOLDER;/data/cover_vi_17_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="cruel_ad_54_nl0_ce0">&BASE_FOLDER;/data/cruel_ad_54_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="curve_vi_58_nl0_ce0">&BASE_FOLDER;/data/curve_vi_58_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="cut_vi_25_nl0_ce0">&BASE_FOLDER;/data/cut_vi_25_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="damage_vi_61_nl0_ce0">&BASE_FOLDER;/data/damage_vi_61_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="danger_vi_53_nl0_ce0">&BASE_FOLDER;/data/danger_vi_53_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="degree_vh_32_nl0_ce0">&BASE_FOLDER;/data/degree_vh_32_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="delicate_ad_6_nl0_ce0">&BASE_FOLDER;/data/delicate_ad_6_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="detail_vh_48_nl0_ce0">&BASE_FOLDER;/data/detail_vh_48_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="disgust_ad_8_nl0_ce0">&BASE_FOLDER;/data/disgust_ad_8_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="division_vh_2_nl0_ce0">&BASE_FOLDER;/data/division_vh_2_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="do_vnm_58_nl0_ce0">&BASE_FOLDER;/data/do_vnm_58_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="dress_ad_55_nl0_ce0">&BASE_FOLDER;/data/dress_ad_55_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="drink_vh_10_nl0_ce0">&BASE_FOLDER;/data/drink_vh_10_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="drive_vh_37_nl0_ce0">&BASE_FOLDER;/data/drive_vh_37_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="early_vi_56_nl0_ce0">&BASE_FOLDER;/data/early_vi_56_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="eat_vnm_63_nl0_ce0">&BASE_FOLDER;/data/eat_vnm_63_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="effect_vnm_34_nl0_ce0">&BASE_FOLDER;/data/effect_vnm_34_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="enable_ad_9_nl0_ce0">&BASE_FOLDER;/data/enable_ad_9_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="error_vnm_43_nl0_ce0">&BASE_FOLDER;/data/error_vnm_43_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="examine_ad_26_nl0_ce0">&BASE_FOLDER;/data/examine_ad_26_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="expect_vnm_21_nl0_ce0">&BASE_FOLDER;/data/expect_vnm_21_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="feather_vi_21_nl0_ce0">&BASE_FOLDER;/data/feather_vi_21_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="fill_vh_46_nl0_ce0">&BASE_FOLDER;/data/fill_vh_46_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="flower_vi_30_nl0_ce0">&BASE_FOLDER;/data/flower_vi_30_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="fold_vnm_53_nl0_ce0">&BASE_FOLDER;/data/fold_vnm_53_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="force_vnm_19_nl0_ce0">&BASE_FOLDER;/data/force_vnm_19_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="forgive_vi_24_nl0_ce0">&BASE_FOLDER;/data/forgive_vi_24_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="friend_ad_22_nl0_ce0">&BASE_FOLDER;/data/friend_ad_22_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="fruit_vi_28_nl0_ce0">&BASE_FOLDER;/data/fruit_vi_28_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="gain_ad_46_nl0_ce0">&BASE_FOLDER;/data/gain_ad_46_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="garden_vi_3_nl0_ce0">&BASE_FOLDER;/data/garden_vi_3_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="glove_vi_63_nl0_ce0">&BASE_FOLDER;/data/glove_vi_63_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="government_vh_9_nl0_ce0">&BASE_FOLDER;/data/government_vh_9_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="green_ad_27_nl0_ce0">&BASE_FOLDER;/data/green_ad_27_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="guide_vh_27_nl0_ce0">&BASE_FOLDER;/data/guide_vh_27_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="hanging_vi_16_nl0_ce0">&BASE_FOLDER;/data/hanging_vi_16_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="harbor_vi_8_nl0_ce0">&BASE_FOLDER;/data/harbor_vi_8_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="hard_vnm_36_nl0_ce0">&BASE_FOLDER;/data/hard_vnm_36_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="hat_vnm_12_nl0_ce0">&BASE_FOLDER;/data/hat_vnm_12_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="head_vnm_28_nl0_ce0">&BASE_FOLDER;/data/head_vnm_28_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="hide_vh_20_nl0_ce0">&BASE_FOLDER;/data/hide_vh_20_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="ice_vi_13_nl0_ce0">&BASE_FOLDER;/data/ice_vi_13_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="imagine_ad_23_nl0_ce0">&BASE_FOLDER;/data/imagine_ad_23_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="important_vh_7_nl0_ce0">&BASE_FOLDER;/data/important_vh_7_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="impulse_ad_10_nl0_ce0">&BASE_FOLDER;/data/impulse_ad_10_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="insurance_vi_14_nl0_ce0">&BASE_FOLDER;/data/insurance_vi_14_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="insurance_vi_50_nl0_ce0">&BASE_FOLDER;/data/insurance_vi_50_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="join_vh_41_nl0_ce0">&BASE_FOLDER;/data/join_vh_41_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="keep_vnm_10_nl0_ce0">&BASE_FOLDER;/data/keep_vnm_10_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="last_vi_4_nl0_ce0">&BASE_FOLDER;/data/last_vi_4_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="last_vnm_26_nl0_ce0">&BASE_FOLDER;/data/last_vnm_26_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="last_vnm_35_nl0_ce0">&BASE_FOLDER;/data/last_vnm_35_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="laugh_ad_13_nl0_ce0">&BASE_FOLDER;/data/laugh_ad_13_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="laugh_vh_25_nl0_ce0">&BASE_FOLDER;/data/laugh_vh_25_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="learning_ad_36_nl0_ce0">&BASE_FOLDER;/data/learning_ad_36_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="leather_vh_52_nl0_ce0">&BASE_FOLDER;/data/leather_vh_52_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="library_ad_3_nl0_ce0">&BASE_FOLDER;/data/library_ad_3_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="limit_vnm_60_nl0_ce0">&BASE_FOLDER;/data/limit_vnm_60_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="line_vi_10_nl0_ce0">&BASE_FOLDER;/data/line_vi_10_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="look_vh_63_nl0_ce0">&BASE_FOLDER;/data/look_vh_63_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="loose_vnm_32_nl0_ce0">&BASE_FOLDER;/data/loose_vnm_32_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="loud_vnm_16_nl0_ce0">&BASE_FOLDER;/data/loud_vnm_16_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="machine_vi_23_nl0_ce0">&BASE_FOLDER;/data/machine_vi_23_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="make_ad_5_nl0_ce0">&BASE_FOLDER;/data/make_ad_5_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="map_vi_57_nl0_ce0">&BASE_FOLDER;/data/map_vi_57_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="meal_vnm_27_nl0_ce0">&BASE_FOLDER;/data/meal_vnm_27_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="mixed_vi_2_nl0_ce0">&BASE_FOLDER;/data/mixed_vi_2_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="moon_vi_20_nl0_ce0">&BASE_FOLDER;/data/moon_vi_20_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="music_vi_43_nl0_ce0">&BASE_FOLDER;/data/music_vi_43_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="must_vnm_57_nl0_ce0">&BASE_FOLDER;/data/must_vnm_57_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="nail_ad_28_nl0_ce0">&BASE_FOLDER;/data/nail_ad_28_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="natural_ad_44_nl0_ce0">&BASE_FOLDER;/data/natural_ad_44_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="need_vnm_59_nl0_ce0">&BASE_FOLDER;/data/need_vnm_59_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="nerve_vh_47_nl0_ce0">&BASE_FOLDER;/data/nerve_vh_47_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="new_vnm_62_nl0_ce0">&BASE_FOLDER;/data/new_vnm_62_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="news_ad_17_nl0_ce0">&BASE_FOLDER;/data/news_ad_17_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="nose_vh_28_nl0_ce0">&BASE_FOLDER;/data/nose_vh_28_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="note_vh_24_nl0_ce0">&BASE_FOLDER;/data/note_vh_24_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="opinion_vi_9_nl0_ce0">&BASE_FOLDER;/data/opinion_vi_9_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="organization_ad_59_nl0_ce0">&BASE_FOLDER;/data/organization_ad_59_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="ornament_vh_17_nl0_ce0">&BASE_FOLDER;/data/ornament_vh_17_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="owner_vh_26_nl0_ce0">&BASE_FOLDER;/data/owner_vh_26_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="paint_vnm_2_nl0_ce0">&BASE_FOLDER;/data/paint_vnm_2_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="paper_vh_35_nl0_ce0">&BASE_FOLDER;/data/paper_vh_35_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="parallel_ad_41_nl0_ce0">&BASE_FOLDER;/data/parallel_ad_41_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="pass_vi_46_nl0_ce0">&BASE_FOLDER;/data/pass_vi_46_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="past_vh_49_nl0_ce0">&BASE_FOLDER;/data/past_vh_49_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="pen_vh_15_nl0_ce0">&BASE_FOLDER;/data/pen_vh_15_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="pencil_vh_4_nl0_ce0">&BASE_FOLDER;/data/pencil_vh_4_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="pipe_ad_2_nl0_ce0">&BASE_FOLDER;/data/pipe_ad_2_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="place_vi_6_nl0_ce0">&BASE_FOLDER;/data/place_vi_6_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="plough_vnm_55_nl0_ce0">&BASE_FOLDER;/data/plough_vnm_55_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="poor_vh_12_nl0_ce0">&BASE_FOLDER;/data/poor_vh_12_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="poor_vnm_5_nl0_ce0">&BASE_FOLDER;/data/poor_vnm_5_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="porter_vi_55_nl0_ce0">&BASE_FOLDER;/data/porter_vi_55_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="possible_ad_21_nl0_ce0">&BASE_FOLDER;/data/possible_ad_21_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="power_vi_19_nl0_ce0">&BASE_FOLDER;/data/power_vi_19_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="present_vnm_11_nl0_ce0">&BASE_FOLDER;/data/present_vnm_11_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="private_vh_55_nl0_ce0">&BASE_FOLDER;/data/private_vh_55_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="prove_vh_13_nl0_ce0">&BASE_FOLDER;/data/prove_vh_13_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="publish_ad_18_nl0_ce0">&BASE_FOLDER;/data/publish_ad_18_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="pull_vi_35_nl0_ce0">&BASE_FOLDER;/data/pull_vi_35_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="quiet_ad_19_nl0_ce0">&BASE_FOLDER;/data/quiet_ad_19_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="raise_vi_29_nl0_ce0">&BASE_FOLDER;/data/raise_vi_29_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="ready_vnm_6_nl0_ce0">&BASE_FOLDER;/data/ready_vnm_6_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="record_vi_37_nl0_ce0">&BASE_FOLDER;/data/record_vi_37_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="record_vnm_44_nl0_ce0">&BASE_FOLDER;/data/record_vnm_44_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="regret_vnm_40_nl0_ce0">&BASE_FOLDER;/data/regret_vnm_40_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="reply_vi_42_nl0_ce0">&BASE_FOLDER;/data/reply_vi_42_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="report_vnm_1_nl0_ce0">&BASE_FOLDER;/data/report_vnm_1_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="representative_vh_34_nl0_ce0">&BASE_FOLDER;/data/representative_vh_34_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="respect_vnm_7_nl0_ce0">&BASE_FOLDER;/data/respect_vnm_7_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="ring_vh_3_nl0_ce0">&BASE_FOLDER;/data/ring_vh_3_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="run_ad_24_nl0_ce0">&BASE_FOLDER;/data/run_ad_24_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="scissors_vnm_38_nl0_ce0">&BASE_FOLDER;/data/scissors_vnm_38_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="seat_vh_50_nl0_ce0">&BASE_FOLDER;/data/seat_vh_50_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="secret_vnm_56_nl0_ce0">&BASE_FOLDER;/data/secret_vnm_56_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="see_ad_42_nl0_ce0">&BASE_FOLDER;/data/see_ad_42_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="seed_vi_27_nl0_ce0">&BASE_FOLDER;/data/seed_vi_27_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="selection_vh_6_nl0_ce0">&BASE_FOLDER;/data/selection_vh_6_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="separate_vnm_24_nl0_ce0">&BASE_FOLDER;/data/separate_vnm_24_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="sex_vnm_42_nl0_ce0">&BASE_FOLDER;/data/sex_vnm_42_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="shake_ad_37_nl0_ce0">&BASE_FOLDER;/data/shake_ad_37_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="share_ad_50_nl0_ce0">&BASE_FOLDER;/data/share_ad_50_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="shoe_vh_57_nl0_ce0">&BASE_FOLDER;/data/shoe_vh_57_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="shut_vnm_52_nl0_ce0">&BASE_FOLDER;/data/shut_vnm_52_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="sing_ad_58_nl0_ce0">&BASE_FOLDER;/data/sing_ad_58_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="sky_ad_15_nl0_ce0">&BASE_FOLDER;/data/sky_ad_15_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="snake_vh_29_nl0_ce0">&BASE_FOLDER;/data/snake_vh_29_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="sneeze_vh_53_nl0_ce0">&BASE_FOLDER;/data/sneeze_vh_53_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="society_vi_1_nl0_ce0">&BASE_FOLDER;/data/society_vi_1_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="soup_vi_22_nl0_ce0">&BASE_FOLDER;/data/soup_vi_22_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="special_vnm_29_nl0_ce0">&BASE_FOLDER;/data/special_vnm_29_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="spoon_ad_34_nl0_ce0">&BASE_FOLDER;/data/spoon_ad_34_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="stamp_ad_12_nl0_ce0">&BASE_FOLDER;/data/stamp_ad_12_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="stick_vh_30_nl0_ce0">&BASE_FOLDER;/data/stick_vh_30_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="sticky_vnm_14_nl0_ce0">&BASE_FOLDER;/data/sticky_vnm_14_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="stiff_vi_5_nl0_ce0">&BASE_FOLDER;/data/stiff_vi_5_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="stone_vi_44_nl0_ce0">&BASE_FOLDER;/data/stone_vi_44_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="stop_vh_21_nl0_ce0">&BASE_FOLDER;/data/stop_vh_21_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="straight_vh_54_nl0_ce0">&BASE_FOLDER;/data/straight_vh_54_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="strong_vi_31_nl0_ce0">&BASE_FOLDER;/data/strong_vi_31_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="structure_vh_22_nl0_ce0">&BASE_FOLDER;/data/structure_vh_22_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="sweet_vnm_37_nl0_ce0">&BASE_FOLDER;/data/sweet_vnm_37_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="test_ad_1_nl0_ce0">&BASE_FOLDER;/data/test_ad_1_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="test_vi_33_nl0_ce0">&BASE_FOLDER;/data/test_vi_33_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="thank_ad_16_nl0_ce0">&BASE_FOLDER;/data/thank_ad_16_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="time_vnm_9_nl0_ce0">&BASE_FOLDER;/data/time_vnm_9_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="tree_vi_39_nl0_ce0">&BASE_FOLDER;/data/tree_vi_39_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="umbrella_vnm_41_nl0_ce0">&BASE_FOLDER;/data/umbrella_vnm_41_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="visit_ad_45_nl0_ce0">&BASE_FOLDER;/data/visit_ad_45_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="visit_vi_26_nl0_ce0">&BASE_FOLDER;/data/visit_vi_26_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="voice_vnm_49_nl0_ce0">&BASE_FOLDER;/data/voice_vnm_49_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="wall_vi_7_nl0_ce0">&BASE_FOLDER;/data/wall_vi_7_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="want_ad_30_nl0_ce0">&BASE_FOLDER;/data/want_ad_30_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="warn_vh_1_nl0_ce0">&BASE_FOLDER;/data/warn_vh_1_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="wash_vh_23_nl0_ce0">&BASE_FOLDER;/data/wash_vh_23_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="watch_vnm_61_nl0_ce0">&BASE_FOLDER;/data/watch_vnm_61_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="wax_vnm_46_nl0_ce0">&BASE_FOLDER;/data/wax_vnm_46_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="wear_ad_25_nl0_ce0">&BASE_FOLDER;/data/wear_ad_25_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="whip_vh_11_nl0_ce0">&BASE_FOLDER;/data/whip_vh_11_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="whistle_vh_31_nl0_ce0">&BASE_FOLDER;/data/whistle_vh_31_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="will_ad_7_nl0_ce0">&BASE_FOLDER;/data/will_ad_7_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="wind_vnm_25_nl0_ce0">&BASE_FOLDER;/data/wind_vnm_25_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="wing_vh_14_nl0_ce0">&BASE_FOLDER;/data/wing_vh_14_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="winter_vh_16_nl0_ce0">&BASE_FOLDER;/data/winter_vh_16_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="woman_vnm_31_nl0_ce0">&BASE_FOLDER;/data/woman_vnm_31_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="work_vi_18_nl0_ce0">&BASE_FOLDER;/data/work_vi_18_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="worm_ad_33_nl0_ce0">&BASE_FOLDER;/data/worm_ad_33_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="worry_ad_4_nl0_ce0">&BASE_FOLDER;/data/worry_ad_4_nl0_ce0.csv</input>
+<input type="csv" separator="," hasHeader="false" table="write_vh_56_nl0_ce0">&BASE_FOLDER;/data/write_vh_56_nl0_ce0.csv</input>
+    </import>
+  </source>
+  <target>
+    <type>DBMS</type>
+    <access-configuration>
+      <driver>org.postgresql.Driver</driver>
+      <uri>jdbc:postgresql:chasebench_ontology256_de</uri>
+      <schema>target</schema>
+      <login>pguser</login>
+      <password>pguser</password>
+    </access-configuration>
+    <schemaFile schema="target">&BASE_FOLDER;/schema/Ontology-256.t-schema.txt</schemaFile>
+  </target>
+  <configuration>
+    <printResults>true</printResults>
+    <exportSolutions>true</exportSolutions>
+    <exportSolutionsPath>/chasebench/tools/output/llunatic/Ontology-256-stonly/</exportSolutionsPath>
+    <exportSolutionsType>CSV</exportSolutionsType>
+    <exportQueryResults>true</exportQueryResults>
+    <exportQueryResultsPath>/chasebench/tools/output/llunatic/Ontology-256-stonly/queries/</exportQueryResultsPath>
+    <exportQueryResultsType>CSV</exportQueryResultsType>
+  </configuration>
+  <dependencies>
+    <sttgdsFile>&BASE_FOLDER;/dependencies/Ontology-256.st-tgds.txt</sttgdsFile>
+  </dependencies>
+  <!--<queries>
+    <queryFile>&BASE_FOLDER;/queries/q1.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q2.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q3.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q4.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q5.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q6.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q7.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q8.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q9.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q10.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q11.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q12.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q13.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q14.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q15.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q16.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q17.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q18.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q19.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q20.txt</queryFile>
+  </queries>-->
+</scenario>

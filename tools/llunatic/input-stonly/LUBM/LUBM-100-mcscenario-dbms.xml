@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE doc [
+<!ENTITY VAR "100">
+<!ENTITY BASE_FOLDER "/chasebench/datasets/LUBM/">
+]>
+<scenario>
+  <source>
+    <type>DBMS</type>
+    <access-configuration>
+      <driver>org.postgresql.Driver</driver>
+      <uri>jdbc:postgresql:chasebench_lubm_&VAR;_de</uri>
+      <schema>source</schema>
+      <login>pguser</login>
+      <password>pguser</password>
+    </access-configuration>
+    <schemaFile schema="source">&BASE_FOLDER;/schema/LUBM.s-schema.txt</schemaFile>
+    <import>      
+      <input type="csv" separator="," hasHeader="false" table="src_advisor">&BASE_FOLDER;/data/&VAR;/src_advisor.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_assistantprofessor">&BASE_FOLDER;/data/&VAR;/src_AssistantProfessor.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_associateprofessor">&BASE_FOLDER;/data/&VAR;/src_AssociateProfessor.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_course">&BASE_FOLDER;/data/&VAR;/src_Course.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_department">&BASE_FOLDER;/data/&VAR;/src_Department.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_doctoraldegreefrom">&BASE_FOLDER;/data/&VAR;/src_doctoralDegreeFrom.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_emailaddress">&BASE_FOLDER;/data/&VAR;/src_emailAddress.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_fullprofessor">&BASE_FOLDER;/data/&VAR;/src_FullProfessor.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_graduatecourse">&BASE_FOLDER;/data/&VAR;/src_GraduateCourse.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_graduatestudent">&BASE_FOLDER;/data/&VAR;/src_GraduateStudent.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_headof">&BASE_FOLDER;/data/&VAR;/src_headOf.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_lecturer">&BASE_FOLDER;/data/&VAR;/src_Lecturer.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_mastersdegreefrom">&BASE_FOLDER;/data/&VAR;/src_mastersDegreeFrom.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_memberof">&BASE_FOLDER;/data/&VAR;/src_memberOf.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_name">&BASE_FOLDER;/data/&VAR;/src_name.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_publication">&BASE_FOLDER;/data/&VAR;/src_Publication.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_publicationauthor">&BASE_FOLDER;/data/&VAR;/src_publicationAuthor.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_researchassistant">&BASE_FOLDER;/data/&VAR;/src_ResearchAssistant.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_researchgroup">&BASE_FOLDER;/data/&VAR;/src_ResearchGroup.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_researchinterest">&BASE_FOLDER;/data/&VAR;/src_researchInterest.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_suborganizationof">&BASE_FOLDER;/data/&VAR;/src_subOrganizationOf.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_takescourse">&BASE_FOLDER;/data/&VAR;/src_takesCourse.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_teacherof">&BASE_FOLDER;/data/&VAR;/src_teacherOf.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_teachingassistant">&BASE_FOLDER;/data/&VAR;/src_TeachingAssistant.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_teachingassistantof">&BASE_FOLDER;/data/&VAR;/src_teachingAssistantOf.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_telephone">&BASE_FOLDER;/data/&VAR;/src_telephone.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_undergraduatedegreefrom">&BASE_FOLDER;/data/&VAR;/src_undergraduateDegreeFrom.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_undergraduatestudent">&BASE_FOLDER;/data/&VAR;/src_UndergraduateStudent.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_university">&BASE_FOLDER;/data/&VAR;/src_University.csv</input>
+      <input type="csv" separator="," hasHeader="false" table="src_worksfor">&BASE_FOLDER;/data/&VAR;/src_worksFor.csv</input>
+    </import>
+  </source>
+  <target>
+    <type>DBMS</type>
+    <generateFromDependencies>true</generateFromDependencies>
+    <access-configuration>
+      <driver>org.postgresql.Driver</driver>
+      <uri>jdbc:postgresql:chasebench_lubm_&VAR;_de</uri>
+      <schema>target</schema>
+      <login>pguser</login>
+      <password>pguser</password>
+    </access-configuration>
+    <schemaFile schema="target">&BASE_FOLDER;/schema/LUBM.t-schema.txt</schemaFile>
+  </target>
+  <configuration>
+    <printResults>true</printResults>
+    <exportSolutions>true</exportSolutions>
+    <exportSolutionsPath>/chasebench/tools/output/llunatic/LUBM/&VAR;-stonly/</exportSolutionsPath>
+    <exportSolutionsType>CSV</exportSolutionsType>
+    <exportQueryResults>true</exportQueryResults>
+    <exportQueryResultsPath>/chasebench/tools/output/llunatic/LUBM/&VAR;-stonly/queries/</exportQueryResultsPath>
+    <exportQueryResultsType>CSV</exportQueryResultsType>
+</configuration>
+  <dependencies>
+    <sttgdsFile>&BASE_FOLDER;/dependencies/LUBM.st-tgds.txt</sttgdsFile>
+  </dependencies>
+  <!--<queries>
+    <queryFile>&BASE_FOLDER;/queries/q01.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q02.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q03.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q04.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q05.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q06.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q07.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q08.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q09.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q10.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q11.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q12.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q13.txt</queryFile>
+    <queryFile>&BASE_FOLDER;/queries/q14.txt</queryFile>
+  </queries>-->
+</scenario>
