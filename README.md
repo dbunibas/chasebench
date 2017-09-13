@@ -69,6 +69,6 @@ The results are shown at the follow link [https://dbunibas.github.io/chasebench/
 - George **Konstantinidis** - University of Oxford
 - Giansalvatore **Mecca** - University of Basilicata
 - Boris **Motik** - University of Oxford
-- Paolo **Papotti** - Arizona State University
+- Paolo **Papotti** - Eurecom
 - Donatello **Santoro** - University of Basilicata
 - Efthymia **Tsamoura** - University of Oxford
